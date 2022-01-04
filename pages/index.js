@@ -364,7 +364,7 @@ export default function Example() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center text-white">
             <div className="flex justify-center mb-8">
-              <img src="https://www.getreviews.ai/wp-content/uploads/2021/04/stars.png" className="lg:w-1/3 md:w-1/2 sm:w-2/3 w-2/3" />
+              <img src="https://www.getreviews.ai/wp-content/uploads/2021/04/stars.png" className="lg:w-1/3 md:w-1/2 sm:w-2/3 w-2/3" alt="stars" />
             </div>
             <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
               <span className="block xl:inline">Trusted By 7, 8, and 9-Figure Sellers</span>

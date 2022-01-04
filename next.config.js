@@ -1,15 +1,22 @@
-module.exports = {
-  reactStrictMode: true,
-}
+const webpack = require('webpack');
 
 module.exports = {
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/i,
-      issuer: /\.[jt]sx?$/,
-      use: ['@svgr/webpack'],
-    })
-
-    return config
+  entry: './src/index.js',
+  module: {
+    rules: [
+      //...
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[hash]-[name].[ext]',
+            },
+          },
+        ],
+      },
+    ],
   },
+  reactStrictMode: true
 }

@@ -134,7 +134,7 @@ export default function Example() {
   return (
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
-      <div className="relative pb-16 sm:pb-24 lg:pb-16">
+      <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-16">
         <div className="mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -147,7 +147,7 @@ export default function Example() {
                 Generate authentic reviews from organic customers on marketplaces that matter to your business with GetReviews.ai&apos;s proprietary review generation technology.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <p className="text-base font-medium text-gray-900">Sign up to get notified when it&apos;s ready.</p>
+                <p className="text-base font-medium text-gray-900">Start your free 30-day trial today (no CC required)</p>
                 <form action="#" method="POST" className="mt-3 sm:flex">
                   <label htmlFor="email" className="sr-only">
                     Email
@@ -163,7 +163,7 @@ export default function Example() {
                     type="submit"
                     className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                   >
-                    Notify me
+                    Start Free Trial
                   </button>
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
@@ -222,7 +222,7 @@ export default function Example() {
       </div>
       {/* End Marketplace Logos */}
       {/* Begin 1% Section */}
-      <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16">
+      <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16 py-16">
         <div className="flex justify-center mb-6">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="#fff">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />

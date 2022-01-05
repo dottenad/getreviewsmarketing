@@ -1,47 +1,6 @@
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 import CallToAction from '/components/CallToAction.js';
 
-const transferFeatures = [
-    {
-        id: 1,
-        name: 'Competitive exchange rates',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: GlobeAltIcon,
-    },
-    {
-        id: 2,
-        name: 'No hidden fees',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: ScaleIcon,
-    },
-    {
-        id: 3,
-        name: 'Transfers are instant',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: LightningBoltIcon,
-    },
-]
-const communicationFeatures = [
-    {
-        id: 1,
-        name: 'Mobile notifications',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: AnnotationIcon,
-    },
-    {
-        id: 2,
-        name: 'Reminder emails',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: MailIcon,
-    },
-]
-
-
 export default function Example() {
     return (
         <div className="relative bg-white overflow-hidden">
@@ -53,11 +12,10 @@ export default function Example() {
                 <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
                     <p className="mt-6 text-xl text-indigo-100 max-w-3xl tracking-widest">FEATURES</p>
                     <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Unlock Your Brand&apos;s Maximum Potential</h1>
-                    <p className="mt-6 text-xl text-indigo-100 max-w-3xl">Tailor GetReviews to fit your brand&apos;s needs with our suite of features</p>
                 </div>
             </div>
 
-            <div className="overflow-hidden lg:py-16">
+            <div className="overflow-hidden lg:py-16 py-16">
                 <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
                     <svg className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
                         <defs>

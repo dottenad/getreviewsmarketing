@@ -6,8 +6,8 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 const nav = [
     { name: 'Integrations', href: '/integrations' },
     { name: 'Features', href: '/features' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: 'Pricing', href: '/pricing' },
+    { name: 'Demo', href: 'https://supernutritionco.com/', target: '_blank' },
 ]
 
 
@@ -22,12 +22,14 @@ class Header extends Component {
                     >
                         <div className="flex items-center flex-1">
                             <div className="flex items-center justify-between w-full md:w-auto">
+                                <a href="/">
                                     <span className="sr-only">Workflow</span>
                                     <img
                                         className="h-10 w-auto sm:h-10"
                                         src="logo.svg"
                                         alt=""
                                     />
+                                </a>
                                 <div className="-mr-2 flex items-center md:hidden">
                                     <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                                         <span className="sr-only">Open main menu</span>
@@ -37,19 +39,27 @@ class Header extends Component {
                             </div>
                             <div className="hidden md:block md:ml-10 md:space-x-10">
                                 {nav.map((item) => (
-                                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                                    <a key={item.name} href={item.href} target={item.target} className="font-medium text-gray-500 hover:text-gray-900">
                                         {item.name}
                                     </a>
                                 ))}
                             </div>
                         </div>
                         <div className="hidden md:block text-right">
-                            <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
+                        <span className="inline-flex mr-2">
                                 <a
-                                    href="#"
-                                    className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-sky-600 bg-white hover:bg-gray-50"
+                                    href="https://app.getreviews.ai/login"
+                                    className="inline-flex items-center px-4 py-2 text-base font-medium text-gray-900"
                                 >
                                     Log in
+                                </a>
+                            </span>
+                        <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
+                                <a
+                                    href="https://app.getreviews.ai/signup"
+                                    className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                                >
+                                    Sign Up
                                 </a>
                             </span>
                         </div>
@@ -73,7 +83,7 @@ class Header extends Component {
                                     <div>
                                         <img
                                             className="h-8 w-auto"
-                                            src="public/workflow-mark-indigo-600.svg"
+                                            src="logo.svg"
                                             alt=""
                                         />
                                     </div>
@@ -96,11 +106,19 @@ class Header extends Component {
                                     ))}
                                 </div>
                                 <a
-                                    href="#"
-                                    className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                                    href="https://app.getreviews.ai/login"
+                                    className="block w-full px-5 pb-3 text-center font-medium text-grey-900"
                                 >
                                     Log in
                                 </a>
+                                <span className="block w-full px-5 pb-5">
+                                <a
+                                    href="https://app.getreviews.ai/signup"
+                                    className="block w-full px-4 py-2 border border-transparent text-center font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                                >
+                                    Sign Up
+                                </a>
+                                </span>
                             </div>
                         </Popover.Panel>
                     </Transition>

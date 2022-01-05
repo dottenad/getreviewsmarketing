@@ -21,8 +21,8 @@
 	.st15{fill:#011E41;}
 	.st16{fill:#FFFFFF;}
 	.st17{fill:#EFEFEF;}
-	.st18{fill-rule:evenodd;clip-rule:evenodd;fill:#F7981D;}
-	.st19{fill-rule:evenodd;clip-rule:evenodd;}
+	.st18{fillRule:evenodd;clipRule:evenodd;fill:#F7981D;}
+	.st19{fillRule:evenodd;clipRule:evenodd;}
 	.st20{clip-path:url(#SVGID_00000005237474276184349110000003487862762675521204_);}
 	.st21{fill:#FAF8DC;}
 	.st22{fill:url(#SVGID_00000168809257925225804910000009135839304019273859_);}
@@ -32,7 +32,7 @@
 	.st26{fill:url(#SVGID_00000035524337533535462600000012787626604320174230_);}
 	.st27{fill:#EC1C2E;}
 	.st28{fill:#231F20;}
-	.st29{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st29{fillRule:evenodd;clipRule:evenodd;fill:none;}
 	.st30{clip-path:url(#SVGID_00000119118716646413376180000017508742773100567945_);}
 	.st31{fill:url(#SVGID_00000057140511707504354580000011282199405564803736_);}
 	.st32{fill:#B2B2B2;}

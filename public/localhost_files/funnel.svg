@@ -23,8 +23,8 @@
 	.st17{fill:#EFEFEF;}
 	.st18{font-family:'Inter-ExtraBold';}
 	.st19{font-size:17.3595px;}
-	.st20{fill-rule:evenodd;clip-rule:evenodd;fill:#F7981D;}
-	.st21{fill-rule:evenodd;clip-rule:evenodd;}
+	.st20{fillRule:evenodd;clipRule:evenodd;fill:#F7981D;}
+	.st21{fillRule:evenodd;clipRule:evenodd;}
 	.st22{clip-path:url(#SVGID_00000103264044006591919840000013614932558299580830_);}
 	.st23{fill:#FAF8DC;}
 	.st24{fill:url(#SVGID_00000124876511268468996680000013919812952870861737_);}
@@ -34,7 +34,7 @@
 	.st28{fill:url(#SVGID_00000134224573226482668620000003128179490741712004_);}
 	.st29{fill:#EC1C2E;}
 	.st30{fill:#231F20;}
-	.st31{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st31{fillRule:evenodd;clipRule:evenodd;fill:none;}
 	.st32{clip-path:url(#SVGID_00000024681746680876979890000000875938264064114587_);}
 	.st33{fill:url(#SVGID_00000036222700015048006250000000278823200315465374_);}
 	.st34{fill:#B2B2B2;}

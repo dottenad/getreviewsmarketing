@@ -18,9 +18,9 @@
 	.st12{fill:#231F20;}
 	.st13{fill:#F26322;}
 	.st14{fill:#4D4D4D;}
-	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#9C5C8F;}
-	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st17{fill-rule:evenodd;clip-rule:evenodd;}
+	.st15{fillRule:evenodd;clipRule:evenodd;fill:#9C5C8F;}
+	.st16{fillRule:evenodd;clipRule:evenodd;fill:#FFFFFF;}
+	.st17{fillRule:evenodd;clipRule:evenodd;}
 	.st18{fill:#34313F;}
 </style>
 <line class="st0" x1="219.5" y1="710.5" x2="1419.5" y2="304.5"/>

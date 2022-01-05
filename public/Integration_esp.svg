@@ -13,8 +13,8 @@
 	.st7{fill:url(#SVGID_00000025402414984881785990000003075905659819534721_);}
 	.st8{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
 	.st9{fill:#FFFFFF;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#100F0D;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#231F20;}
+	.st10{fillRule:evenodd;clipRule:evenodd;fill:#100F0D;}
+	.st11{fillRule:evenodd;clipRule:evenodd;fill:#231F20;}
 	.st12{fill:url(#SVGID_00000023984174721771211470000014536723185207487637_);}
 	.st13{fill:#171A1D;}
 </style>

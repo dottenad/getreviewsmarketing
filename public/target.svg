@@ -4,11 +4,11 @@
 	 viewBox="0 0 300 91" style="enable-background:new 0 0 300 91;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#ED1C2E;}
-	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st1{fillRule:evenodd;clipRule:evenodd;fill:none;}
 	.st2{display:none;}
 	.st3{display:inline;}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#F8991D;}
-	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#010101;}
+	.st4{fillRule:evenodd;clipRule:evenodd;fill:#F8991D;}
+	.st5{fillRule:evenodd;clipRule:evenodd;fill:#010101;}
 	.st6{fill:#FFB71B;}
 	.st7{fill:#0071CE;}
 	.st8{fill:#EF3A3F;}

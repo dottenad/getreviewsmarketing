@@ -6,9 +6,9 @@
 	.st0{display:none;}
 	.st1{display:inline;fill:#ED1C2E;}
 	.st2{display:inline;}
-	.st3{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:none;}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#F8991D;}
-	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#010101;}
+	.st3{display:inline;fillRule:evenodd;clipRule:evenodd;fill:none;}
+	.st4{fillRule:evenodd;clipRule:evenodd;fill:#F8991D;}
+	.st5{fillRule:evenodd;clipRule:evenodd;fill:#010101;}
 	.st6{fill:#FFB71B;}
 	.st7{fill:#0071CE;}
 	.st8{fill:#EF3A3F;}

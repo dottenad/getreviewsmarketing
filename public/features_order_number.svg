@@ -14,13 +14,13 @@
 	.st8{fill:url(#SVGID_00000155844022919288303410000005791492202614816431_);}
 	.st9{fill:url(#SVGID_00000043430429251150456260000018054866149700504506_);}
 	.st10{fill:#FFFFFF;}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#F7981D;}
-	.st12{fill-rule:evenodd;clip-rule:evenodd;}
+	.st11{fillRule:evenodd;clipRule:evenodd;fill:#F7981D;}
+	.st12{fillRule:evenodd;clipRule:evenodd;}
 	.st13{fill:#FFB71B;}
 	.st14{fill:#0071CE;}
 	.st15{fill:#EC1C2E;}
 	.st16{fill:#231F20;}
-	.st17{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st17{fillRule:evenodd;clipRule:evenodd;fill:none;}
 	.st18{fill:url(#SVGID_00000132766313922264974730000009492041748052693663_);}
 	.st19{fill:url(#SVGID_00000054968114018957361250000017603048879145610421_);}
 	.st20{fill:url(#SVGID_00000134212278436937564160000018236984770367679670_);}

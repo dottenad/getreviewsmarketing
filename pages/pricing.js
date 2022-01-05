@@ -31,7 +31,7 @@ export default function Example() {
                             <Link href="https://app.getreviews.ai/signup" className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
-                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
+                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 <li className="flex space-x-3">
                                     <svg className="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -91,7 +91,7 @@ export default function Example() {
                             <Link href="https://app.getreviews.ai/signup" className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
-                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
+                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 <li className="flex space-x-3">
                                     <svg className="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -151,7 +151,7 @@ export default function Example() {
                             <Link href="https://app.getreviews.ai/signup" className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
-                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
+                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 <li className="flex space-x-3">
                                     <svg className="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -210,7 +210,7 @@ export default function Example() {
                             <Link href="mailto:info@getreviews.ai" className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Get Started</Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
-                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
+                            <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
                             <ul role="list" className="mt-6 space-y-4">
                                 <li className="flex space-x-3">
                                     <svg className="flex-shrink-0 h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

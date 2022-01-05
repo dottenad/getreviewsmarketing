@@ -1,5 +1,6 @@
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 import CallToAction from '/components/CallToAction.js';
+import { Link } from 'react-router-dom';
 
 const transferFeatures = [
   {
@@ -168,9 +169,9 @@ export default function Example() {
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
                   We care about the protection of your data. Read our&nbsp;
-                  <a href="#" className="font-medium text-gray-900 underline">
+                  <Link href href="#" className="font-medium text-gray-900 underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                   .
                 </p>
               </div>

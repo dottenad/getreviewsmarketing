@@ -1,6 +1,6 @@
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 import CallToAction from '/components/CallToAction.js';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const transferFeatures = [
   {

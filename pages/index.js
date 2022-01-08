@@ -259,7 +259,7 @@ export default function Example() {
           </svg>
 
           <div className="relative">
-            <h2 className="text-center font-semibold text-sky-700 mb-3">...so, what is GetReviews.ai?</h2>
+            <h2 className="text-center font-semibold text-sky-700 mb-3">...so, how does GetReviews help?</h2>
             <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               GetReviews.ai is a post-purchase review funnel optimized to generate verified reviews on marketplaces that matter to your business.
             </h2>
@@ -267,8 +267,6 @@ export default function Example() {
               This is done by taking your customers through a survey containing a set of highly-optimized actions that result in reviews on the platform that your customer purchased their product from.
             </p>
           </div>
-
-
 
           <svg className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
             <defs>

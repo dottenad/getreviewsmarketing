@@ -1,4 +1,3 @@
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 import CallToAction from '/components/CallToAction.js';
 
 export default function Example() {

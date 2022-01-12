@@ -26,7 +26,7 @@ class Header extends Component {
                             <div className="flex items-center justify-between w-full md:w-auto">
                                 <Link href="/">
                                     <a>
-                                        <span className="sr-only">Workflow</span>
+                                        <span className="sr-only">GetReviews.ai</span>
                                         <img
                                             className="h-10 w-auto sm:h-10"
                                             src="logo.svg"

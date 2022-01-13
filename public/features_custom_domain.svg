@@ -7,7 +7,7 @@
 	.st1{fill:#ED6A5E;}
 	.st2{fill:#F4BD4F;}
 	.st3{fill:#61C454;}
-	.st4{fill:none;stroke:#EFEFEF;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#EFEFEF;strokeWidth:2;stroke-miterlimit:10;}
 	.st5{font-family:'Inter-Regular';}
 	.st6{font-size:20px;}
 	.st7{fill:url(#SVGID_1_);}

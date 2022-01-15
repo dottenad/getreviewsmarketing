@@ -28,10 +28,10 @@ export default function Example() {
                     <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                         <div className="relative">
                             <h2 className="text-4xl font-extrabold text-sky-500 tracking-tight sm:text-4xl">
-                                Collect Reviews on Multiple Marketplaces
+                                Collect Reviews on Multiple Platforms
                             </h2>
                             <p className="mt-3 text-lg text-gray-900">
-                                Generate reviews on the marketplaces that matter most to your business with GetReviews.ai&apos;s intelligent review generation methods.
+                                Generate reviews on the platforms that matter most to your business with GetReviews.ai&apos;s intelligent review generation methods.
                             </p>
 
                         </div>
@@ -45,7 +45,7 @@ export default function Example() {
                                 </defs>
                                 <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
                             </svg>
-                            <img className="relative mx-auto" width="600" src="features_marketplaces.svg" alt="" />
+                            <img className="relative mx-auto" width="600" src="features_platforms.svg" alt="" />
                         </div>
                     </div>
 

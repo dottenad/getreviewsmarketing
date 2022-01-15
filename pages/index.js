@@ -15,7 +15,7 @@ export default function Example() {
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Generate authentic reviews from organic customers on marketplaces that matter to your business with GetReviews.ai&apos;s proprietary review generation technology.
+                Generate authentic reviews from organic customers on platforms that matter to your business with GetReviews.ai&apos;s proprietary review generation technology.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900">Start your free 30-day trial today (no CC required)</p>
@@ -61,11 +61,11 @@ export default function Example() {
         </div>
       </div>
       {/* End Nav + Main Banner */}
-      {/* Begin Marketplace Logos */}
+      {/* Begin Platform Logos */}
       <div className="bg-white mb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:py-8 lg:px-8">
           <p className="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
-            Generate verified customer reviews on dozens of online marketplaces, including...
+            Generate verified customer reviews on dozens of online platforms, including...
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -93,7 +93,7 @@ export default function Example() {
           </div>
         </div>
       </div>
-      {/* End Marketplace Logos */}
+      {/* End Platform Logos */}
       {/* Begin 1% Section */}
       <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16 py-16">
         <div className="flex justify-center mb-6">
@@ -131,7 +131,7 @@ export default function Example() {
           <div className="relative">
             <h2 className="text-center font-semibold text-sky-700 mb-3">...so, how does GetReviews help?</h2>
             <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              GetReviews.ai is a post-purchase review funnel optimized to generate verified reviews on marketplaces that matter to your business.
+              GetReviews.ai is a post-purchase review funnel optimized to generate verified reviews on platforms that matter to your business.
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
               This is done by taking your customers through a survey containing a set of highly-optimized actions that result in reviews on the platform that your customer purchased their product from.
@@ -168,7 +168,7 @@ export default function Example() {
                       <p className="ml-16 text-lg leading-6 font-bold text-gray-900">Verified Reviews</p>
                     </dt>
                     <dd className="mt-2 ml-16 text-base text-gray-500">
-                      With GetReviews, only verified purchases are allowed to post reviews. Typically verified purchases carry heavier weight than non-verified purchases within marketplace algorithms, leading to increased rank for your products.
+                      With GetReviews, only verified purchases are allowed to post reviews. Typically verified purchases carry heavier weight than non-verified purchases within platform algorithms, leading to increased rank for your products.
                     </dd>
                   </div>
 

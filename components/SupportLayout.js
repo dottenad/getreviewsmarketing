@@ -2,12 +2,12 @@ const SupportLayout = ({ children }) => {
     return (
         <div>
             <div className="bg-sky-600 pt-8 pb-8">
-                <nav className="max-w-6xl mx-auto flex items-center justify-between sm:px-6" aria-label="Global">
+                <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6" aria-label="Global">
                     <div className="flex items-center flex-1">
                         <div className="flex items-center justify-between w-full md:w-auto">
-                            <a href="/">
+                            <a href="/support">
                                 <span className="sr-only">GetReviews.ai</span>
-                                <img className="h-10 w-auto sm:h-10" src="logo_white.svg" alt="" />
+                                <img className="h-10 w-auto sm:h-10" src="/logo_white.svg" alt="Logo" />
                             </a>
                         </div>
                     </div>
@@ -24,10 +24,11 @@ const SupportLayout = ({ children }) => {
                         </span>
                     </div>
                 </nav>
-                <div className="max-w-6xl mx-auto flex items-center justify-between sm:px-6 mt-8">
+                <div className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 mt-8">
                     <h2 className="text-2xl font-extralight text-white">Advice and answers from the GetReviews.ai Team</h2>
                 </div>
             </div>
+            <span id="breadcrumb"></span>
             {children}
             <footer className="bg-white">
                 <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">

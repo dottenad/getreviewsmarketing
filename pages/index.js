@@ -50,11 +50,7 @@ export default function Example() {
             </div>
             <div className="mt-12 relative sm:mx-auto lg:mt-0 lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
               <div className="relative mx-auto w-full">
-                <img
-                  className="w-full"
-                  src="reviews.svg"
-                  alt=""
-                />
+                <img className="w-full" src="reviews.svg" alt="Home Page Graphic" />
               </div>
             </div>
           </div>
@@ -69,23 +65,19 @@ export default function Example() {
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img
-                className="max-h-12"
-                src="amazon.svg"
-                alt="Amazon"
-              />
+              <img className="max-h-12" src="amazon.svg" alt="Amazon" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12" src="walmart.svg" alt="Walmart" />
+              <img className="max-h-12" src="google.svg" alt="Google" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12" src="target.svg" alt="Target" />
+              <img className="max-h-12" src="facebook.svg" alt="Facebook" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12" src="ebay.svg" alt="eBay" />
+              <img className="max-h-12" src="yelp.svg" alt="Yelp" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12" src="etsy.svg" alt="Etsy" />
+              <img className="max-h-12" src="bbb.svg" alt="Better Business Bureau" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
               <img className="max-h-12" src="andmore.svg" alt="And" />
@@ -96,28 +88,25 @@ export default function Example() {
       {/* End Platform Logos */}
       {/* Begin 1% Section */}
       <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16 py-16">
-        <div className="flex justify-center mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="#fff">
+        <div className="flex justify-center mb-6 text-yellow-400">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="#facc15">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <div className="flex justify-center">
             <p className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl lg:max-w-3xl">
-              Did you know that only 1% of customers review their purchases online?
+              Did you know that only 1% of customers review their experiences online?
             </p>
           </div>
           <p className="mt-5 max-w-prose mx-auto text-xl">
-            At GetReviews, we see this as a collosal waste of potential. Potential that would let prospective customers know more about your products. Potential that would let you better understand customer sentiment about your products. This waste of potential is what led us to develop the industry-leading post-purchase review funnel optimized to unlock feedback from the 99% of customers who are not leaving a review on their purchases. Read more about how we help brands and retailers drive reviews below.
+            At GetReviews, we see this as a collosal waste of potential. Potential that would let prospective customers know more about your products &amp; services. Potential that would let you better understand customer sentiment about your products &amp; services. This waste of potential is what led us to develop the industry-leading post-purchase review funnel optimized to unlock feedback from the 99% of customers who are not leaving a reviews on your products or services. Read more about how we help businesses drive reviews below.
           </p>
         </div>
       </div>
       {/* End 1% Section */}
       {/* Begin Features and Benefits */}
       <div className="py-16 overflow-hidden lg:py-16 mb-8">
-        <div className="flex justify-center mb-8">
-          <img src="https://www.getreviews.ai/wp-content/uploads/2021/04/stars.png" className="lg:w-1/5 md:w-1/2 sm:w-2/3 w-2/3" alt="stars" />
-        </div>
         <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
           <svg className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
             <defs>
@@ -131,10 +120,10 @@ export default function Example() {
           <div className="relative">
             <h2 className="text-center font-semibold text-sky-700 mb-3">...so, how does GetReviews help?</h2>
             <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              GetReviews.ai is a post-purchase review funnel optimized to generate verified reviews on platforms that matter to your business.
+              GetReviews.ai is a review funnel optimized to generate verified reviews on platforms that matter to your business.
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-              This is done by taking your customers through a survey containing a set of highly-optimized actions that result in reviews on the platform that your customer purchased their product from.
+              This is done by taking your customers through a survey containing a set of highly-optimized actions that result in reviews on the platforms that matter to your business.
             </p>
           </div>
 
@@ -153,9 +142,6 @@ export default function Example() {
                 <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                   What are the benefits of GetReviews?
                 </h3>
-                <p className="mt-3 text-lg text-gray-500">
-                  Learn more about the benefits of using GetReviews.ai to generate product reviews.
-                </p>
 
                 <dl className="mt-10 space-y-10">
                   <div className="relative">
@@ -168,7 +154,7 @@ export default function Example() {
                       <p className="ml-16 text-lg leading-6 font-bold text-gray-900">Verified Reviews</p>
                     </dt>
                     <dd className="mt-2 ml-16 text-base text-gray-500">
-                      With GetReviews, only verified purchases are allowed to post reviews. Typically verified purchases carry heavier weight than non-verified purchases within platform algorithms, leading to increased rank for your products.
+                      With GetReviews, only verified purchases are allowed to post reviews. Typically verified purchases carry heavier algorithmic weight than non-verified purchases within platform algorithms, leading to increased rank for your products or services.
                     </dd>
                   </div>
 
@@ -182,7 +168,7 @@ export default function Example() {
                       <p className="ml-16 text-lg leading-6 font-bold text-gray-900">Customer Profiles</p>
                     </dt>
                     <dd className="mt-2 ml-16 text-base text-gray-500">
-                      GetReviews.ai stores all submitted customer information, including full name, email, cell phone number, and physical address, which opens the door to vast re-marketing possibilities.
+                      GetReviews.ai stores all submitted customer information, including full name, email, cell phone number, and physical address, which opens the door to vast re-marketing possibilities. You can also pixel GetReviews landing pages for even greater customer targetting.
                     </dd>
                   </div>
                   <div className="relative">
@@ -192,10 +178,10 @@ export default function Example() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
                         </svg>
                       </div>
-                      <p className="ml-16 text-lg leading-6 font-bold text-gray-900">Product Insights</p>
+                      <p className="ml-16 text-lg leading-6 font-bold text-gray-900">Business Insights</p>
                     </dt>
                     <dd className="mt-2 ml-16 text-base text-gray-500">
-                      Analyze customer sentiment across your entire product line with review data collected on GetReviews.ai. This includes star rating and at least 50 characters of review text per review.
+                      Analyze customer sentiment about your product or service with review data collected on GetReviews.ai. This includes star rating and at least 50 characters of review text per review.
                     </dd>
                   </div>
                   <div className="relative">
@@ -208,7 +194,7 @@ export default function Example() {
                       <p className="ml-16 text-lg leading-6 font-bold text-gray-900">Customer Loyalty</p>
                     </dt>
                     <dd className="mt-2 ml-16 text-base text-gray-500">
-                      If there is one thing customers love, it&apos;s free stuff! With GetReviews.ai&apos;s seamless survey technology, customers are happy to provide their feedback in exchange for their free gift.
+                      If there is one thing customers love, it&apos;s free stuff! With GetReviews.ai&apos;s seamless survey technology, customers are happy to provide their honest, candid feedback in exchange for their free gift.
                     </dd>
                   </div>
                 </dl>
@@ -234,23 +220,139 @@ export default function Example() {
       <div className="bg-sky-700 py-16">
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center text-white">
-            <div className="flex justify-center mb-8">
-              <img src="https://www.getreviews.ai/wp-content/uploads/2021/04/stars.png" className="lg:w-1/3 md:w-1/2 sm:w-2/3 w-2/3" alt="stars" />
+            <div className="flex justify-center mb-8 text-yellow-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+              </svg>
             </div>
             <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
-              <span className="block xl:inline">Trusted By 7, 8, and 9-Figure Sellers</span>
+              <span className="block xl:inline">Trusted By 7, 8, and 9-Figure Businesses</span>
             </h1>
             <p className="mt-3 mx-auto text-base sm:text-lg md:mt-5 md:text-xl">
-              With over 250,000 reviews generated, GetReviews is a trusted partner for sellers of all sizes.
+              With over 250,000 reviews generated, GetReviews is a trusted partner for businesses of all sizes.
             </p>
           </div>
+        </div>
+      </div>
+      {/* End Trusted By 7, 8, 9 Figure Seller Section */}
+      <div class="py-16 overflow-hidden lg:py-16">
+        <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+          <h2 class="text-base font-semibold text-sky-700">...so, what types of businesses can GetReviews collect reviews for?</h2>
+          <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+            GetReviews works with all business types!
+          </p>
+          <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+            Whether you sell products or services, GetReviews is able to collect reviews from customers on any and all types of businesses
+          </p>
+          <div class="mt-6">
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
+              <div class="pt-6">
+                <div class="flow-root bg-gray-50 rounded-lg">
+                  <div class="px-6">
+                    <h3 class="mt-8 text-4xl font-bold text-sky-700 tracking-tight">Sell Products?</h3>
+                    <p class="mt-2 text-base text-gray-900">
+                      Collect reviews on marketplaces!
+                    </p>
+                  </div>
+                  <img className="w-full" src="features_marketplaces.svg" alt="" />
+                  <div class="px-6 pb-8">
+                    <p class="mt-5 text-base text-gray-900">
+                      Want to collect more customer reviews on the products that you sell on the marketplaces that matter to your business? Collect reviews on popular marketplaces, including Amazon, Walmart, Target, Etsy, eBay, Shopify, and more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-6">
+                <div class="flow-root bg-gray-50 rounded-lg">
+                  <div class="px-6">
+                    <h3 class="mt-8 text-4xl font-bold text-sky-700 tracking-tight">Sell Services?</h3>
+                    <p class="mt-2 text-base text-gray-900">
+                      Collect reviews on platforms!
+                    </p>
+                  </div>
+                  <img className="w-full" src="features_platforms.svg" alt="" />
+                  <div class="px-6 pb-8">
+                    <p class="mt-5 text-base text-gray-900">
+                      Want to collect more customer reviews on the services that you sell on the platforms that matter to your business? Collect reviews on popular platforms, including Google, Facebook, Yelp, Tripadvisor, Better Business Bureau, Angie's List, and more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Begin Trusted By 7, 8, 9 Figure Seller Section */}
+      <div class="py-16 bg-sky-700">
+        <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl pb-8 text-white text-center">
+            <div className="flex justify-center">
+              <p className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl lg:max-w-3xl">
+                Giveaway Types
+              </p>
+            </div>
+            <p className="mt-5 max-w-prose mx-auto text-xl">
+              Reward customer feedback with pre-defined giveaway types!
+            </p>
+          </div>
+          <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 text-white text-center">
+            <div>
+              <dt>
+                <div class="flex items-center justify-center">
+                  <img className="w-full" src="giveaway_type_product.svg" alt="Products" />
+                </div>
+                <p class="mt-5 text-2xl leading-6 font-bold">Product</p>
+              </dt>
+              <dd class="mt-4 text-base">
+                Gift a product! If you sell products, this could be another one of the same items that your customer purchased from you, or something else from your product catalogue. If you sell services, this could be a 
+              </dd>
+            </div>
+
+            <div>
+              <dt>
+                <div class="flex items-center justify-center">
+                  <img className="w-full" src="giveaway_type_coupon.svg" alt="Coupon" />
+                </div>
+                <p class="mt-5 text-2xl leading-6 font-bold">Coupon</p>
+              </dt>
+              <dd class="mt-4 text-base">
+                Gift your customer a percentage off of their next purchase
+              </dd>
+            </div>
+
+            <div>
+              <dt>
+                <div class="flex items-center justify-center">
+                  <img className="w-full" src="giveaway_type_gift_card.svg" alt="Gift Card" />
+                </div>
+                <p class="mt-5 text-2xl leading-6 font-bold">Gift Card</p>
+              </dt>
+              <dd class="mt-4 text-base">
+                GetReviews.ai partners with Tremendous.com to enable the giving of gift cards as a giveaway. Tremendous' <a href="https://www.tremendous.com/products/gift-cards" target="_blank" className="underline">gift card catalog</a> includes Amazon.com, Visa, and more.
+              </dd>
+            </div>
+          </dl>
         </div>
       </div>
       {/* End Trusted By 7, 8, 9 Figure Seller Section */}
       {/* Begin GetReviews Process */}
       <div className="relative bg-white py-16 sm:py-24 lg:py-16">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-        <h2 className="text-center font-semibold text-sky-700 mb-2">How does GetReviews.ai work?</h2>
+          <h2 className="text-center font-semibold text-sky-700 mb-2">How does GetReviews.ai work?</h2>
           <div className="flex justify-center">
             <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl lg:max-w-3xl">
               The GetReviews.ai Process

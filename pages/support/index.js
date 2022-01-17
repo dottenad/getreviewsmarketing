@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Example() {
   return (
     <div>
@@ -19,10 +21,10 @@ export default function Example() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium">
-                      <a href="#" className="focus:outline-none">
+                      <Link passHref href="#" className="focus:outline-none">
                         <span className="absolute inset-0" aria-hidden="true"></span>
                         Overview
-                      </a>
+                      </Link>
                     </h3>
                     <p className="mt-2 text-sm text-gray-500">
                       Familiarize yourself with the concept of GetReviews before diving into any other support categories
@@ -52,10 +54,10 @@ export default function Example() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium">
-                    <a href="/support/getting-started" className="focus:outline-none">
+                    <Link passHref href="/support/getting-started" className="focus:outline-none">
                       <span className="absolute inset-0" aria-hidden="true"></span>
                       Getting Started
-                    </a>
+                    </Link>
                   </h3>
                   <p className="mt-2 text-sm text-gray-500">
                   Learn about platforms, marketplaces, products, giveaways, and surveys and how to configure them here
@@ -82,13 +84,13 @@ export default function Example() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium">
-                    <a href="/support/integrations" className="focus:outline-none">
+                    <Link passHref href="/support/integrations" className="focus:outline-none">
                       <span className="absolute inset-0" aria-hidden="true"></span>
                       Integrations
-                    </a>
+                    </Link>
                   </h3>
                   <p className="mt-2 text-sm text-gray-500">
-                  Automate your dataflow utilizing GetReviews' integration library
+                  Automate your dataflow utilizing GetReviews&apos; integration library
                   </p>
                 </div>
               </div>
@@ -115,10 +117,10 @@ export default function Example() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium">
-                    <a href="#" className="focus:outline-none">
+                    <Link passHref href="#" className="focus:outline-none">
                       <span className="absolute inset-0" aria-hidden="true"></span>
                       Account Settings
-                    </a>
+                    </Link>
                   </h3>
                   <p className="mt-2 text-sm text-gray-500">
                   View and configure additional account settings, including user/password administration, and more.

@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Example() {
     return (
         <div>
@@ -7,12 +9,12 @@ export default function Example() {
                         <ol role="list" className="flex items-center space-x-4">
                         <li>
                                 <div>
-                                    <a href="/support" className="text-black hover:text-gray-700">
+                                    <Link passHref href="/support" className="text-black hover:text-gray-700">
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </li>
 
@@ -21,7 +23,7 @@ export default function Example() {
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <a href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</a>
+                                    <Link passHref href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</Link>
                                 </div>
                             </li>
 
@@ -30,7 +32,7 @@ export default function Example() {
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <a href="/support/getting-started/giveaways" className="ml-4 text-sm font-medium hover:text-gray-700">Giveaways</a>
+                                    <Link passHref href="/support/getting-started/giveaways" className="ml-4 text-sm font-medium hover:text-gray-700">Giveaways</Link>
                                 </div>
                             </li>
 
@@ -80,9 +82,9 @@ export default function Example() {
                                 </h1>
                             </div>
                             <div className="mt-10 prose prose-indigo prose-lg mx-auto">
-                                <p>The "product" giveaway type is a physical item, such as a hat or a bottle of wine. Selecting this giveaway type requires your customer to input their shipping address so you can fulfill their giveaway redemption.</p>
+                                <p>The &quot;product&quot; giveaway type is a physical item, such as a hat or a bottle of wine. Selecting this giveaway type requires your customer to input their shipping address so you can fulfill their giveaway redemption.</p>
                                 <ol role="list">
-                                    <li>Click "Add Giveaway" and then select "Product."<br />
+                                    <li>Click &quot;Add Giveaway&quot; and then select &quot;Product.&quot;<br />
                                     <img className="w-full rounded-lg mt-4" src="../../../placeholder.png" alt="" width="1310" height="873" />
                                     </li>
                                     <li>Complete the fields to create a product giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_giveaway.jpg" alt="" width="1310" /></li>

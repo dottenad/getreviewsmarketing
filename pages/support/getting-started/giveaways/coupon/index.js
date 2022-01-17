@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Example() {
     return (
         <div>
@@ -7,12 +9,12 @@ export default function Example() {
                         <ol role="list" className="flex items-center space-x-4">
                         <li>
                                 <div>
-                                    <a href="/support" className="text-black hover:text-gray-700">
+                                    <Link passHref href="/support" className="text-black hover:text-gray-700">
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </li>
 
@@ -21,7 +23,7 @@ export default function Example() {
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <a href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</a>
+                                    <Link passHref href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</Link>
                                 </div>
                             </li>
 
@@ -30,7 +32,7 @@ export default function Example() {
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <a href="/support/getting-started/giveaways" className="ml-4 text-sm font-medium hover:text-gray-700">Giveaways</a>
+                                    <Link passHref href="/support/getting-started/giveaways" className="ml-4 text-sm font-medium hover:text-gray-700">Giveaways</Link>
                                 </div>
                             </li>
 
@@ -80,17 +82,17 @@ export default function Example() {
                                 </h1>
                             </div>
                             <div className="mt-6 prose prose-indigo prose-lg mx-auto">
-                                <p>The "coupon" giveaway type is a digital coupon that is emailed to your customer upon survey completion.</p>
+                                <p>The &quot;coupon&quot; giveaway type is a digital coupon that is emailed to your customer upon survey completion.</p>
                                 <ol role="list">
-                                    <li>Click "Add Giveaway" and then select "Coupon Code."<br />
+                                    <li>Click &quot;Add Giveaway&quot; and then select &quot;Coupon Code.&quot;<br />
                                     <img className="w-full rounded-lg mt-4" src="../../../placeholder.png" alt="" width="1310" height="873" />
                                     </li>
                                     <li>Complete the fields to create a coupon giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_coupon.jpg" alt="" width="1310" /></li>
                                     <ol>
                                         <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for both you and your customer. The giveaway name will be presented to your customer.</li>
                                         <li><strong>Giveaway Image</strong>: Upload an image of your giveaway. This will be shown to your customer.</li>
-                                        <li><strong>Coupon Codes</strong>: Upload your coupon code values here. Coupon codes should be comma separated. Coupon codes are distributed from first to last. For example, if your coupon codes were "coupon1, coupon2, coupon3", coupon1 would be sent first, then coupon2, then coupon3. GetReviews sends automatic alerts when your coupon codes are running low.</li>
-                                        <li><strong>Email Template</strong>: The email template is the raw HTML of the email that will be sent to your customer that contains their coupon code. GetReviews provides a pre-made template, but you can upload anything you'd like here.</li>
+                                        <li><strong>Coupon Codes</strong>: Upload your coupon code values here. Coupon codes should be comma separated. Coupon codes are distributed from first to last. For example, if your coupon codes were &quot;coupon1, coupon2, coupon3&quot;, coupon1 would be sent first, then coupon2, then coupon3. GetReviews sends automatic alerts when your coupon codes are running low.</li>
+                                        <li><strong>Email Template</strong>: The email template is the raw HTML of the email that will be sent to your customer that contains their coupon code. GetReviews provides a pre-made template, but you can upload anything you&apos;d like here.</li>
                                         <li><strong>SKU</strong>: SKU is included on all giveaway types as a way for you to analyze which giveaways customers are selecting. Input a unique value here as a way to identify this giveaway in your reporting.</li>
                                         <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their gift.</li>
                                     </ol>

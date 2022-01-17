@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Example() {
     return (
         <div>
@@ -7,12 +9,12 @@ export default function Example() {
                         <ol role="list" className="flex items-center space-x-4">
                             <li>
                                 <div>
-                                    <a href="/support" className="text-black hover:text-gray-700">
+                                    <Link passHref href="/support" className="text-black hover:text-gray-700">
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </li>
 
@@ -41,10 +43,10 @@ export default function Example() {
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-medium">
-                                            <a href="/support/integrations/3plcentral" className="focus:outline-none">
+                                            <Link passHref href="/support/integrations/3plcentral" className="focus:outline-none">
                                                 <span className="absolute inset-0" aria-hidden="true"></span>
                                                 3PL Central
-                                            </a>
+                                            </Link>
                                         </h3>
                                         <p className="mt-2 text-sm text-gray-500">
                                             Enable and configure the 3PL Central integration here
@@ -73,10 +75,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/integrations/ftp" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/ftp" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             FTP
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the FTP integration here
@@ -101,10 +103,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/integrations/sheets" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/sheets" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Google Sheets
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Google Sheets integration here
@@ -130,10 +132,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/integrations/klaviyo" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/klaviyo" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Klaviyo
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Klaviyo integration here
@@ -158,10 +160,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/integrations/mailchimp" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/mailchimp" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Mailchimp
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the MailChimp integration here
@@ -186,10 +188,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/integrations/shipbob" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/shipbob" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             ShipBob
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the ShipBob integration here
@@ -214,10 +216,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/integrations/shiphero" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/shiphero" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Shiphero
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Shiphero integration here
@@ -245,10 +247,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/integrations/platforms" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/platforms" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Tremendous
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Tremendous integration here

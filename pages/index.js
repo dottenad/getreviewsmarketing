@@ -39,10 +39,10 @@ export default function Example() {
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
                   We care about the protection of your data. Read our&nbsp;
-                  <Link href="#">
-                    <a className="font-medium text-gray-900 underline">
+                  <Link passHref href="#">
+                    <Link passHref className="font-medium text-gray-900 underline">
                       Privacy Policy
-                    </a>
+                    </Link>
                   </Link>
                   .
                 </p>
@@ -344,7 +344,7 @@ export default function Example() {
                   <img className="w-full" src="features_platforms.svg" alt="" />
                   <div className="px-6 pb-4">
                     <p className="mt-5 text-base text-gray-900">
-                      Want to collect more customer reviews on the services that you sell on the platforms that matter to your business? Collect reviews on popular platforms, including Google, Facebook, Yelp, Tripadvisor, Better Business Bureau, Angie's List, and more.
+                      Want to collect more customer reviews on the services that you sell on the platforms that matter to your business? Collect reviews on popular platforms, including Google, Facebook, Yelp, Tripadvisor, Better Business Bureau, Angie&apos;s List, and more.
                     </p>
                   </div>
                   <div className="px-6">
@@ -502,7 +502,7 @@ export default function Example() {
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Sign Up &amp; Create Survey</h3>
                     <p className="my-5 text-base text-gray-900">
-                      <a href="" className="underline text-sky-700">Sign up</a> for GetReviews and create your survey
+                      <Link passHref href="" className="underline text-sky-700">Sign up</Link> for GetReviews and create your survey
                     </p>
                     <span className="inline-flex items-center justify-center">
                       <img src="save_1.png" alt="Step 1" />
@@ -521,7 +521,7 @@ export default function Example() {
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Distribute QR Code</h3>
                     <p className="my-5 text-base text-gray-900">
-                      Distribute your survey's QR code to your customers
+                      Distribute your survey&apos;s QR code to your customers
                     </p>
                     <span className="inline-flex items-center justify-center">
                       <img src="save_2.png" alt="Step 2" />

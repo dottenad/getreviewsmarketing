@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Example() {
     return (
         <div>
@@ -7,12 +9,12 @@ export default function Example() {
                         <ol role="list" className="flex items-center space-x-4">
                             <li>
                                 <div>
-                                    <a href="/support" className="text-black hover:text-gray-700">
+                                    <Link passHref href="/support" className="text-black hover:text-gray-700">
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </li>
 
@@ -21,7 +23,7 @@ export default function Example() {
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <a href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</a>
+                                    <Link passHref href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</Link>
                                 </div>
                             </li>
 
@@ -55,7 +57,7 @@ export default function Example() {
                                 </ul>
                             </div>
                             <div className="text-lg max-w-prose mx-auto">
-                                <p className="mt-8 text-xl leading-8">Each giveaway type has unique properties. For example, if the customer claims a giveaway with the type of "product," they will be prompted to input their shipping address on the survey, whereas if the customer claims a giveaway with the type of coupon, they will not be prompted to input their shipping address since their shipping address is not required to deliver a coupon (which is sent by email.) Let's go over the different types of giveaways and how to create them in GetReviews.</p>
+                                <p className="mt-8 text-xl leading-8">Each giveaway type has unique properties. For example, if the customer claims a giveaway with the type of &quot;product,&quot; they will be prompted to input their shipping address on the survey, whereas if the customer claims a giveaway with the type of coupon, they will not be prompted to input their shipping address since their shipping address is not required to deliver a coupon (which is sent by email.) Let&apos;s go over the different types of giveaways and how to create them in GetReviews.</p>
                             </div>
                         </div>
                         </div>
@@ -75,13 +77,13 @@ export default function Example() {
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-medium">
-                                            <a href="/support/getting-started/giveaways/product" className="focus:outline-none">
+                                            <Link passHref href="/support/getting-started/giveaways/product" className="focus:outline-none">
                                                 <span className="absolute inset-0" aria-hidden="true"></span>
                                                 Product
-                                            </a>
+                                            </Link>
                                         </h3>
                                         <p className="mt-2 text-sm text-gray-500">
-                                            The “Product” giveaway type is a physical product that you will mail to your customer upon survey completion.
+                                            The &quot;Product&quot; giveaway type is a physical product that you will mail to your customer upon survey completion.
                                         </p>
                                     </div>
                                 </div>
@@ -106,13 +108,13 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/getting-started/giveaways/coupon" className="focus:outline-none">
+                                        <Link passHref href="/support/getting-started/giveaways/coupon" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Coupon Code
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
-                                    The "Coupon Code" giveaway type is a digital coupon that is emailed to your customer upon survey completion
+                                    The &quot;Coupon Code&quot; giveaway type is a digital coupon that is emailed to your customer upon survey completion
                                     </p>
                                 </div>
                             </div>
@@ -138,13 +140,13 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/getting-started/giveaways/giftcard" className="focus:outline-none">
+                                        <Link passHref href="/support/getting-started/giveaways/giftcard" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Gift Card/eGift
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
-                                        The "Gift Card/eGift" giveaway type enables you to send your customer either a physical or a digital gift card
+                                        The &quot;Gift Card/eGift&quot; giveaway type enables you to send your customer either a physical or a digital gift card
                                     </p>
                                 </div>
                             </div>

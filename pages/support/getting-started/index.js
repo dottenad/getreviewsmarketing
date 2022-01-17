@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Example() {
     return (
         <div>
@@ -9,12 +11,12 @@ export default function Example() {
 
                             <li>
                                 <div>
-                                    <a href="/support" className="text-black hover:text-gray-700">
+                                    <Link passHref href="/support" className="text-black hover:text-gray-700">
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </li>
 
@@ -45,10 +47,10 @@ export default function Example() {
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-medium">
-                                            <a href="/support/getting-started/platforms" className="focus:outline-none">
+                                            <Link passHref href="/support/getting-started/platforms" className="focus:outline-none">
                                                 <span className="absolute inset-0" aria-hidden="true"></span>
                                                 Platforms &amp; Marketplaces
-                                            </a>
+                                            </Link>
                                         </h3>
                                         <p className="mt-2 text-sm text-gray-500">
                                             Platforms &amp; Marketplaces are the websites that you would like to collect reviews on. Learn how to configure them here.
@@ -78,10 +80,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/getting-started/giveaways" className="focus:outline-none">
+                                        <Link passHref href="/support/getting-started/giveaways" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Giveaways
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         A giveaway is the free gift that you would like to give your customer for providing their feedback on your product
@@ -108,10 +110,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/getting-started/products" className="focus:outline-none">
+                                        <Link passHref href="/support/getting-started/products" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Products
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         A product is what the customer purchased from you. Learn how to add and configure products on GetReviews here
@@ -140,10 +142,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <a href="/support/getting-started/surveys" className="focus:outline-none">
+                                        <Link passHref href="/support/getting-started/surveys" className="focus:outline-none">
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Surveys
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         A survey is what your customer completes in order to leave their review and claim their free gift. Read more about configuring your survey here

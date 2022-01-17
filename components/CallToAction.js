@@ -10,10 +10,10 @@ class CallToAction extends Component {
                         <span className="block">Ready to GetReviews?</span>
                     </h2>
                     <p className="mt-4 text-lg leading-6 text-indigo-200">Sign up for a free 30-day trial! (No credit card required)</p>
-                    <Link href="https://app.getreviews.ai/signup">
-                        <a className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 sm:w-auto">
+                    <Link passHref href="https://app.getreviews.ai/signup">
+                        <Link passHref className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 sm:w-auto">
                             Start Free Trial
-                        </a>
+                        </Link>
                     </Link>
                 </div>
             </div>

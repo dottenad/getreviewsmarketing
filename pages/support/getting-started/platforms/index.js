@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Example() {
     return (
         <div>
@@ -7,12 +9,12 @@ export default function Example() {
                         <ol role="list" className="flex items-center space-x-4">
                             <li>
                                 <div>
-                                    <a href="/support" className="text-black hover:text-gray-700">
+                                    <Link passHref href="/support" className="text-black hover:text-gray-700">
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </li>
 
@@ -21,7 +23,7 @@ export default function Example() {
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <a href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</a>
+                                    <Link passHref href="/support/getting-started" className="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</Link>
                                 </div>
                             </li>
 
@@ -78,18 +80,18 @@ export default function Example() {
                                 <h2>Enabling a Platform/Marketplace</h2>
                                 <p>To begin collecting reviews on a platform or marketplace, you will first need to enable the platform or marketplace on GetReviews. To do this, follow the directions below. For the purposes of this demonstration, we will be enabling a marketplace.</p>
                                 <ol role="list">
-                                    <li>Click "Enable Marketplaces"<br />
+                                    <li>Click &quot;Enable Marketplaces&quot;<br />
                                     <img className="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" />
                                     </li>
                                     <li>Enable the marketplace that you would like to collect reviews on<br /><img className="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" /></li>
-                                    <li>Click "Enable"<br />
+                                    <li>Click &quot;Enable&quot;<br />
                                     <img className="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" />
                                     </li>
                                     <li>Select your validation method.<br />
                                     <img className="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" />
                                         <ul>
                                             <li><strong>What is a validation method?</strong>: A validation method is how you would like to validate customer-submitted order numbers. Customer-submitted order numbers need to be validated to ensure that only legitimate customers are leaving reviews and claiming giveaways. GetReviews has two validation methods:</li>
-                                            <li><strong>Manual Validation</strong>: Manual validation puts customer-submitted order numbers into a pending state on GetReviews for you to "manually" review their order details and approve or deny their giveaway redemption based on the legitimacy of their order number in your systems. If the order number exists in your systems, you will "validate" their redemption request in GetReviews, meaning if you have any integrations setup to automatically fulfill giveaways, these integrations will fire once you have validated their redemption request. If their order number does not exist, you will "invalidate" their redemption request.</li>
+                                            <li><strong>Manual Validation</strong>: Manual validation puts customer-submitted order numbers into a pending state on GetReviews for you to &quot;manually&quot; review their order details and approve or deny their giveaway redemption based on the legitimacy of their order number in your systems. If the order number exists in your systems, you will &quot;validate&quot; their redemption request in GetReviews, meaning if you have any integrations setup to automatically fulfill giveaways, these integrations will fire once you have validated their redemption request. If their order number does not exist, you will &quot;invalidate&quot; their redemption request.</li>
                                             <li><strong>Automatic Validation</strong>: Automatic validation automatically validates any customer-submitted order number so long as the customer-submitted order number exists in your order number database on GetReviews. The order number database allows you to upload and maintain a database of order numbers for your surveys to validate against. If a customer submits an order number that exists in your order number database, they will be automatically validated, and any integrations that exist on your survey will automatically fire once they have completed your survey.</li>
                                         </ul>
                                     </li>

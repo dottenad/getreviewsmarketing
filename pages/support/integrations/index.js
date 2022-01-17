@@ -28,204 +28,204 @@ export default function Example() {
 
                         </ol>
                     </nav>
-                    <div class="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:gap-px">
-                        <div class="rounded-tl-lg rounded-tr-lg relative group bg-white py-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="max-w-3xl mx-auto px-4 sm:px-6 md:flex md:items-center md:justify-between md:space-x-5 lg:max-w-7xl lg:px-8">
-                                <div class="flex items-center space-x-5">
-                                    <div class="flex-shrink-0">
-                                        <div class="relative">
-                                            <span class="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
+                    <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:gap-px">
+                        <div className="rounded-tl-lg rounded-tr-lg relative group bg-white py-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="max-w-3xl mx-auto px-4 sm:px-6 md:flex md:items-center md:justify-between md:space-x-5 lg:max-w-7xl lg:px-8">
+                                <div className="flex items-center space-x-5">
+                                    <div className="flex-shrink-0">
+                                        <div className="relative">
+                                            <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
                                                 <img className="h-16 w-16" src="../../logomark_3pl.svg" alt="3PL Central Logo" />
                                             </span>
                                         </div>
                                     </div>
                                     <div>
-                                        <h3 class="text-lg font-medium">
-                                            <a href="/support/integrations/3plcentral" class="focus:outline-none">
-                                                <span class="absolute inset-0" aria-hidden="true"></span>
+                                        <h3 className="text-lg font-medium">
+                                            <a href="/support/integrations/3plcentral" className="focus:outline-none">
+                                                <span className="absolute inset-0" aria-hidden="true"></span>
                                                 3PL Central
                                             </a>
                                         </h3>
-                                        <p class="mt-2 text-sm text-gray-500">
+                                        <p className="mt-2 text-sm text-gray-500">
                                             Enable and configure the 3PL Central integration here
                                         </p>
                                     </div>
 
                                 </div>
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>
                         </div>
 
-                        <div class="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="flex items-center space-x-5">
-                                <div class="flex-shrink-0">
-                                    <div class="relative">
-                                        <span class="rounded-lg inline-flex p-8 bg-sky-50 text-gray-900 ring-4 ring-white">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                        <div className="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="flex items-center space-x-5">
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-gray-900 ring-4 ring-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
                                             </svg>
                                         </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-medium">
-                                        <a href="/support/integrations/ftp" class="focus:outline-none">
-                                            <span class="absolute inset-0" aria-hidden="true"></span>
+                                    <h3 className="text-lg font-medium">
+                                        <a href="/support/integrations/ftp" className="focus:outline-none">
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
                                             FTP
                                         </a>
                                     </h3>
-                                    <p class="mt-2 text-sm text-gray-500">
+                                    <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the FTP integration here
                                     </p>
                                 </div>
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>
                         </div>
 
-                        <div class="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="flex items-center space-x-5">
-                                <div class="flex-shrink-0">
-                                    <div class="relative">
-                                        <span class="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
+                        <div className="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="flex items-center space-x-5">
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
                                             <img className="h-16 w-16" src="../../logomark_sheets.svg" alt="Google Sheets Logo" />
                                         </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-medium">
-                                        <a href="/support/integrations/sheets" class="focus:outline-none">
-                                            <span class="absolute inset-0" aria-hidden="true"></span>
+                                    <h3 className="text-lg font-medium">
+                                        <a href="/support/integrations/sheets" className="focus:outline-none">
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
                                             Google Sheets
                                         </a>
                                     </h3>
-                                    <p class="mt-2 text-sm text-gray-500">
+                                    <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Google Sheets integration here
                                     </p>
                                 </div>
 
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>
                         </div>
 
-                        <div class="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="flex items-center space-x-5">
-                                <div class="flex-shrink-0">
-                                    <div class="relative">
-                                        <span class="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
+                        <div className="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="flex items-center space-x-5">
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
                                             <img className="h-16 w-16" src="../../logomark_klaviyo.svg" alt="Klaviyo Logo" />
                                         </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-medium">
-                                        <a href="/support/integrations/klaviyo" class="focus:outline-none">
-                                            <span class="absolute inset-0" aria-hidden="true"></span>
+                                    <h3 className="text-lg font-medium">
+                                        <a href="/support/integrations/klaviyo" className="focus:outline-none">
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
                                             Klaviyo
                                         </a>
                                     </h3>
-                                    <p class="mt-2 text-sm text-gray-500">
+                                    <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Klaviyo integration here
                                     </p>
                                 </div>
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>
                         </div>
 
-                        <div class="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="flex items-center space-x-5">
-                                <div class="flex-shrink-0">
-                                    <div class="relative">
-                                        <span class="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
+                        <div className="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="flex items-center space-x-5">
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
                                             <img className="h-16 w-16" src="../../logomark_mailchimp.svg" alt="MailChimp Logo" />
                                         </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-medium">
-                                        <a href="/support/integrations/mailchimp" class="focus:outline-none">
-                                            <span class="absolute inset-0" aria-hidden="true"></span>
+                                    <h3 className="text-lg font-medium">
+                                        <a href="/support/integrations/mailchimp" className="focus:outline-none">
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
                                             Mailchimp
                                         </a>
                                     </h3>
-                                    <p class="mt-2 text-sm text-gray-500">
+                                    <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the MailChimp integration here
                                     </p>
                                 </div>
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>
                         </div>
 
-                        <div class="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="flex items-center space-x-5">
-                                <div class="flex-shrink-0">
-                                    <div class="relative">
-                                        <span class="rounded-lg inline-flex p-8 bg-sky-50 text-gray-900 ring-4 ring-white">
+                        <div className="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="flex items-center space-x-5">
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-gray-900 ring-4 ring-white">
                                             <img className="h-16 w-16" src="../../logomark_shipbob.svg" alt="ShipBob Logo" />
                                         </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-medium">
-                                        <a href="/support/integrations/shipbob" class="focus:outline-none">
-                                            <span class="absolute inset-0" aria-hidden="true"></span>
+                                    <h3 className="text-lg font-medium">
+                                        <a href="/support/integrations/shipbob" className="focus:outline-none">
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
                                             ShipBob
                                         </a>
                                     </h3>
-                                    <p class="mt-2 text-sm text-gray-500">
+                                    <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the ShipBob integration here
                                     </p>
                                 </div>
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>
                         </div>
 
-                        <div class="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="flex items-center space-x-5">
-                                <div class="flex-shrink-0">
-                                    <div class="relative">
-                                        <span class="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
+                        <div className="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="flex items-center space-x-5">
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
                                             <img className="h-16 w-16" src="../../logomark_shiphero.svg" alt="Shiphero Logo" />
                                         </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-medium">
-                                        <a href="/support/integrations/shiphero" class="focus:outline-none">
-                                            <span class="absolute inset-0" aria-hidden="true"></span>
+                                    <h3 className="text-lg font-medium">
+                                        <a href="/support/integrations/shiphero" className="focus:outline-none">
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
                                             Shiphero
                                         </a>
                                     </h3>
-                                    <p class="mt-2 text-sm text-gray-500">
+                                    <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Shiphero integration here
                                     </p>
                                 </div>
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>
@@ -233,30 +233,30 @@ export default function Example() {
 
 
 
-                        <div class="rounded-bl-lg rounded-br-lg relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                            <div class="flex items-center space-x-5">
+                        <div className="rounded-bl-lg rounded-br-lg relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
+                            <div className="flex items-center space-x-5">
 
-                                <div class="flex-shrink-0">
-                                    <div class="relative">
-                                        <span class="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
                                             <img className="h-16 w-16" src="../../logomark_tremendous.png" alt="Tremendous Logo" />
                                         </span>
                                     </div>
                                 </div>
                                 <div>
-                                    <h3 class="text-lg font-medium">
-                                        <a href="/support/integrations/platforms" class="focus:outline-none">
-                                            <span class="absolute inset-0" aria-hidden="true"></span>
+                                    <h3 className="text-lg font-medium">
+                                        <a href="/support/integrations/platforms" className="focus:outline-none">
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
                                             Tremendous
                                         </a>
                                     </h3>
-                                    <p class="mt-2 text-sm text-gray-500">
+                                    <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Tremendous integration here
                                     </p>
                                 </div>
                             </div>
-                            <span class="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                            <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
+                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
                                 </svg>
                             </span>

@@ -221,19 +221,19 @@ export default function Example() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center text-white">
             <div className="flex justify-center mb-8 text-yellow-400">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
             </div>
@@ -247,178 +247,178 @@ export default function Example() {
         </div>
       </div>
       {/* End Trusted By 7, 8, 9 Figure Seller Section */}
-      <div class="py-16 overflow-hidden lg:py-16">
-        <div class="mx-auto px-4 text-center sm:px-6 lg:px-8 lg:max-w-7xl">
-          <h2 class="text-base font-semibold text-sky-700">...so, what types of businesses can GetReviews collect reviews for?</h2>
-          <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+      <div className="py-16 overflow-hidden lg:py-16">
+        <div className="mx-auto px-4 text-center sm:px-6 lg:px-8 lg:max-w-7xl">
+          <h2 className="text-base font-semibold text-sky-700">...so, what types of businesses can GetReviews collect reviews for?</h2>
+          <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
             GetReviews works with all business types!
           </p>
-          <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
             Whether you sell products or services, GetReviews is able to collect reviews from customers on any and all types of businesses
           </p>
-          <div class="mt-6">
-            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
-              <div class="pt-6">
-                <div class="flow-root bg-gray-50 rounded-lg">
-                  <div class="px-6">
-                    <h3 class="mt-8 text-4xl font-bold text-sky-700 tracking-tight">Sell Products?</h3>
-                    <p class="mt-2 text-base text-gray-900">
+          <div className="mt-6">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg">
+                  <div className="px-6">
+                    <h3 className="mt-8 text-4xl font-bold text-sky-700 tracking-tight">Sell Products?</h3>
+                    <p className="mt-2 text-base text-gray-900">
                       Collect reviews on marketplaces!
                     </p>
                   </div>
                   <img className="w-full" src="features_marketplaces.svg" alt="" />
-                  <div class="px-6 pb-8">
-                    <p class="mt-5 text-base text-gray-900">
+                  <div className="px-6 pb-8">
+                    <p className="mt-5 text-base text-gray-900">
                       Want to collect more customer reviews on the products that you sell on the marketplaces that matter to your business? Collect reviews on popular marketplaces, including Amazon, Walmart, Target, Etsy, eBay, Shopify, and more.
                     </p>
                   </div>
-                  <div class="px-6">
-                    <p class="mt-5 text-base font-bold text-2xl text-sky-700">
+                  <div className="px-6">
+                    <p className="mt-5 text-base font-bold text-2xl text-sky-700">
                       GetReviews.ai Works Great For...
                     </p>
                   </div>
-                  <dl class="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-4 lg:grid-cols-2 lg:gap-x-2 text-left p-8">
-                    <div class="relative">
+                  <dl className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-4 lg:grid-cols-2 lg:gap-x-2 text-left p-8">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Manufacturers</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Manufacturers</p>
                       </dt>
                     </div>
 
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Distributors</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Distributors</p>
                       </dt>
                     </div>
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Private-Label Brands</p>
-                      </dt>
-                    </div>
-
-                    <div class="relative">
-                      <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Makers</p>
-                      </dt>
-                    </div>
-                    <div class="relative">
-                      <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Resellers</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Private-Label Brands</p>
                       </dt>
                     </div>
 
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">And more!</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Makers</p>
+                      </dt>
+                    </div>
+                    <div className="relative">
+                      <dt>
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Resellers</p>
+                      </dt>
+                    </div>
+
+                    <div className="relative">
+                      <dt>
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">And more!</p>
                       </dt>
                     </div>
                   </dl>
                 </div>
               </div>
 
-              <div class="pt-6">
-                <div class="flow-root bg-gray-50 rounded-lg">
-                  <div class="px-6">
-                    <h3 class="mt-8 text-4xl font-bold text-sky-700 tracking-tight">Sell Services?</h3>
-                    <p class="mt-2 text-base text-gray-900">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg">
+                  <div className="px-6">
+                    <h3 className="mt-8 text-4xl font-bold text-sky-700 tracking-tight">Sell Services?</h3>
+                    <p className="mt-2 text-base text-gray-900">
                       Collect reviews on platforms!
                     </p>
                   </div>
                   <img className="w-full" src="features_platforms.svg" alt="" />
-                  <div class="px-6 pb-4">
-                    <p class="mt-5 text-base text-gray-900">
+                  <div className="px-6 pb-4">
+                    <p className="mt-5 text-base text-gray-900">
                       Want to collect more customer reviews on the services that you sell on the platforms that matter to your business? Collect reviews on popular platforms, including Google, Facebook, Yelp, Tripadvisor, Better Business Bureau, Angie's List, and more.
                     </p>
                   </div>
-                  <div class="px-6">
-                    <p class="mt-5 text-base font-bold text-2xl text-sky-700">
+                  <div className="px-6">
+                    <p className="mt-5 text-base font-bold text-2xl text-sky-700">
                       GetReviews.ai Works Great For...
                     </p>
                   </div>
-                  <dl class="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-4 lg:grid-cols-2 lg:gap-x-2 text-left p-8">
-                    <div class="relative">
+                  <dl className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-4 lg:grid-cols-2 lg:gap-x-2 text-left p-8">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Restaurants</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Restaurants</p>
                       </dt>
                     </div>
 
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Real Estate Agencies</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Real Estate Agencies</p>
                       </dt>
                     </div>
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Dentist Offices</p>
-                      </dt>
-                    </div>
-
-                    <div class="relative">
-                      <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Coffee Shops</p>
-                      </dt>
-                    </div>
-                    <div class="relative">
-                      <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Salons/Spas</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Dentist Offices</p>
                       </dt>
                     </div>
 
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Plumbing Businesses</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Coffee Shops</p>
                       </dt>
                     </div>
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Law Offices</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Salons/Spas</p>
                       </dt>
                     </div>
 
-                    <div class="relative">
+                    <div className="relative">
                       <dt>
-                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                         </svg>
-                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">And more!</p>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Plumbing Businesses</p>
+                      </dt>
+                    </div>
+                    <div className="relative">
+                      <dt>
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Law Offices</p>
+                      </dt>
+                    </div>
+
+                    <div className="relative">
+                      <dt>
+                        <svg className="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p className="ml-9 text-lg leading-6 font-medium text-gray-900">And more!</p>
                       </dt>
                     </div>
                   </dl>
@@ -429,8 +429,8 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <div class="py-16 bg-sky-700">
-        <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="py-16 bg-sky-700">
+        <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl pb-8 text-white text-center">
             <div className="flex justify-center">
               <p className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl lg:max-w-3xl">
@@ -441,37 +441,37 @@ export default function Example() {
               Reward customer feedback with pre-defined giveaway types!
             </p>
           </div>
-          <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 text-white text-center">
+          <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 text-white text-center">
           <div>
               <dt>
-                <div class="flex items-center justify-center">
+                <div className="flex items-center justify-center">
                   <img className="w-full" src="giveaway_type_gift_card.svg" alt="Gift Card" />
                 </div>
-                <p class="mt-5 text-2xl leading-6 font-bold">Gift Card</p>
+                <p className="mt-5 text-2xl leading-6 font-bold">Gift Card</p>
               </dt>
-              <dd class="mt-4 text-base">
+              <dd className="mt-4 text-base">
                 Gift your customer a gift card!
               </dd>
             </div>
             <div>
               <dt>
-                <div class="flex items-center justify-center">
+                <div className="flex items-center justify-center">
                   <img className="w-full" src="giveaway_type_coupon.svg" alt="Coupon" />
                 </div>
-                <p class="mt-5 text-2xl leading-6 font-bold">Coupon</p>
+                <p className="mt-5 text-2xl leading-6 font-bold">Coupon</p>
               </dt>
-              <dd class="mt-4 text-base">
+              <dd className="mt-4 text-base">
                 Gift your customer a percentage off of their next purchase!
               </dd>
             </div>
             <div>
               <dt>
-                <div class="flex items-center justify-center">
+                <div className="flex items-center justify-center">
                   <img className="w-full" src="giveaway_type_product.svg" alt="Products" />
                 </div>
-                <p class="mt-5 text-2xl leading-6 font-bold">Product</p>
+                <p className="mt-5 text-2xl leading-6 font-bold">Product</p>
               </dt>
-              <dd class="mt-4 text-base">
+              <dd className="mt-4 text-base">
                 Gift your customer a free product!
               </dd>
             </div>            

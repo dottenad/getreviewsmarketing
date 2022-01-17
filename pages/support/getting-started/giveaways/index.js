@@ -45,7 +45,7 @@ export default function Example() {
                                 <figure>
                                     <img class="w-full my-8" src="../../../giveaways.svg" alt="" width="1310" height="873" />
                                 </figure>
-                                <p class="mt-8 text-xl leading-8">Giveaways are the gift that you would like to give your customer for providing their review on your product or service. There are three giveaway types on GetReviews. These are:</p>
+                                <p class="mt-8 text-xl leading-8">Giveaways are the gift that you would like to give your customer for providing their review on your product or service. There are three giveaway types on GetReviews:</p>
                             </div>
                             <div class="mt-6 prose prose-lg mx-auto text-gray-900">
                                 <ul className="font-bold">

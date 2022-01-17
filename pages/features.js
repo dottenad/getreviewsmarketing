@@ -28,12 +28,21 @@ export default function Example() {
                     <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                         <div className="relative">
                             <h2 className="text-4xl font-extrabold text-sky-500 tracking-tight sm:text-4xl">
-                                Collect Reviews on Multiple Platforms
+                                Collect Reviews on Multiple Platforms &amp; Marketplaces
                             </h2>
                             <p className="mt-3 text-lg text-gray-900">
-                                Generate reviews on the platforms that matter most to your business with GetReviews.ai&apos;s intelligent review generation methods.
+                                Generate reviews on the platforms &amp; marketplaces that matter most to your business with GetReviews.ai&apos;s intelligent review generation methods.
                             </p>
-
+                            <div>
+                                <a href="/support/getting-started/platforms" className="inline-flex space-x-4 mt-3">
+                                    <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
+                                        <span>Learn more</span>
+                                        <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
 
                         <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
@@ -45,7 +54,7 @@ export default function Example() {
                                 </defs>
                                 <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
                             </svg>
-                            <img className="relative mx-auto" width="600" src="features_platforms.svg" alt="" />
+                            <img className="relative mx-auto" width="600" src="platforms_and_marketplaces.svg" alt="" />
                         </div>
                     </div>
 
@@ -67,6 +76,16 @@ export default function Example() {
                                 <p className="mt-3 text-lg text-gray-900">
                                     Ensure only valid order numbers are accessing your review flow and claiming their free gift with GetReviews.ai&apos;s order number validation feature.
                                 </p>
+                                <div>
+                                    <a href="#" className="inline-flex space-x-4 mt-3">
+                                        <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
+                                            <span>Learn more</span>
+                                            <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
 
                             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -103,7 +122,16 @@ export default function Example() {
                             <p className="mt-3 text-lg text-gray-900">
                                 Embed your GetReviews survey wherever you would like with GetReviews.ai&apos;s custom domain support.
                             </p>
-
+                            <div>
+                                    <a href="#" className="inline-flex space-x-4 mt-3">
+                                        <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
+                                            <span>Learn more</span>
+                                            <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
                         </div>
 
                         <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
@@ -137,6 +165,16 @@ export default function Example() {
                                 <p className="mt-3 text-lg text-gray-900">
                                     Pass data through to external apps of your choosing using our suite of integrations revolving around data transfer/protocols.
                                 </p>
+                                <div>
+                                    <a href="/support/integrations" className="inline-flex space-x-4 mt-3">
+                                        <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
+                                            <span>Learn more</span>
+                                            <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
 
                             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">

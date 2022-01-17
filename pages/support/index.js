@@ -82,7 +82,7 @@ export default function Example() {
                 </div>
                 <div>
                   <h3 class="text-lg font-medium">
-                    <a href="#" class="focus:outline-none">
+                    <a href="/support/integrations" class="focus:outline-none">
                       <span class="absolute inset-0" aria-hidden="true"></span>
                       Integrations
                     </a>

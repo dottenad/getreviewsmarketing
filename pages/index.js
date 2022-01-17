@@ -6,7 +6,7 @@ export default function Example() {
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
       <div className="relative mt-6 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 pb-16 sm:pb-24 lg:pb-16">
-        <div className="mx-auto max-w-7xl px-4 mt-6 sm:mt-12 md:mt-12 lg:mt-12 xl:mt-12 2xl:mt-12 sm:px-6">
+        <div className="mx-auto max-w-7xl px-4 mt-8 sm:mt-12 md:mt-12 lg:mt-12 xl:mt-16 2xl:mt-16 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1>

@@ -21,7 +21,7 @@ export default function Example() {
                                     <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                     </svg>
-                                    <a href="/support/getting-started" class="ml-4 text-sm font-medium hover:text-gray-700">Getting Started</a>
+                                    <a href="/support/integrations" class="ml-4 text-sm font-medium hover:text-gray-700">Integrations</a>
                                 </div>
                             </li>
 
@@ -30,7 +30,7 @@ export default function Example() {
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                     </svg>
-                                    <span className="ml-4 text-sm font-medium text-gray-500">Platforms</span>
+                                    <span className="ml-4 text-sm font-medium text-gray-500">3PL Central</span>
                                 </div>
                             </li>
                         </ol>
@@ -67,10 +67,10 @@ export default function Example() {
                         <div class="relative px-4 sm:px-6 lg:px-8">
                             <div class="text-lg max-w-prose mx-auto">
                                 <h1>
-                                    <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Platforms &amp; Marketplaces</span>
+                                    <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">3PL Central</span>
                                 </h1>
                                 <figure>
-                                    <img class="w-full my-8" src="../../../platforms_and_marketplaces.svg" alt="" width="1310" height="873" />
+                                    <img class="w-full my-8" src="../../../features_platforms.svg" alt="" width="1310" height="873" />
                                 </figure>
                                 <p class="mt-8 text-xl leading-8">Platforms and marketplaces in GetReviews are the places where you would like to collect reviews. For example, if you sell products on Amazon and Walmart and wanted to collect reviews on Amazon and Walmart, you would enable both of these marketplaces on GetReviews. If you sell your services such as real estate brokering or plumbing services and wanted to collect reviews on Google or Facebook, you would enable these platforms on GetReviews.</p>
                             </div>

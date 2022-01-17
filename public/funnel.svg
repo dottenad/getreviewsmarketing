@@ -30,7 +30,7 @@
 	.st24{fill:url(#SVGID_00000116939997123631649600000005487913004965345968_);}
 	.st25{fill:#EC1C2E;}
 	.st26{fill:#231F20;}
-	.st27{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st27{fillRule:evenodd;clipRule:evenodd;fill:none;}
 	.st28{clip-path:url(#SVGID_00000007426303240372555810000002218213223265225917_);}
 	.st29{fill:url(#SVGID_00000107579503159722769760000009709668977497790599_);}
 	.st30{fill:#B2B2B2;}
@@ -39,8 +39,8 @@
 	.st33{fill:#C45500;}
 	.st34{clip-path:url(#SVGID_00000034051066303946898550000015525700334884019616_);}
 	.st35{fill:url(#SVGID_00000061429456027188826720000017005822014689858995_);}
-	.st36{fill-rule:evenodd;clip-rule:evenodd;fill:#F7981D;}
-	.st37{fill-rule:evenodd;clip-rule:evenodd;}
+	.st36{fillRule:evenodd;clipRule:evenodd;fill:#F7981D;}
+	.st37{fillRule:evenodd;clipRule:evenodd;}
 </style>
 <g>
 	<g>

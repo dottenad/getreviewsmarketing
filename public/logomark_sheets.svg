@@ -6,7 +6,7 @@
 	.st0{fill:#23A566;}
 	.st1{fill:#1C8F5A;}
 	.st2{fill:#8ED1B1;}
-	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st3{fillRule:evenodd;clipRule:evenodd;fill:#FFFFFF;}
 </style>
 <g>
 	<path class="st0" d="M76.8,82.99c0,2.38-1.93,4.31-4.31,4.31H27.51c-2.38,0-4.31-1.93-4.31-4.31V17.03c0-2.38,1.93-4.31,4.31-4.31

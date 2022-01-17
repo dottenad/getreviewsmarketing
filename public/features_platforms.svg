@@ -24,7 +24,7 @@
 	.st18{fill:#231F20;}
 	.st19{fill:#C93C27;}
 	.st20{fill:#54E0AB;}
-	.st21{fill-rule:evenodd;clip-rule:evenodd;fill:#136796;}
+	.st21{fillRule:evenodd;clipRule:evenodd;fill:#136796;}
 	.st22{fill:#136796;}
 </style>
 <line class="st0" x1="1221.4" y1="1061.38" x2="985.21" y2="571.85"/>

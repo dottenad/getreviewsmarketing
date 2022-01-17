@@ -16,11 +16,11 @@
 	.st10{fill:#FFFFFF;}
 	.st11{fill:#FFB71B;}
 	.st12{fill:#0071CE;}
-	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#F7981D;}
-	.st14{fill-rule:evenodd;clip-rule:evenodd;}
+	.st13{fillRule:evenodd;clipRule:evenodd;fill:#F7981D;}
+	.st14{fillRule:evenodd;clipRule:evenodd;}
 	.st15{fill:#EC1C2E;}
 	.st16{fill:#231F20;}
-	.st17{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st17{fillRule:evenodd;clipRule:evenodd;fill:none;}
 	.st18{fill:url(#SVGID_00000036956743151288471130000004323666306159302830_);}
 	.st19{fill:url(#SVGID_00000020383586141863963500000008347055265943260059_);}
 	.st20{fill:url(#SVGID_00000129181947242981385860000008492967803901854103_);}

@@ -6,9 +6,9 @@
 	.st0{display:none;}
 	.st1{display:inline;fill:#ED1C2E;}
 	.st2{display:inline;}
-	.st3{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:none;}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#F8991D;}
-	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#010101;}
+	.st3{display:inline;fillRule:evenodd;clipRule:evenodd;fill:none;}
+	.st4{fillRule:evenodd;clipRule:evenodd;fill:#F8991D;}
+	.st5{fillRule:evenodd;clipRule:evenodd;fill:#010101;}
 	.st6{fill:#FFB71B;}
 	.st7{fill:#0071CE;}
 	.st8{fill:#EF3A3F;}
@@ -28,7 +28,7 @@
 	.st22{fill:#CA3C27;}
 	.st23{display:inline;fill:#6FC5A1;}
 	.st24{display:inline;fill:#010101;}
-	.st25{fill-rule:evenodd;clip-rule:evenodd;fill:#136897;}
+	.st25{fillRule:evenodd;clipRule:evenodd;fill:#136897;}
 	.st26{fill:#136897;}
 </style>
 <g class="st0">

@@ -13,12 +13,12 @@ const SupportLayout = ({ children }) => {
                     </div>
                     <div className="hidden md:block text-right">
                         <span className="inline-flex mr-2">
-                            <a href="https://www.getreviews.ai">
+                            <a href="../">
                                 <a className="inline-flex items-center px-4 py-2 text-sm text-white font-light">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                     </svg>
-                                    &nbsp;Go to GetReviews.ai
+                                    &nbsp;Back to GetReviews.ai
                                 </a>
                             </a>
                         </span>
@@ -28,7 +28,6 @@ const SupportLayout = ({ children }) => {
                     <h2 className="text-2xl font-extralight text-white">Advice and answers from the GetReviews.ai Team</h2>
                 </div>
             </div>
-            <span id="breadcrumb"></span>
             {children}
             <footer className="bg-white">
                 <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">

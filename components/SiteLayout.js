@@ -19,7 +19,7 @@ const SiteLayout = ({ children }) => (
     <div className="relative pt-6 pb-6">
         <Popover>
             <nav
-                className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+                className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 mb-6"
                 aria-label="Global"
             >
                 <div className="flex items-center flex-1">
@@ -27,11 +27,7 @@ const SiteLayout = ({ children }) => (
                         <Link href="/">
                             <a>
                                 <span className="sr-only">GetReviews.ai</span>
-                                <img
-                                    className="h-10 w-auto sm:h-10"
-                                    src="logo.svg"
-                                    alt=""
-                                />
+                                <img className="h-10 w-auto sm:h-10" src="logo.svg" alt="GetReviews Logo" />
                             </a>
                         </Link>
                         <div className="-mr-2 flex items-center md:hidden">
@@ -162,6 +158,14 @@ const SiteLayout = ({ children }) => (
                         <Link href="https://supernutritionco.com/" target="_blank">
                             <a className="text-base text-gray-500 hover:text-gray-900">
                                 Demo
+                            </a>
+                        </Link>
+                    </div>
+
+                    <div className="px-5 py-2">
+                        <Link href="/support" target="_blank">
+                            <a className="text-base text-gray-500 hover:text-gray-900">
+                                Knowledge Base
                             </a>
                         </Link>
                     </div>

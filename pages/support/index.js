@@ -58,7 +58,7 @@ export default function Example() {
                     </a>
                   </h3>
                   <p class="mt-2 text-sm text-gray-500">
-                  Learn about platforms, products, giveaways, and surveys and how to configure them here
+                  Learn about platforms, marketplaces, products, giveaways, and surveys and how to configure them here
                   </p>
                 </div>
               </div>

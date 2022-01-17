@@ -23,12 +23,11 @@ export default function Example() {
                     <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                         <div className="p-6">
                             <h2 className="text-3xl leading-6 font-bold text-gray-900">Individual</h2>
-                            <p className="mt-4 text-sm text-gray-500">Recommended for sellers doing less than 1,000 orders/mo.</p>
                             <p className="mt-8">
                                 <span className="text-4xl font-extrabold text-gray-900">$89</span>
                                 <span className="text-base font-medium text-gray-500">/mo.</span>
                             </p>
-                            <Link href="https://app.getreviews.ai/signup"><a  className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</a></Link>
+                            <Link href="https://app.getreviews.ai/signup"><a  className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
@@ -83,12 +82,11 @@ export default function Example() {
                     <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                         <div className="p-6">
                             <h2 className="text-3xl leading-6 font-bold text-gray-900">Professional</h2>
-                            <p className="mt-4 text-sm text-gray-500">Recommended for sellers doing between 1,000 and 10,000 orders/mo.</p>
                             <p className="mt-8">
                                 <span className="text-4xl font-extrabold text-gray-900">$159</span>
                                 <span className="text-base font-medium text-gray-500">/mo.</span>
                             </p>
-                            <Link href="https://app.getreviews.ai/signup"><a className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</a></Link>
+                            <Link href="https://app.getreviews.ai/signup"><a className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
@@ -143,12 +141,11 @@ export default function Example() {
                     <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                         <div className="p-6">
                             <h2 className="text-3xl leading-6 font-bold text-gray-900">Enterprise</h2>
-                            <p className="mt-4 text-sm text-gray-500">Recommended for sellers doing over 10,000 orders/mo.</p>
                             <p className="mt-8">
                                 <span className="text-4xl font-extrabold text-gray-900">$399</span>
                                 <span className="text-base font-medium text-gray-500">/mo.</span>
                             </p>
-                            <Link href="https://app.getreviews.ai/signup"><a className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</a></Link>
+                            <Link href="https://app.getreviews.ai/signup"><a className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
@@ -203,11 +200,10 @@ export default function Example() {
                     <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
                         <div className="p-6">
                             <h2 className="text-3xl leading-6 font-bold text-gray-900">Agency</h2>
-                            <p className="mt-4 text-sm text-gray-500">Run an agency? Contact us to learn more about our agency plan.</p>
                             <p className="mt-8">
                                 <span className="text-4xl font-extrabold text-gray-900">Contact Us</span>
                             </p>
-                            <Link href="mailto:info@getreviews.ai"><a className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-amber-700 shadow-sm hover:bg-amber-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Get Started</a></Link>
+                            <Link href="mailto:info@getreviews.ai"><a className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Get Started</a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>

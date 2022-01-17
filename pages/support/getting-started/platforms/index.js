@@ -7,7 +7,7 @@ export default function Example() {
                         <ol role="list" className="flex items-center space-x-4">
                             <li>
                                 <div>
-                                    <a href="/support" className="text-gray-400 hover:text-gray-500">
+                                    <a href="/support" className="text-black hover:text-gray-700">
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
@@ -67,24 +67,33 @@ export default function Example() {
                         <div class="relative px-4 sm:px-6 lg:px-8">
                             <div class="text-lg max-w-prose mx-auto">
                                 <h1>
-                                    <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Platforms</span>
+                                    <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Platforms &amp; Marketplaces</span>
                                 </h1>
                                 <figure>
                                     <img class="w-full my-8" src="../../../features_platforms.svg" alt="" width="1310" height="873" />
                                 </figure>
-                                <p class="mt-8 text-xl leading-8">A "Platform" in GetReviews is a place where you would like to collect reviews. For example, if you sell products on Amazon and Walmart and wanted to collect reviews on these platforms, you would enable both of these platforms on GetReviews.</p>
+                                <p class="mt-8 text-xl leading-8">Platforms and marketplaces in GetReviews are the places where you would like to collect reviews. For example, if you sell products on Amazon and Walmart and wanted to collect reviews on Amazon and Walmart, you would enable both of these marketplaces on GetReviews. If you sell your services such as real estate brokering or plumbing services and wanted to collect reviews on Google or Facebook, you would enable these platforms on GetReviews.</p>
                             </div>
                             <div class="mt-6 prose prose-indigo prose-lg mx-auto">
-                                <h2>Enabling a Platform</h2>
-                                <p>To begin collecting reviews on a platform, you will first need to enable the platform on GetReviews. To do this, follow the directions below.</p>
+                                <h2>Enabling a Platform/Marketplace</h2>
+                                <p>To begin collecting reviews on a platform or marketplace, you will first need to enable the platform or marketplace on GetReviews. To do this, follow the directions below. For the purposes of this demonstration, we will be enabling a marketplace.</p>
                                 <ol role="list">
-                                    <li>Integer varius imperdiet sed interdum felis cras in nec nunc.</li>
-                                    <li>Quam malesuada odio ut sit egestas. Elementum at porta vitae.</li>
+                                    <li>Click "Enable Marketplaces"<br />
+                                    <img class="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" />
+                                    </li>
+                                    <li>Enable the marketplace that you would like to collect reviews on<br /><img class="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" /></li>
+                                    <li>Click "Enable"<br />
+                                    <img class="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" />
+                                    </li>
+                                    <li>Select your validation method.<br />
+                                    <img class="w-full rounded-lg mt-4" src="../../placeholder.png" alt="" width="1310" height="873" />
+                                        <ul>
+                                            <li><strong>What is a validation method?</strong>: A validation method is how you would like to validate customer-submitted order numbers. Customer-submitted order numbers need to be validated to ensure that only legitimate customers are leaving reviews and claiming giveaways. GetReviews has two validation methods:</li>
+                                            <li><strong>Manual Validation</strong>: Manual validation puts customer-submitted order numbers into a pending state on GetReviews for you to "manually" review their order details and approve or deny their giveaway redemption based on the legitimacy of their order number in your systems. If the order number exists in your systems, you will "validate" their redemption request in GetReviews, meaning if you have any integrations setup to automatically fulfill giveaways, these integrations will fire once you have validated their redemption request. If their order number does not exist, you will "invalidate" their redemption request.</li>
+                                            <li><strong>Automatic Validation</strong>: Automatic validation automatically validates any customer-submitted order number so long as the customer-submitted order number exists in your order number database on GetReviews. The order number database allows you to upload and maintain a database of order numbers for your surveys to validate against. If a customer submits an order number that exists in your order number database, they will be automatically validated, and any integrations that exist on your survey will automatically fire once they have completed your survey.</li>
+                                        </ul>
+                                    </li>
                                 </ol>
-                                <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
-                                <h2>Everything you need to get up and running</h2>
-                                <p>Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>
-                                <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
                             </div>
                         </div>
                     </div>

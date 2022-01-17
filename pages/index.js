@@ -5,8 +5,8 @@ export default function Example() {
   return (
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
-      <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-16">
-        <div className="mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
+      <div className="relative mt-6 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 pb-16 sm:pb-24 lg:pb-16">
+        <div className="mx-auto max-w-7xl px-4 mt-6 sm:mt-12 md:mt-12 lg:mt-12 xl:mt-12 2xl:mt-12 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
@@ -248,7 +248,7 @@ export default function Example() {
       </div>
       {/* End Trusted By 7, 8, 9 Figure Seller Section */}
       <div class="py-16 overflow-hidden lg:py-16">
-        <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+        <div class="mx-auto px-4 text-center sm:px-6 lg:px-8 lg:max-w-7xl">
           <h2 class="text-base font-semibold text-sky-700">...so, what types of businesses can GetReviews collect reviews for?</h2>
           <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
             GetReviews works with all business types!
@@ -272,6 +272,64 @@ export default function Example() {
                       Want to collect more customer reviews on the products that you sell on the marketplaces that matter to your business? Collect reviews on popular marketplaces, including Amazon, Walmart, Target, Etsy, eBay, Shopify, and more.
                     </p>
                   </div>
+                  <div class="px-6">
+                    <p class="mt-5 text-base font-bold text-2xl text-sky-700">
+                      GetReviews.ai Works Great For...
+                    </p>
+                  </div>
+                  <dl class="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-4 lg:grid-cols-2 lg:gap-x-2 text-left p-8">
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Manufacturers</p>
+                      </dt>
+                    </div>
+
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Distributors</p>
+                      </dt>
+                    </div>
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Private-Label Brands</p>
+                      </dt>
+                    </div>
+
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Makers</p>
+                      </dt>
+                    </div>
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Resellers</p>
+                      </dt>
+                    </div>
+
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">And more!</p>
+                      </dt>
+                    </div>
+                  </dl>
                 </div>
               </div>
 
@@ -284,11 +342,86 @@ export default function Example() {
                     </p>
                   </div>
                   <img className="w-full" src="features_platforms.svg" alt="" />
-                  <div class="px-6 pb-8">
+                  <div class="px-6 pb-4">
                     <p class="mt-5 text-base text-gray-900">
                       Want to collect more customer reviews on the services that you sell on the platforms that matter to your business? Collect reviews on popular platforms, including Google, Facebook, Yelp, Tripadvisor, Better Business Bureau, Angie's List, and more.
                     </p>
                   </div>
+                  <div class="px-6">
+                    <p class="mt-5 text-base font-bold text-2xl text-sky-700">
+                      GetReviews.ai Works Great For...
+                    </p>
+                  </div>
+                  <dl class="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-4 lg:grid-cols-2 lg:gap-x-2 text-left p-8">
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Restaurants</p>
+                      </dt>
+                    </div>
+
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Real Estate Agencies</p>
+                      </dt>
+                    </div>
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Dentist Offices</p>
+                      </dt>
+                    </div>
+
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Coffee Shops</p>
+                      </dt>
+                    </div>
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Salons/Spas</p>
+                      </dt>
+                    </div>
+
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Plumbing Businesses</p>
+                      </dt>
+                    </div>
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Law Offices</p>
+                      </dt>
+                    </div>
+
+                    <div class="relative">
+                      <dt>
+                        <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <p class="ml-9 text-lg leading-6 font-medium text-gray-900">And more!</p>
+                      </dt>
+                    </div>
+                  </dl>
                 </div>
               </div>
 
@@ -296,7 +429,6 @@ export default function Example() {
           </div>
         </div>
       </div>
-      {/* Begin Trusted By 7, 8, 9 Figure Seller Section */}
       <div class="py-16 bg-sky-700">
         <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl pb-8 text-white text-center">
@@ -310,18 +442,17 @@ export default function Example() {
             </p>
           </div>
           <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 text-white text-center">
-            <div>
+          <div>
               <dt>
                 <div class="flex items-center justify-center">
-                  <img className="w-full" src="giveaway_type_product.svg" alt="Products" />
+                  <img className="w-full" src="giveaway_type_gift_card.svg" alt="Gift Card" />
                 </div>
-                <p class="mt-5 text-2xl leading-6 font-bold">Product</p>
+                <p class="mt-5 text-2xl leading-6 font-bold">Gift Card</p>
               </dt>
               <dd class="mt-4 text-base">
-                Gift a product! If you sell products, this could be another one of the same items that your customer purchased from you, or something else from your product catalogue. If you sell services, this could be a 
+                Gift your customer a gift card!
               </dd>
             </div>
-
             <div>
               <dt>
                 <div class="flex items-center justify-center">
@@ -330,25 +461,23 @@ export default function Example() {
                 <p class="mt-5 text-2xl leading-6 font-bold">Coupon</p>
               </dt>
               <dd class="mt-4 text-base">
-                Gift your customer a percentage off of their next purchase
+                Gift your customer a percentage off of their next purchase!
               </dd>
             </div>
-
             <div>
               <dt>
                 <div class="flex items-center justify-center">
-                  <img className="w-full" src="giveaway_type_gift_card.svg" alt="Gift Card" />
+                  <img className="w-full" src="giveaway_type_product.svg" alt="Products" />
                 </div>
-                <p class="mt-5 text-2xl leading-6 font-bold">Gift Card</p>
+                <p class="mt-5 text-2xl leading-6 font-bold">Product</p>
               </dt>
               <dd class="mt-4 text-base">
-                GetReviews.ai partners with Tremendous.com to enable the giving of gift cards as a giveaway. Tremendous' <a href="https://www.tremendous.com/products/gift-cards" target="_blank" className="underline">gift card catalog</a> includes Amazon.com, Visa, and more.
+                Gift your customer a free product!
               </dd>
-            </div>
+            </div>            
           </dl>
         </div>
       </div>
-      {/* End Trusted By 7, 8, 9 Figure Seller Section */}
       {/* Begin GetReviews Process */}
       <div className="relative bg-white py-16 sm:py-24 lg:py-16">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
@@ -359,7 +488,7 @@ export default function Example() {
             </p>
           </div>
           <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-            Follow along with the steps below to learn more about the GetReviews.ai process
+            Collecting reviews with GetReviews is as easy as 1-2-3!
           </p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -371,11 +500,11 @@ export default function Example() {
                         <img className="h-6" src="1.svg" alt="Step 1" />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Sign Up &amp; Configure</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Sign up for GetReviews and configure your account
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Sign Up &amp; Create Survey</h3>
+                    <p className="my-5 text-base text-gray-900">
+                      <a href="" className="underline text-sky-700">Sign up</a> for GetReviews and create your survey
                     </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
+                    <span className="inline-flex items-center justify-center">
                       <img src="save_1.png" alt="Step 1" />
                     </span>
                   </div>
@@ -390,11 +519,11 @@ export default function Example() {
                         <img className="h-6" src="2.svg" alt="Step 2" />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Print &amp; Pack</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Print your packing insert and pack them into your product&apos;s packaging
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Distribute QR Code</h3>
+                    <p className="my-5 text-base text-gray-900">
+                      Distribute your survey's QR code to your customers
                     </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
+                    <span className="inline-flex items-center justify-center">
                       <img src="save_2.png" alt="Step 2" />
                     </span>
                   </div>
@@ -408,120 +537,12 @@ export default function Example() {
                         <img className="h-6" src="3.svg" alt="Step 3" />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Ship into Fulfillment Center</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Ship products containing your packing insert into fulfillment center (skip this step if self-fulfilling)
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">GetReviews!</h3>
+                    <p className="my-5 text-base text-gray-900">
+                      Watch as customer reviews come flowing in on auto-pilot!
                     </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
+                    <span className="inline-flex items-center justify-center">
                       <img src="save_3.png" alt="Step 3" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="4.svg" alt="Step 4" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Customer Purchases</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Customer purchases your product containing your packing insert
-                    </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
-                      <img src="save_4.png" alt="Step 4" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="5.svg" alt="Step 5" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Customer Receives</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Customer receives their package containing your product and packing insert
-                    </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
-                      <img src="save_5.png" alt="Step 5" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="6.svg" alt="Step 6" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Customer Opens</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Customer opens your product, sees your packing insert, and visits your survey
-                    </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
-                      <img src="save_6.png" alt="Step 6" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="7.svg" alt="Step 7" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Customer Reviews</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      After order number validation, customer provides a rating and review on your product
-                    </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
-                      <img src="save_7.png" alt="Step 7" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="8.svg" alt="Step 8" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Customer Selects</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Customer selects which gift they would like to receive for providing their feedback
-                    </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
-                      <img src="save_8.png" alt="Step 8" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="9.svg" alt="Step 9" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Customer Receives</h3>
-                    <p className="mt-5 text-base text-gray-900">
-                      Customer receives their free gift selection
-                    </p>
-                    <span className="inline-flex items-center justify-center p-3 m-3">
-                      <img src="save_9.png" alt="Step 9" />
                     </span>
                   </div>
                 </div>

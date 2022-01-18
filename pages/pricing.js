@@ -27,7 +27,7 @@ export default function Example() {
                                 <span className="text-4xl font-extrabold text-gray-900">$89</span>
                                 <span className="text-base font-medium text-gray-500">/mo.</span>
                             </p>
-                            <Link passHref href="https://app.getreviews.ai/signup"><Link passHref  className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</Link></Link>
+                            <Link passHref href="https://app.getreviews.ai/signup"><a><div  className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</div></a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
@@ -86,7 +86,7 @@ export default function Example() {
                                 <span className="text-4xl font-extrabold text-gray-900">$159</span>
                                 <span className="text-base font-medium text-gray-500">/mo.</span>
                             </p>
-                            <Link passHref href="https://app.getreviews.ai/signup"><Link passHref className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</Link></Link>
+                            <Link passHref href="https://app.getreviews.ai/signup"><a><div className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</div></a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
@@ -145,7 +145,7 @@ export default function Example() {
                                 <span className="text-4xl font-extrabold text-gray-900">$399</span>
                                 <span className="text-base font-medium text-gray-500">/mo.</span>
                             </p>
-                            <Link passHref href="https://app.getreviews.ai/signup"><Link passHref className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</Link></Link>
+                            <Link passHref href="https://app.getreviews.ai/signup"><a><div className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign Up</div></a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>
@@ -203,7 +203,7 @@ export default function Example() {
                             <p className="mt-8">
                                 <span className="text-4xl font-extrabold text-gray-900">Contact Us</span>
                             </p>
-                            <Link passHref href="mailto:info@getreviews.ai"><Link passHref className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Get Started</Link></Link>
+                            <Link passHref href="mailto:info@getreviews.ai"><a><div className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Get Started</div></a></Link>
                         </div>
                         <div className="pt-6 pb-8 px-6">
                             <h3 className="text-xs font-medium text-gray-900 tracking-wide uppercase">What&apos;s included</h3>

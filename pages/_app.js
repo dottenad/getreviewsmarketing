@@ -4,23 +4,36 @@ import SiteLayout from '../components/SiteLayout'
 import SupportLayout from '../components/SupportLayout'
 import '../styles/globals.css'
 
+// class MyApp extends App {
+//   render() {
+//     const { Component, pageProps, router } = this.props
+
+//     if (router.pathname.startsWith('/support')) {
+//       return (
+//         <SupportLayout>
+//           <Component {...pageProps} />
+//         </SupportLayout>
+//       )
+//     }
+
+//     return (
+//       <SiteLayout>
+//         <Component {...pageProps} />
+//       </SiteLayout>
+//     )
+//   }
+// }
+
+// export default MyApp
+
+
 class MyApp extends App {
   render() {
     const { Component, pageProps, router } = this.props
 
-    if (router.pathname.startsWith('/support')) {
-      return (
-        <SupportLayout>
-          <Component {...pageProps} />
-        </SupportLayout>
-      )
-    }
+    const getLayout = Component.getLayout || (page => page)
 
-    return (
-      <SiteLayout>
-        <Component {...pageProps} />
-      </SiteLayout>
-    )
+    return getLayout(<Component {...pageProps}></Component>)
   }
 }
 

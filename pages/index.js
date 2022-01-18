@@ -39,11 +39,11 @@ export default function Example() {
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
                   We care about the protection of your data. Read our&nbsp;
-                  <Link passHref href="#">
-                    <Link passHref className="font-medium text-gray-900 underline">
+                  <Link passHref href="#"><a>
+                    <div className="font-medium text-gray-900 underline">
                       Privacy Policy
-                    </Link>
-                  </Link>
+                    </div>
+                  </a></Link>
                   .
                 </p>
               </div>
@@ -502,7 +502,7 @@ export default function Example() {
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Sign Up &amp; Create Survey</h3>
                     <p className="my-5 text-base text-gray-900">
-                      <Link passHref href="" className="underline text-sky-700">Sign up</Link> for GetReviews and create your survey
+                      <Link passHref href="#" className="underline text-sky-700"><a>Sign up</a></Link> for GetReviews and create your survey
                     </p>
                     <span className="inline-flex items-center justify-center">
                       <img src="save_1.png" alt="Step 1" />

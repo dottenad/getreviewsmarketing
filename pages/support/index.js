@@ -1,7 +1,8 @@
 import Link from "next/link"
+import SupportLayout from '../../components/SupportLayout'
 
-export default function Example() {
-  return (
+
+const SupportIndex = () => (
     <div>
       <div className="bg-gray-200 pt-14 pb-14">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,10 +22,10 @@ export default function Example() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium">
-                      <Link passHref href="#" className="focus:outline-none">
+                      <Link passHref href="#" className="focus:outline-none"><a>
                         <span className="absolute inset-0" aria-hidden="true"></span>
                         Overview
-                      </Link>
+                      </a></Link>
                     </h3>
                     <p className="mt-2 text-sm text-gray-500">
                       Familiarize yourself with the concept of GetReviews before diving into any other support categories
@@ -54,10 +55,10 @@ export default function Example() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium">
-                    <Link passHref href="/support/getting-started" className="focus:outline-none">
+                    <Link passHref href="/support/getting-started" className="focus:outline-none"><a>
                       <span className="absolute inset-0" aria-hidden="true"></span>
                       Getting Started
-                    </Link>
+                    </a></Link>
                   </h3>
                   <p className="mt-2 text-sm text-gray-500">
                   Learn about platforms, marketplaces, products, giveaways, and surveys and how to configure them here
@@ -84,10 +85,10 @@ export default function Example() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium">
-                    <Link passHref href="/support/integrations" className="focus:outline-none">
+                    <Link passHref href="/support/integrations" className="focus:outline-none"><a>
                       <span className="absolute inset-0" aria-hidden="true"></span>
                       Integrations
-                    </Link>
+                    </a></Link>
                   </h3>
                   <p className="mt-2 text-sm text-gray-500">
                   Automate your dataflow utilizing GetReviews&apos; integration library
@@ -117,10 +118,10 @@ export default function Example() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium">
-                    <Link passHref href="#" className="focus:outline-none">
+                    <Link passHref href="#" className="focus:outline-none"><a>
                       <span className="absolute inset-0" aria-hidden="true"></span>
                       Account Settings
-                    </Link>
+                    </a></Link>
                   </h3>
                   <p className="mt-2 text-sm text-gray-500">
                   View and configure additional account settings, including user/password administration, and more.
@@ -138,4 +139,11 @@ export default function Example() {
       </div>
     </div>
   )
-}
+
+
+  SupportIndex.getLayout = page => (
+      <SupportLayout>{page}</SupportLayout>
+  )
+  
+  export default SupportIndex
+  

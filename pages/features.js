@@ -1,8 +1,9 @@
 import CallToAction from '/components/CallToAction.js';
 import Link from "next/link"
+import SiteLayout from '../components/SiteLayout'
 
-export default function Example() {
-    return (
+const SiteIndex = () => (
+    <div>
         <div className="relative bg-white overflow-hidden">
             <div className="relative bg-sky-900">
                 <div className="absolute inset-0">
@@ -35,14 +36,14 @@ export default function Example() {
                                 Generate reviews on the platforms &amp; marketplaces that matter most to your business with GetReviews.ai&apos;s intelligent review generation methods.
                             </p>
                             <div>
-                                <Link passHref href="/support/getting-started/platforms" className="inline-flex space-x-4 mt-3">
+                                <Link passHref href="/support/getting-started/platforms" className="inline-flex space-x-4 mt-3"><a>
                                     <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
                                         <span>Learn more</span>
                                         <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                         </svg>
                                     </span>
-                                </Link>
+                                </a></Link>
                             </div>
                         </div>
 
@@ -78,14 +79,14 @@ export default function Example() {
                                     Ensure only valid order numbers are accessing your review flow and claiming their free gift with GetReviews.ai&apos;s order number validation feature.
                                 </p>
                                 <div>
-                                    <Link passHref href="#" className="inline-flex space-x-4 mt-3">
+                                    <Link passHref href="#" className="inline-flex space-x-4 mt-3"><a>
                                         <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
                                             <span>Learn more</span>
                                             <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                             </svg>
                                         </span>
-                                    </Link>
+                                    </a></Link>
                                 </div>
                             </div>
 
@@ -124,14 +125,14 @@ export default function Example() {
                                 Embed your GetReviews survey wherever you would like with GetReviews.ai&apos;s custom domain support.
                             </p>
                             <div>
-                                    <Link passHref href="#" className="inline-flex space-x-4 mt-3">
+                                    <Link passHref href="#" className="inline-flex space-x-4 mt-3"><a>
                                         <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
                                             <span>Learn more</span>
                                             <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                             </svg>
                                         </span>
-                                    </Link>
+                                    </a></Link>
                                 </div>
                         </div>
 
@@ -167,14 +168,14 @@ export default function Example() {
                                     Pass data through to external apps of your choosing using our suite of integrations revolving around data transfer/protocols.
                                 </p>
                                 <div>
-                                    <Link passHref href="/support/integrations" className="inline-flex space-x-4 mt-3">
+                                    <Link passHref href="/support/integrations" className="inline-flex space-x-4 mt-3"><a>
                                         <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
                                             <span>Learn more</span>
                                             <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                 <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                             </svg>
                                         </span>
-                                    </Link>
+                                    </a></Link>
                                 </div>
                             </div>
 
@@ -196,6 +197,11 @@ export default function Example() {
 
             <CallToAction />
         </div>
-
+    </div>
     )
-}
+
+SiteIndex.getLayout = page => (
+  <SiteLayout>{page}</SiteLayout>
+)
+
+export default SiteIndex

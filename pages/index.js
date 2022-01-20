@@ -1,8 +1,9 @@
 import CallToAction from '/components/CallToAction.js';
 import Link from 'next/link';
+import SiteLayout from '../components/SiteLayout'
 
-export default function Example() {
-  return (
+const SiteIndex = () => (
+  <div>
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
       <div className="relative mt-6 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 pb-16 sm:pb-24 lg:pb-16">
@@ -23,26 +24,20 @@ export default function Example() {
                   <label htmlFor="email" className="sr-only">
                     Email
                   </label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-sky-500 sm:flex-1 border-gray-300"
-                    placeholder="Enter your email"
+                  <input type="email" name="email" id="email" className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-sky-500 sm:flex-1 border-gray-300" placeholder="Enter your email"
                   />
-                  <button
-                    type="submit"
-                    className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
-                  >
+                  <button type="submit" className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto" >
                     Start Free Trial
                   </button>
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
                   We care about the protection of your data. Read our&nbsp;
                   <Link passHref href="#">
-                    <Link passHref className="font-medium text-gray-900 underline">
-                      Privacy Policy
-                    </Link>
+                    <a>
+                      <div className="font-medium text-gray-900 underline">
+                        Privacy Policy
+                      </div>
+                    </a>
                   </Link>
                   .
                 </p>
@@ -442,7 +437,7 @@ export default function Example() {
             </p>
           </div>
           <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 text-white text-center">
-          <div>
+            <div>
               <dt>
                 <div className="flex items-center justify-center">
                   <img className="w-full" src="giveaway_type_gift_card.svg" alt="Gift Card" />
@@ -474,7 +469,7 @@ export default function Example() {
               <dd className="mt-4 text-base">
                 Gift your customer a free product!
               </dd>
-            </div>            
+            </div>
           </dl>
         </div>
       </div>
@@ -502,7 +497,9 @@ export default function Example() {
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Sign Up &amp; Create Survey</h3>
                     <p className="my-5 text-base text-gray-900">
-                      <Link passHref href="" className="underline text-sky-700">Sign up</Link> for GetReviews and create your survey
+                      <Link passHref href="#" className="underline text-sky-700">
+                        <a>Sign up</a>
+                      </Link> for GetReviews and create your survey
                     </p>
                     <span className="inline-flex items-center justify-center">
                       <img src="save_1.png" alt="Step 1" />
@@ -570,5 +567,11 @@ export default function Example() {
       {/* End Integration Partners */}
       <CallToAction />
     </div>
-  )
-}
+  </div>
+)
+
+SiteIndex.getLayout = page => (
+  <SiteLayout>{page}</SiteLayout>
+)
+
+export default SiteIndex

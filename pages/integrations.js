@@ -1,7 +1,8 @@
 import CallToAction from '/components/CallToAction.js';
+import SiteLayout from '../components/SiteLayout'
 
-export default function Example() {
-    return (
+const SiteIndex = () => (
+    <div>
         <div className="relative bg-white overflow-hidden">
             <div className="relative bg-sky-900">
                 <div className="absolute inset-0">
@@ -156,6 +157,11 @@ export default function Example() {
             </div>
             <CallToAction />
         </div>
-
+        </div>
     )
-}
+
+SiteIndex.getLayout = page => (
+  <SiteLayout>{page}</SiteLayout>
+)
+
+export default SiteIndex

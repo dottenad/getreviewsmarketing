@@ -1,7 +1,8 @@
 import Link from "next/link"
+import SupportLayout from '../../../components/SupportLayout'
 
-export default function Example() {
-    return (
+
+const SupportIndex = () => (
         <div>
             <div className="bg-gray-200 pt-10 pb-14">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -9,12 +10,12 @@ export default function Example() {
                         <ol role="list" className="flex items-center space-x-4">
                             <li>
                                 <div>
-                                    <Link passHref href="/support" className="text-black hover:text-gray-700">
+                                    <Link passHref href="/support" className="text-black hover:text-gray-700"><a>
                                         <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
-                                    </Link>
+                                    </a></Link>
                                 </div>
                             </li>
 
@@ -43,10 +44,10 @@ export default function Example() {
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-medium">
-                                            <Link passHref href="/support/integrations/3plcentral" className="focus:outline-none">
+                                            <Link passHref href="/support/integrations/3plcentral" className="focus:outline-none"><a>
                                                 <span className="absolute inset-0" aria-hidden="true"></span>
                                                 3PL Central
-                                            </Link>
+                                            </a></Link>
                                         </h3>
                                         <p className="mt-2 text-sm text-gray-500">
                                             Enable and configure the 3PL Central integration here
@@ -75,10 +76,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/ftp" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/ftp" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             FTP
-                                        </Link>
+                                        </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the FTP integration here
@@ -103,10 +104,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/sheets" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/sheets" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Google Sheets
-                                        </Link>
+                                       </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Google Sheets integration here
@@ -132,10 +133,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/klaviyo" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/klaviyo" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Klaviyo
-                                        </Link>
+                                        </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Klaviyo integration here
@@ -160,10 +161,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/mailchimp" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/mailchimp" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Mailchimp
-                                        </Link>
+                                        </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the MailChimp integration here
@@ -188,10 +189,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/shipbob" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/shipbob" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             ShipBob
-                                        </Link>
+                                        </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the ShipBob integration here
@@ -216,10 +217,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/shiphero" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/shiphero" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Shiphero
-                                        </Link>
+                                        </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Shiphero integration here
@@ -247,10 +248,10 @@ export default function Example() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/platforms" className="focus:outline-none">
+                                        <Link passHref href="/support/integrations/platforms" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Tremendous
-                                        </Link>
+                                        </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
                                         Enable and configure the Tremendous integration here
@@ -268,4 +269,10 @@ export default function Example() {
             </div>
         </div>
     )
-}
+
+
+    SupportIndex.getLayout = page => (
+        <SupportLayout>{page}</SupportLayout>
+    )
+    
+    export default SupportIndex

@@ -83,7 +83,6 @@ const SupportIndex = () => (
                     </svg>
                   </span>
                 </div>
-<<<<<<< HEAD
               </div>
               <div>
                 <h3 className="text-lg font-medium">
@@ -93,16 +92,6 @@ const SupportIndex = () => (
                   </a></Link>
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-=======
-                <div>
-                  <h3 className="text-lg font-medium">
-                    <Link passHref href="#" className="focus:outline-none"><a>
-                      <span className="absolute inset-0" aria-hidden="true"></span>
-                      Account Settings
-                    </a></Link>
-                  </h3>
-                  <p className="mt-2 text-sm text-gray-500">
->>>>>>> 69846931a429c22d134b5534bf9e554208eaed44
                   View and configure additional account settings, including user/password administration, and more.
                 </p>
               </div>
@@ -116,7 +105,6 @@ const SupportIndex = () => (
         </div>
       </div>
     </div>
-<<<<<<< HEAD
   </div>
 )
 
@@ -127,14 +115,3 @@ SupportIndex.getLayout = page => (
 
 export default SupportIndex
 
-=======
-  )
-
-
-  SupportIndex.getLayout = page => (
-      <SupportLayout>{page}</SupportLayout>
-  )
-  
-  export default SupportIndex
-  
->>>>>>> 69846931a429c22d134b5534bf9e554208eaed44

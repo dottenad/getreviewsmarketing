@@ -85,7 +85,7 @@ const SupportIndex = () => (
                             <div className="mt-10 prose prose-sky prose-lg mx-auto">
                                 <p>The &quot;product&quot; giveaway type is a physical item, such as a hat or a bottle of wine. Selecting this giveaway type requires your customer to input their shipping address so you can fulfill their giveaway redemption. Follow along with the instructions below to learn how to create a giveaway with the type of "Product" on GetReviews.</p>
                                 <ol role="list">
-                                    <li>On the <a href="https://app.getreviews.ai/giveaway" target="_blank" className="underline">giveaway</a> page, click &quot;Add Giveaway&quot; and then select &quot;Product.&quot;<br />
+                                    <li>On the <a href="https://app.getreviews.ai/giveaway" target="_blank" className="underline">giveaways</a> page, click &quot;Add Giveaway&quot; and then select &quot;Product.&quot;<br />
                                     <img className="w-full rounded-lg mt-4" src="../../../create_giveaway_page.jpg" alt="" width="1310" />
                                     </li>
                                     <li>Complete the fields to create a product giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_giveaway.jpg" alt="" width="1310" /></li>

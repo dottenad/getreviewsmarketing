@@ -82,18 +82,19 @@ const SupportIndex = () => (
                                     <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Product</span>
                                 </h1>
                             </div>
-                            <div className="mt-10 prose prose-indigo prose-lg mx-auto">
-                                <p>The &quot;product&quot; giveaway type is a physical item, such as a hat or a bottle of wine. Selecting this giveaway type requires your customer to input their shipping address so you can fulfill their giveaway redemption.</p>
+                            <div className="mt-10 prose prose-sky prose-lg mx-auto">
+                                <p>The &quot;product&quot; giveaway type is a physical item, such as a hat or a bottle of wine. Selecting this giveaway type requires your customer to input their shipping address so you can fulfill their giveaway redemption. Follow along with the instructions below to learn how to create a giveaway with the type of "Product" on GetReviews.</p>
                                 <ol role="list">
-                                    <li>Click &quot;Add Giveaway&quot; and then select &quot;Product.&quot;<br />
-                                    <img className="w-full rounded-lg mt-4" src="../../../placeholder.png" alt="" width="1310" height="873" />
+                                    <li>On the <a href="https://app.getreviews.ai/giveaway" target="_blank" className="underline">giveaway</a> page, click &quot;Add Giveaway&quot; and then select &quot;Product.&quot;<br />
+                                    <img className="w-full rounded-lg mt-4" src="../../../create_giveaway_page.jpg" alt="" width="1310" />
                                     </li>
                                     <li>Complete the fields to create a product giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_giveaway.jpg" alt="" width="1310" /></li>
                                     <ol>
-                                        <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for both you and your customer. The giveaway name will be presented to your customer.</li>
-                                        <li><strong>Giveaway Image</strong>: Upload an image of your giveaway. This will be shown to your customer.</li>
+                                        <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for your customer. When your customer comes to the step in the survey that asks them which giveaway they would like, the name that you put into this text box will be displayed to them.</li>
+                                        <li><strong>Product Eligibility</strong>: In GetReviews, you can assign each product a unique set of giveaways. For example, if you would like product A to be able to claim giveaway's A &amp; B, and you would like product B to be able to claim giveaways C &amp; D, this is possible in GetReviews. The "Product Eligibility" section that you are editing here allows you to assign the giveaway that you are creating to multiple products at once. For example, in the image above, if you selected "Energize" and "Hydrate" as eligible products for this giveaway, than anyone who purchased Energize or Hydrate would be able to claim this giveaway as their free gift.</li>
+                                        <li><strong>Giveaway Image</strong>: This is an image of your giveaway. Once your customer selects this giveaway on your survey, this image will show and will serve as a visual representation of the giveaway they are selecting.</li>
                                         <li><strong>SKU</strong>: The SKU (or Stock Keeping Unit) is the unique identifier for this product. If you are utilizing a 3PL integration on GetReviews, ensure that this SKU value matches the SKU value in your warehouse <i>exactly</i>. Only when this SKU value and the SKU value in your warehouse match exactly will an order be successfully created. SKU values can also be used for analysis</li>
-                                        <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their gift.</li>
+                                        <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their free gift.</li>
                                     </ol>
                                 </ol>
                             </div>

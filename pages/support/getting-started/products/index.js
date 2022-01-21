@@ -73,18 +73,18 @@ const SupportIndex = () => (
                                     <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Products</span>
                                 </h1>
                             </div>
-                            <div className="mt-10 prose prose-indigo prose-lg mx-auto">
-                                <p>A product</p>
+                            <div className="mt-10 prose prose-sky prose-lg mx-auto">
+                                <p>A product is the item that your customer purchased from you on the marketplaces you sell on. A product has unique attributes associated with it that enables the GetReviews process to work. Let's go over what these are while learning how to create a product in GetReviews.</p>
                                 <ol role="list">
-                                    <li>Click &quot;Add Giveaway&quot; and then select &quot;Product.&quot;<br />
-                                    <img className="w-full rounded-lg mt-4" src="../../../placeholder.png" alt="" width="1310" height="873" />
+                                    <li>On the <a href="https://app.getreviews.ai/product" target="_blank" className="underline">products</a> page, click &quot;Add Product&quot;<br />
+                                    <img className="w-full rounded-lg mt-4" src="../../../add_product.jpg" alt="" width="1310" />
                                     </li>
-                                    <li>Complete the fields to create a product giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_giveaway.jpg" alt="" width="1310" /></li>
+                                    <li>Complete the fields to create a product<br /><img className="w-full rounded-lg mt-4" src="../../../create_product.jpg" alt="" width="1310" /></li>
                                     <ol>
-                                        <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for both you and your customer. The giveaway name will be presented to your customer.</li>
-                                        <li><strong>Giveaway Image</strong>: Upload an image of your giveaway. This will be shown to your customer.</li>
-                                        <li><strong>SKU</strong>: The SKU (or Stock Keeping Unit) is the unique identifier for this product. If you are utilizing a 3PL integration on GetReviews, ensure that this SKU value matches the SKU value in your warehouse <i>exactly</i>. Only when this SKU value and the SKU value in your warehouse match exactly will an order be successfully created. SKU values can also be used for analysis</li>
-                                        <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their gift.</li>
+                                        <li><strong>Product Name</strong>: This is the name of your product. This will be how your customer identifies the product they purchased, so be sure that the product name matches the product name on the marketplace they purchased your product on.</li>
+                                        <li><strong>Eligible Giveaways</strong>: Eligible giveaways are the items that you would like to make eligible for your customer to claim as their free gift offering for purchasing <i>this</i> product. For example, if a customer purchased this product from you, what would you like them to be able to select as their free gift? This section is where you define that.</li>
+                                        <li><strong>Product Image</strong>: This is an image of your product. Similar to the product name, the product image will display once your customer selects the product they purchased on your survey, so be sure this product image matches the product image on the marketplace that your customer purchased your product on.</li>
+                                        <li><strong>Product ID</strong>: Input the product ID for the marketplace(s) that you're selling this product on. If a product has a product ID populated, and if that product is assigned to a survey, the customer will be able to select which marketplace they purchased this product from. For example, if you populate Amazon and Walmart product IDs, then if the customer selects this product as the product they purchased, they will be asked where they purchased this product from (Amazon or Walmart?)</li>
                                     </ol>
                                 </ol>
                             </div>

@@ -48,13 +48,13 @@ const SupportIndex = () => (
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-medium">
-                                            <Link passHref href="/support/getting-started/platforms" className="focus:outline-none"><a>
+                                            <Link passHref href="/support/getting-started/marketplaces" className="focus:outline-none"><a>
                                                 <span className="absolute inset-0" aria-hidden="true"></span>
-                                                Platforms &amp; Marketplaces
+                                                Marketplaces
                                             </a></Link>
                                         </h3>
                                         <p className="mt-2 text-sm text-gray-500">
-                                            Platforms &amp; Marketplaces are the websites that you would like to collect reviews on. Learn how to configure them here.
+                                            A marketplace is the website that you would like to collect reviews on. Learn how to configure them here.
                                         </p>
                                     </div>
                                 </div>

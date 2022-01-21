@@ -82,20 +82,20 @@ const SupportIndex = () => (
                                     <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Coupon Code</span>
                                 </h1>
                             </div>
-                            <div className="mt-6 prose prose-indigo prose-lg mx-auto">
-                                <p>The &quot;coupon&quot; giveaway type is a digital coupon that is emailed to your customer upon survey completion.</p>
+                            <div className="mt-6 prose prose-sky prose-lg mx-auto">
+                                <p>The &quot;coupon&quot; giveaway type is a digital coupon that is emailed to your customer upon survey completion. Follow along with the steps below to learn how to create a giveaway with the type of "Coupon"</p>
                                 <ol role="list">
-                                    <li>Click &quot;Add Giveaway&quot; and then select &quot;Coupon Code.&quot;<br />
-                                    <img className="w-full rounded-lg mt-4" src="../../../placeholder.png" alt="" width="1310" height="873" />
+                                    <li>On the <a href="https://app.getreviews.ai/giveaway" target="_blank" className="underline">giveaway</a> page, click &quot;Add Giveaway&quot; and then select &quot;Coupon.&quot;<br />
+                                    <img className="w-full rounded-lg mt-4" src="../../../create_giveaway_page.jpg" alt="" width="1310" />
                                     </li>
                                     <li>Complete the fields to create a coupon giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_coupon.jpg" alt="" width="1310" /></li>
                                     <ol>
-                                        <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for both you and your customer. The giveaway name will be presented to your customer.</li>
-                                        <li><strong>Giveaway Image</strong>: Upload an image of your giveaway. This will be shown to your customer.</li>
+                                        <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for your customer. When your customer comes to the step in the survey that asks them which giveaway they would like, the name that you put into this text box will be displayed to them.</li>
+                                        <li><strong>Giveaway Image</strong>: This is an image of your giveaway. Once your customer selects this giveaway on your survey, this image will show and will serve as a visual representation of the giveaway they are selecting.</li>
                                         <li><strong>Coupon Codes</strong>: Upload your coupon code values here. Coupon codes should be comma separated. Coupon codes are distributed from first to last. For example, if your coupon codes were &quot;coupon1, coupon2, coupon3&quot;, coupon1 would be sent first, then coupon2, then coupon3. GetReviews sends automatic alerts when your coupon codes are running low.</li>
                                         <li><strong>Email Template</strong>: The email template is the raw HTML of the email that will be sent to your customer that contains their coupon code. GetReviews provides a pre-made template, but you can upload anything you&apos;d like here.</li>
                                         <li><strong>SKU</strong>: SKU is included on all giveaway types as a way for you to analyze which giveaways customers are selecting. Input a unique value here as a way to identify this giveaway in your reporting.</li>
-                                        <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their gift.</li>
+                                        <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their free gift.</li>
                                     </ol>
                                 </ol>
                             </div>

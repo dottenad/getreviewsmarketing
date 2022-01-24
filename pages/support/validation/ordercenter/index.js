@@ -1,5 +1,5 @@
 import Link from "next/link"
-import SupportLayout from '../../../components/SupportLayout'
+import SupportLayout from '../../../../components/SupportLayout'
 
 
 const SupportIndex = () => (
@@ -8,10 +8,10 @@ const SupportIndex = () => (
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <nav className="flex pb-10" aria-label="Breadcrumb">
                         <ol role="list" className="flex items-center space-x-4">
-                            <li>
+                        <li>
                                 <div>
-                                    <Link passHref href="/support" className="text-black hover:text-gray-700"><a>
-                                        <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <Link passHref href="/support"><a>
+                                        <svg className="flex-shrink-0 h-5 w-5 text-gray-700 hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
@@ -20,11 +20,20 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
+                                <div class="flex items-center">
+                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <Link passHref href="/support/validation"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Review Validation</a></Link>
+                                </div>
+                            </li>
+
+                            <li>
                                 <div className="flex items-center">
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <span className="ml-4 text-sm font-medium text-gray-500">Validation Center</span>
+                                    <span className="ml-4 text-sm font-medium text-gray-500">Order Center</span>
                                 </div>
                             </li>
                         </ol>
@@ -61,12 +70,12 @@ const SupportIndex = () => (
                         <div className="relative px-4 sm:px-6 lg:px-8">
                             <div className="text-lg max-w-prose mx-auto">
                                 <h1>
-                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Validation Center</span>
+                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Order Center</span>
                                 </h1>
                                 <figure>
                                     <img className="w-full my-14" src="../../../features_order_number_support.svg" alt="" />
                                 </figure>
-                                <p className="mt-8 text-xl leading-8">Automatically validate or invalidate customer-submitted order numbers with the Validation Center. The validation center in GetReviews allows you to maintain a database of customer order numbers that is referenced against when customers submit order numbers. By maintaining a database of customer order numbers, you are ensuring that only customers with valid order numbers are entering your survey flow.</p>
+                                <p className="mt-8 text-xl leading-8">Automatically validate or invalidate customer-submitted order numbers with the Order Center. The order center in GetReviews allows you to maintain a database of customer order numbers that is referenced against when customers submit order numbers. By maintaining a database of customer order numbers, you are ensuring that only customers with valid order numbers are entering your survey flow.</p>
                             </div>
                             <div className="mt-10 prose prose-sky prose-lg mx-auto">
                                 <h2>Enabling a Marketplace</h2>
@@ -75,7 +84,7 @@ const SupportIndex = () => (
                                     <img class="w-full rounded-lg border border-gray-200" src="../../../marketplaces.jpg" alt="" />
                                     <figcaption>Marketplace Library</figcaption>
                                 </figure>
-                                Once on the marketplace library, click "Configure" on the marketplace that you would like to enable. To validate customer-submitted order numbers against your order number database, ensure that you select "Upload Orders" as the validation method. This will enable you to be able to upload order numbers to this marketplace's order number database in the validation center.
+                                Once on the marketplace library, click "Configure" on the marketplace that you would like to enable. To validate customer-submitted order numbers against your order number database, ensure that you select "Upload Orders" as the validation method. This will enable you to be able to upload order numbers to this marketplace's order number database in the order center.
                                 <figure className="mt-4">
                                     <img class="w-full rounded-lg" src="../../../marketplace_upload.jpg" alt="" />
                                     <figcaption>Ensure "Upload Orders" is selected as the validation method</figcaption>
@@ -84,7 +93,7 @@ const SupportIndex = () => (
                                 <h2>Uploading Order Numbers</h2>
                                 <p>Now that we've enabled a marketplace, let's learn how to upload order numbers to this marketplace's database</p>
                                 <p>From any page, click the "Orders" item in the left navigation</p>
-                                <img class="w-full rounded-lg border border-gray-200" src="../../../orders_left_nav.jpg" alt="" />
+                                <img class="w-full rounded-lg border border-gray-200" src="../../../../orders_left_nav.jpg" alt="" />
                                 <h3>"Upload Orders" section</h3>
                                 <img className="w-full mt-0 rounded-lg border border-gray-200" src="../../../upload_orders.jpg" alt="" />
                                 <ol role="list">
@@ -96,13 +105,13 @@ const SupportIndex = () => (
                                 <h3>"Lookup Order Number" section</h3>
                                 <p>Beneath the order number upload section is the "Lookup Order Number" section. The lookup order number section allows you to search your order number database to see if you have uploaded an order number or not. If you have uploaded an order number, that order number's details will show.</p>
                                 <figure>
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../order_number.png" alt="" />
+                                    <img class="w-full rounded-lg border border-gray-200" src="../../../../order_number.png" alt="" />
                                     <figcaption>Order Number Lookup</figcaption>
                                 </figure>
                                 <h3>"Recent Uploads" section</h3>
                                 <p>The "Recent Uploads" section displays a list of recent uploads, including a link to the file, the marketplace it was uploaded to, who uploaded it, and how many order numbers were processed.</p>
                                 <figure>
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../recent_uploads.jpg" alt="" />
+                                    <img class="w-full rounded-lg border border-gray-200" src="../../../../recent_uploads.jpg" alt="" />
                                     <figcaption>Order Number Lookup</figcaption>
                                 </figure>
                             </div>

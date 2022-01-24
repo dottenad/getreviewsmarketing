@@ -8,10 +8,10 @@ const SupportIndex = () => (
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <nav className="flex pb-10" aria-label="Breadcrumb">
                         <ol role="list" className="flex items-center space-x-4">
-                            <li>
+                        <li>
                                 <div>
-                                    <Link passHref href="/support" className="text-black hover:text-gray-700"><a>
-                                        <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <Link passHref href="/support"><a>
+                                        <svg className="flex-shrink-0 h-5 w-5 text-gray-700 hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
@@ -46,7 +46,7 @@ const SupportIndex = () => (
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-medium">
-                                            <Link passHref href="/support/getting-started/giveaways" className="focus:outline-none"><a>
+                                            <Link passHref href="/support/validation/automatic" className="focus:outline-none"><a>
                                                 <span className="absolute inset-0" aria-hidden="true"></span>
                                                 Automatic Validation
                                             </a></Link>
@@ -71,15 +71,15 @@ const SupportIndex = () => (
                                 <div className="flex-shrink-0">
                                     <div className="relative">
                                         <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
-                                            </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                                        </svg>
                                         </span>
                                     </div>
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/getting-started/giveaways" className="focus:outline-none"><a>
+                                        <Link passHref href="/support/validation/manual" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Manual Validation
                                         </a></Link>
@@ -103,21 +103,21 @@ const SupportIndex = () => (
                                 <div className="flex-shrink-0">
                                     <div className="relative">
                                         <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                                            </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                                        </svg>
                                         </span>
                                     </div>
                                 </div>
                                 <div>
                                 <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/getting-started/products" className="focus:outline-none"><a>
+                                        <Link passHref href="/support/validation/ordercenter" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Order Center
                                         </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">
-                                        A product is what the customer purchased from you. Learn how to add and configure products on GetReviews here
+                                        The order center is where you maintain your order number database for automatic validation. Learn more about it here.
                                     </p>
                                 </div>
                             </div>

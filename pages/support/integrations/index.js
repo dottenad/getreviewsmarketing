@@ -8,10 +8,10 @@ const SupportIndex = () => (
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <nav className="flex pb-10" aria-label="Breadcrumb">
                         <ol role="list" className="flex items-center space-x-4">
-                            <li>
+                        <li>
                                 <div>
-                                    <Link passHref href="/support" className="text-black hover:text-gray-700"><a>
-                                        <svg className="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <Link passHref href="/support"><a>
+                                        <svg className="flex-shrink-0 h-5 w-5 text-gray-700 hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                                         </svg>
                                         <span className="sr-only">Home</span>
@@ -35,24 +35,26 @@ const SupportIndex = () => (
                         <div className="rounded-tl-lg rounded-tr-lg relative group bg-white py-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
                             <div className="max-w-3xl mx-auto px-4 sm:px-6 md:flex md:items-center md:justify-between md:space-x-5 lg:max-w-7xl lg:px-8">
                                 <div className="flex items-center space-x-5">
-                                    <div className="flex-shrink-0">
-                                        <div className="relative">
-                                            <span className="rounded-lg inline-flex p-8 bg-sky-50 text-sky-700 ring-4 ring-white">
-                                                <img className="h-16 w-16" src="../../logomark_3pl.svg" alt="3PL Central Logo" />
-                                            </span>
-                                        </div>
+                                <div className="flex-shrink-0">
+                                    <div className="relative">
+                                        <span className="rounded-lg inline-flex p-8 bg-sky-50 text-gray-900 ring-4 ring-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-sky-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg>
+                                        </span>
                                     </div>
-                                    <div>
-                                        <h3 className="text-lg font-medium">
-                                            <Link passHref href="/support/integrations/3plcentral" className="focus:outline-none"><a>
-                                                <span className="absolute inset-0" aria-hidden="true"></span>
-                                                3PL Central
-                                            </a></Link>
-                                        </h3>
-                                        <p className="mt-2 text-sm text-gray-500">
-                                            Enable and configure the 3PL Central integration here
-                                        </p>
-                                    </div>
+                                </div>
+                                <div>
+                                    <h3 className="text-lg font-medium">
+                                        <Link passHref href="/support/integrations/overview" className="focus:outline-none"><a>
+                                            <span className="absolute inset-0" aria-hidden="true"></span>
+                                            Overview
+                                        </a></Link>
+                                    </h3>
+                                    <p className="mt-2 text-sm text-gray-500">
+                                        Familiarize yourself with how integrations work within GetReviews
+                                    </p>
+                                </div>
 
                                 </div>
                             </div>
@@ -65,10 +67,10 @@ const SupportIndex = () => (
 
                         <div className="relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
                             <div className="flex items-center space-x-5">
-                                <div className="flex-shrink-0">
+                            <div className="flex-shrink-0">
                                     <div className="relative">
                                         <span className="rounded-lg inline-flex p-8 bg-sky-50 text-gray-900 ring-4 ring-white">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-sky-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
                                             </svg>
                                         </span>
@@ -85,6 +87,7 @@ const SupportIndex = () => (
                                         Enable and configure the FTP integration here
                                     </p>
                                 </div>
+
                             </div>
                             <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
                                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">

@@ -33,7 +33,7 @@ const SupportIndex = () => (
                                 <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                 </svg>
-                                <span className="ml-4 text-sm font-medium text-gray-500">Shiphero</span>
+                                <span className="ml-4 text-sm font-medium text-gray-500">Tremendous</span>
                             </div>
                         </li>
                     </ol>
@@ -43,21 +43,45 @@ const SupportIndex = () => (
                         <div className="relative px-4 sm:px-6 lg:px-8">
                             <div className="mt-6 prose prose-lg mx-auto text-gray-900">
                                 <h1>
-                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Shiphero</span>
+                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Tremendous</span>
                                 </h1>
-                                <p className="mt-8 text-xl leading-8 mb-8">Automatically fulfill product giveaways from your inventory in Shiphero with the Shiphero integration. Learn how to configure this below.</p>
+                                <p className="mt-8 text-xl leading-8 mb-8">Offer your customers gift cards &amp; eGifts with the Tremendous.com integration. Tremendous.com is a reward redemption platform that allows your customers to select from a wide range of gift card &amp; eGift offerings, including popular redemption options like Amazon.com gift cards, Visa gift cards, and direct cash payments via PayPal. To begin offering gift cards &amp; eGifts, follow the instructions below.</p>
                             </div>
                             <div className="mt-6 prose prose-lg prose-sky mx-auto text-gray-900">
-                                <h3 className="mb-6">On Shiphero:</h3>
-                                <h4 className="underline">Create a Shiphero Access Token</h4>
+                                <h3 className="mb-6">On Tremendous.com:</h3>
+                                <h4 className="underline">Sign Up &amp; Create Campaign</h4>
                                 <ol>
-                                    <li><a href="https://app.shiphero.com/account/login" target="_blank" className="underline">Login</a> to Shiphero</li>
-                                    <li>Once logged in, hover over “My Account” in the navigation and select “Users”</li>
-                                    <li>In the top right corner, click the “+ Add Third-Party Developer” button</li>
-                                    <li>Enter “GetReviews” for the first name, “Integration” for the last name, and "app@getreviews.ai" as the email</li>
-                                    <li>Click the “Add Developer” button</li>
-                                    <li>On the resulting page, you will see an Access Token and Refresh Token value. Copy both of these values to a word processor, you will need these later. (<strong>Note</strong>: you will only see the access token value once, so please be sure to copy it correctly.)</li>
-                                    <li>Click “Update Developer” to save this token.</li>
+                                    <li><a href="https://www.tremendous.com/refer/2berr" target="_blank" className="underline">Create</a> a Tremendous.com account</li>
+                                    <li>Once logged in, <strong>(1)</strong> click "Campaign Templates" in the left navigation, then <strong>(2)</strong> click "Create"
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_1.jpg" alt="" />
+                                        <figcaption>Create a Campaign Template</figcaption>
+                                    </figure>
+                                    </li>
+                                    <li>Select which gift cards/eGifts you would like to make eligible for your customer to claim from your GetReviews survey.
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_2.jpg" alt="" />
+                                        <figcaption>Select gift card/eGifts</figcaption>
+                                    </figure>
+                                    </li>
+                                    <li>When your customer selects a gift card/eGift that is fulfilled by Tremendous as their giveaway from your GetReviews survey, they are sent an email immediately after survey completion with a link to Tremendous to redeem their gift card/eGift. When your customer clicks the link in the email, they are sent to a landing page hosted by Tremendous that contains a number of brandable elements, including logo, background color, and more. This step in the Tremendous campaign setup allows you to customize these brandable elements. <strong>(1)</strong> allows you to customize your landing page, and <strong>(2)</strong> allows you to continue with your Tremendous campaign setup.
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_3.jpg" alt="" />
+                                        <figcaption>Customize landing page</figcaption>
+                                    </figure>
+                                    </li>
+                                    <li>Once you have completed customizing your landing page, you can also customize the automated email that your customer receives from Tremendous linking them to your landing page. Similar to the landing page editor, the email editor allows you to customize the look and feel of the email that your customer will receive. When satisfied with your email template, <strong>(1)</strong> click "Done."
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_5.jpg" alt="" />
+                                        <figcaption>Customize email</figcaption>
+                                    </figure>
+                                    </li>
+                                    <li>Once you click "Done," you are asked to name your campaign. Name your campaign, select which sharing settings you would like (either setting works with GetReviews,) and click "Save Campaign."
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_6.jpg" alt="" />
+                                        <figcaption>Name and save campaign</figcaption>
+                                    </figure>
+                                    </li>
                                 </ol>
                                 <h4 className="underline">Enable ShipHero Integration on GetReviews</h4>
                                 <ol>

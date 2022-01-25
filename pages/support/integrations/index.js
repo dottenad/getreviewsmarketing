@@ -251,7 +251,7 @@ const SupportIndex = () => (
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-medium">
-                                        <Link passHref href="/support/integrations/platforms" className="focus:outline-none"><a>
+                                        <Link passHref href="/support/integrations/tremendous" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
                                             Tremendous
                                         </a></Link>

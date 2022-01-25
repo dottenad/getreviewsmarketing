@@ -71,6 +71,11 @@ const SupportIndex = () => (
                                     <li>Click "Save"</li>
                                 </ol>
                                 <p>Once all of the above steps are complete, when a customer completes your survey, Their shipping data along with the free gift they selected, will be sent to ShipBob for automated fulfillment.</p>
+                                <h4 className="underline">Notes</h4>
+                                <ol>
+                                    <li>Your GetReviews Giveaway SKU value must match your ShipBob Product SKU value. If the SKU values do not match, the automation will fail and an order will not be created.</li>
+                                    <li>All ShipBob orders created by GetReviews are tagged with the word "GetReviews"</li>
+                                </ol>
                             </div>
                         </div>
                     </div>

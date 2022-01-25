@@ -33,7 +33,7 @@ const SupportIndex = () => (
                                 <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                 </svg>
-                                <span className="ml-4 text-sm font-medium text-gray-500">Klaviyo</span>
+                                <span className="ml-4 text-sm font-medium text-gray-500">MailChimp</span>
                             </div>
                         </li>
                     </ol>
@@ -43,53 +43,34 @@ const SupportIndex = () => (
                         <div className="relative px-4 sm:px-6 lg:px-8">
                             <div className="mt-6 prose prose-lg mx-auto text-gray-900">
                                 <h1>
-                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Klaviyo</span>
+                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">ShipBob</span>
                                 </h1>
-                                <p className="mt-8 text-xl leading-8 mb-8">Automatically export all GetReviews respondents to Klaviyo. Follow along with the instructions below to learn how.</p>
+                                <p className="mt-8 text-xl leading-8 mb-8">Automatically fulfill product giveaways from your inventory in ShipBob with the ShipBob integration. Learn how to configure this below.</p>
                             </div>
                             <div className="mt-6 prose prose-lg prose-sky mx-auto text-gray-900">
-                                <h3 className="mb-6">On Klaviyo:</h3>
-                                <h4 className="underline">Copy your Klaviyo API key</h4>
-                                <p className="mb-0">The API key is what allows GetReviews to send respondent data to your Klaviyo account.</p>
+                                <h4 className="underline">Configure the ShipBob integration</h4>
+                                <figure className="mt-4">
+                                    <img class="w-full rounded-lg border border-gray-200" src="../../../shipbob.jpg" alt="" />
+                                    <figcaption>ShipBob Settings</figcaption>
+                                </figure>
                                 <ol>
-                                    <li><a href="https://www.klaviyo.com/login" target="_blank" className="underline">Log in</a> to your Klaviyo account</li>
-                                    <li>Once logged in, visit <a href="https://www.klaviyo.com/account#api-keys-tab" target="_blank" className="underline">https://www.klaviyo.com/account#api-keys-tab</a></li>
-                                    <li>Locate your private API key - this should look like: <strong>pk_257d2eeaeb5284daceba5211270a81e451</strong> (if you do not see your private API key, click the blue "Create Private API Key" button.)</li>
-                                    <li>Copy your API key</li>
-                                </ol>
-                                <h4 className="underline">Copy your Klaviyo List ID</h4>
-                                <p className="mb-0">The List ID is where you would like GetReviews to send your respondent data to.</p>
-                                <ol>
-                                    <li>View your <a href="https://www.klaviyo.com/lists" target="_blank" className="underline">Lists</a></li>
-                                    <li>Locate the list you would like to send respondent data to</li>
-                                    <li>Click the&nbsp;&nbsp;<strong>&#8942;</strong>&nbsp;&nbsp;icon on the right side of the list and then click "List Settings"</li>
-                                    <li>Your list's ID will be near the top of this screen (see image below)
-                                        <figure className="mt-4">
-                                            <img class="w-full rounded-lg border border-gray-200" src="../../../klaviyo_1.jpg" alt="" />
-                                            <figcaption>List ID</figcaption>
-                                        </figure>
-                                    </li>
-                                </ol>
-                                <h3 className="mb-6">On GetReviews:</h3>
-                                <h4 className="underline">Paste Klaviyo API Key</h4>
-                                <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" className="underline">Integrations Library</a></li>
-                                    <li>Locate the Klaviyo integration and click "Configure"</li>
-                                    <li>Tick the "Enabled" checkbox</li>
-                                    <li>In the API Key text box, paste the API key generated from Klaviyo</li>
-                                    <li>Leave "Rows to include" text box empty.</li>
+                                    <li><strong>Enabled</strong>: Tick this checkbox to enable the integration</li>
+                                    <li><strong>Access Token (PAT)</strong>: PAT tokens must be requested directly from ShipBob. You can request a PAT Token <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRyS39zBhQfdC-AV4Yf1Oi0BNDExCZPSw0QAvYm4eaURsZ8g/viewform" target="_blank" className="underline">here</a></li>
+                                    <li><strong>Channel ID</strong>: Once your request for a PAT Token has been granted by ShipBob, please <a href="mailto:info@getreviews.ai">email GetReviews</a> your PAT Token so that we may grab your Channel ID.</li>
+                                    <li><strong>Shipping Method</strong>: This is the shipping method you would like to use to send your customer's giveaway.</li>
+                                    <li><strong>Shipping Type:</strong> There are three shipping types in ShipBob - DTC, DropShip, or B2B. Select the shipping type that best represents your situation (contact ShipBob before using B2B.)</li>
+                                    <li><strong>Order Endpoint</strong>: There are two order endpoints. If you are testing this integration with ShipBob's sandbox environment, use https://sandbox-api.shipbob.com/1.0/order in this text box. Otherwise, if you are ready to go live, use https://api.shipbob.com/1.0/order in this text box.</li>
                                     <li>Click "Save"</li>
                                 </ol>
-                                <h4 className="underline">Paste Klaviyo List ID</h4>
+                                <h4 className="underline">Enable ShipBob Integration on Survey</h4>
                                 <ol>
                                     <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
-                                    <li>Next to the survey you would like to export respondent data to Klaviyo from, click “Edit”</li>
+                                    <li>Next to the survey you would like to export respondent data to ShipBob from, click “Edit”</li>
                                     <li>Scroll down to the "Integrations" section</li>
-                                    <li>Enable Klaviyo as an integration</li>
-                                    <li>Paste the List ID</li>
+                                    <li>Enable ShipBob as an integration</li>
                                     <li>Click "Save"</li>
                                 </ol>
-                                <p>Once all of the above steps are complete, when a customer completes your survey, their data will be automatically sent to the Klaviyo list you've defined above.</p>
+                                <p>Once all of the above steps are complete, when a customer completes your survey, Their shipping data along with the free gift they selected, will be sent to ShipBob for automated fulfillment.</p>
                             </div>
                         </div>
                     </div>

@@ -56,6 +56,14 @@ const SupportIndex = () => (
                                     <li><strong>Password</strong>: Enter the password for the server you would like to upload your survey responses to</li>
                                     <li><strong>Directory</strong>: Enter the directory you would like to upload survey responses to. This is relative to the root of the server (i.e. "/" would indicate that you would like to upload survey responses to the root of the server.)</li>
                                 </ol>
+                                <h4 className="underline">Enable FTP Integration on Survey</h4>
+                                <ol>
+                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
+                                    <li>Next to the survey you would like to export respondent data to your FTP from, click “Edit”</li>
+                                    <li>Scroll down to the "Integrations" section</li>
+                                    <li>Enable FTP as an integration</li>
+                                    <li>Click "Save"</li>
+                                </ol>
                             </div>
                         </div>
                         </div>

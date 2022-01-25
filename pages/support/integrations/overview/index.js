@@ -41,35 +41,39 @@ const SupportIndex = () => (
                     <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:gap-px">
                         <div className="rounded-tl-lg rounded-tr-lg relative group bg-white py-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
                         <div className="relative px-4 sm:px-6 lg:px-8">
-                            <div className="text-lg max-w-prose mx-auto">
+                            <div className="mt-6 prose prose-lg mx-auto text-gray-900">
                                 <h1>
                                     <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Overview</span>
                                 </h1>
                                 <p className="mt-8 text-xl leading-8 mb-8">It is important to understand how integrations work within GetReviews in order to use them effectively. Follow along with the diagrams below to learn more about how to configure integrations within GetReviews.</p>
                             </div>
-                            <hr />
                             <div className="mt-6 prose prose-lg mx-auto text-gray-900">
-                                <h3>1.) Integrations are disabled by default</h3>
+                                <h3>1.) Surveys are Children of Integrations</h3>
+                                <p>If you look at file structure of GetReviews, you'll find that integrations are located above surveys.</p>
                                 <figure>
                                     <img class="w-full rounded-lg border border-gray-200" src="../../../integrations_1.jpg" alt="" />
-                                    <figcaption>Marketplace Library</figcaption>
+                                    <figcaption>Surveys are Children of Integrations</figcaption>
                                 </figure>
-                                <p>Each giveaway type has unique properties. For example, if the customer claims a giveaway with the type of &quot;product,&quot; they will be prompted to input their shipping address on the survey, whereas if the customer claims a giveaway with the type of coupon, they will not be prompted to input their shipping address since their shipping address is not required to deliver a coupon (which is sent by email.) Let&apos;s go over the different types of giveaways and how to create them in GetReviews.</p>
+                                <h3>2.) Integrations are Disabled by Default</h3>
+                                <p>Integrations need to be enabled in order to use them.</p>
+                                <figure>
+                                    <img class="w-full rounded-lg border border-gray-200" src="../../../integrations_2.jpg" alt="" />
+                                    <figcaption>Integrations are Disabled by Default</figcaption>
+                                </figure>
+                                <h3>3.) Enabling an Integration on the Account Does Not Enable the Integration on the Survey</h3>
+                                <p>When you enable an integration on your account, this does not enable the integration on your survey(s). Once an integration is enabled on your account, you must also enable the same integration on your survey(s). This is because you may want survey completions to direct customer data to different email lists/fulfillment centers/etc. The image below shows what happens when you enable the MailChimp integration on your account. Notice that enabling the MailChimp integration on your account does not enable the MailChimp integration on your survey. In this example, if someone were to complete your survey, the respondent's information would not be sent to MailChimp.</p>
+                                <figure>
+                                    <img class="w-full rounded-lg border border-gray-200" src="../../../integrations_3.jpg" alt="" />
+                                    <figcaption>Enabling an Integration on the Account Does Not Enable the Integration on the Survey</figcaption>
+                                </figure>
+                                <h3>4.) Enabling an Integration on the Survey Enables Respondent Data to be Sent to Integration</h3>
+                                <p>Once you enable the integration on your survey, your respondent information will begin to send to the integration you just activated. You may activate as many or as few integrations as you'd like per survey.</p>
+                                <figure>
+                                    <img class="w-full rounded-lg border border-gray-200" src="../../../integrations_4.jpg" alt="" />
+                                    <figcaption>Enabling an Integration on the Survey Enables Respondent Data to be Sent to Integration</figcaption>
+                                </figure>
                             </div>
-                            <div className="mt-6 prose prose-lg mx-auto text-gray-900">
-                                
-                                <ol>
-                                    <li><strong>Enabled</strong>: Tick this checkbox to enable the integration</li>
-                                    <li><strong>Host</strong>: Enter the host name for the server you would like to upload your survey responses to</li>
-                                    <li><strong>Username</strong>: Enter the username for the server you would like to upload your survey responses to</li>
-                                    <li><strong>Password</strong>: Enter the password for the server you would like to upload your survey responses to</li>
-                                    <li><strong>Directory</strong>: Enter the directory you would like to upload survey responses to. This is relative to the root of the server (i.e. "/" would indicate that you would like to upload survey responses to the root of the server.)</li>
-                                </ol>
                             </div>
-                            <div className="text-lg max-w-prose mx-auto">
-                                <p className="mt-8 text-xl leading-8">Each giveaway type has unique properties. For example, if the customer claims a giveaway with the type of &quot;product,&quot; they will be prompted to input their shipping address on the survey, whereas if the customer claims a giveaway with the type of coupon, they will not be prompted to input their shipping address since their shipping address is not required to deliver a coupon (which is sent by email.) Let&apos;s go over the different types of giveaways and how to create them in GetReviews.</p>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>

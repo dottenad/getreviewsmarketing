@@ -57,9 +57,6 @@ const SupportIndex = () => (
                                     <li><strong>Directory</strong>: Enter the directory you would like to upload survey responses to. This is relative to the root of the server (i.e. "/" would indicate that you would like to upload survey responses to the root of the server.)</li>
                                 </ol>
                             </div>
-                            <div className="text-lg max-w-prose mx-auto">
-                                <p className="mt-8 text-xl leading-8">Each giveaway type has unique properties. For example, if the customer claims a giveaway with the type of &quot;product,&quot; they will be prompted to input their shipping address on the survey, whereas if the customer claims a giveaway with the type of coupon, they will not be prompted to input their shipping address since their shipping address is not required to deliver a coupon (which is sent by email.) Let&apos;s go over the different types of giveaways and how to create them in GetReviews.</p>
-                            </div>
                         </div>
                         </div>
                     </div>

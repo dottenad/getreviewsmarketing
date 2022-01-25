@@ -72,9 +72,6 @@ const SupportIndex = () => (
                                 <h1>
                                     <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Order Center</span>
                                 </h1>
-                                <figure>
-                                    <img className="w-full my-14" src="../../../features_order_number_support.svg" alt="" />
-                                </figure>
                                 <p className="mt-8 text-xl leading-8">Automatically validate or invalidate customer-submitted order numbers with the Order Center. The order center in GetReviews allows you to maintain a database of customer order numbers that is referenced against when customers submit order numbers. By maintaining a database of customer order numbers, you are ensuring that only customers with valid order numbers are entering your survey flow.</p>
                             </div>
                             <div className="mt-10 prose prose-sky prose-lg mx-auto">

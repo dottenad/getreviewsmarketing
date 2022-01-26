@@ -116,7 +116,7 @@ const SupportIndex = () => (
               </div>
               <div>
                 <h3 className="text-lg font-medium">
-                  <Link passHref href="#" className="focus:outline-none"><a>
+                  <Link passHref href="/support/account" className="focus:outline-none"><a>
                     <span className="absolute inset-0" aria-hidden="true"></span>
                     Account Settings
                   </a></Link>

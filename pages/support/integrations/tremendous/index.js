@@ -49,10 +49,10 @@ const SupportIndex = () => (
                             </div>
                             <div className="mt-6 prose prose-lg prose-sky mx-auto text-gray-900">
                                 <h3 className="mb-6">On Tremendous.com:</h3>
-                                <h4 className="underline">Sign Up &amp; Create Campaign</h4>
+                                <h4 className="underline">Sign Up &amp; Create a Campaign</h4>
                                 <ol>
-                                    <li><a href="https://www.tremendous.com/refer/2berr" target="_blank" className="underline">Create</a> a Tremendous.com account</li>
-                                    <li>Once logged in, <strong>(1)</strong> click "Campaign Templates" in the left navigation, then <strong>(2)</strong> click "Create"
+                                    <li><a href="https://www.tremendous.com/refer/2berr" target="_blank" className="underline">Sign up</a> for a Tremendous.com account</li>
+                                    <li>Once signed up, <strong>(1)</strong> click "Campaign Templates" in the left navigation, then <strong>(2)</strong> click "Create"
                                     <figure className="mt-4">
                                         <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_1.jpg" alt="" />
                                         <figcaption>Create a Campaign Template</figcaption>
@@ -82,28 +82,78 @@ const SupportIndex = () => (
                                         <figcaption>Name and save campaign</figcaption>
                                     </figure>
                                     </li>
+                                    <li>Once you've created your campaign, visit your "Campaign templates" page, and locate the campaign you just created. Take note of the campaign ID (seen below,) we will be using this in the future.
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_10.jpg" alt="" />
+                                        <figcaption>Take note of campaign ID</figcaption>
+                                    </figure>
+                                    </li>
                                 </ol>
-                                <h4 className="underline">Enable ShipHero Integration on GetReviews</h4>
+                                <h4 className="underline">Configure Billing on Tremendous.com</h4>
+                                <ol>
+                                    <li>Once you have created a campaign, you will need to tell Tremendous where you would to fund the gift card/eGifts purchases from. To do this, <strong>(1)</strong> click "Billing" in the left navigation, and then <strong>(2)</strong> click "Saved Accounts." The "Saved Accounts" page is where you will designate your funding source. For payment, you can either pre-fund your Tremendous account and draw down from that amount for each gift card/eGift redemption, or you can pay for each individual gift card/eGift redemption at the time of redemption.
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_7.jpg" alt="" />
+                                        <figcaption>Set funding source</figcaption>
+                                    </figure>
+                                    </li>
+                                </ol>
+                                <h4 className="underline">Generate API Key</h4>
+                                <ol>
+                                    <li>To allow GetReviews to communicate with Tremendous to place gift card/eGift orders on your customer's behalf, GetReviews needs API access to this account. To do this, <strong>(1)</strong> click "Team settings" in the left navigation, <strong>(2)</strong> click "Developers," then <strong>(3)</strong> click "Add API Key"
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_8.jpg" alt="" />
+                                        <figcaption>Generate API Key</figcaption>
+                                    </figure>
+                                    </li>
+                                    <li>Copy API Key
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_9.jpg" alt="" />
+                                        <figcaption>Copy API Key</figcaption>
+                                    </figure>
+                                    </li>
+                                </ol>
+                                <h3 className="mb-6">On GetReviews:</h3>
+                                <h4 className="underline">Locate Funding Source ID</h4>
+                                <ol>
+                                    <li>On GetReviews, visit your funding source utility page at https://app.getreviews.ai/integration/utils/tremendous/prod/<strong>ACCESSTOKEN</strong> Replace ACCESSTOKEN with the API Key that was generated in step 2 above.</li>
+                                    <li>Once on this page, take note of the funding source ID you would like to use to fund your customers gift card/eGift redemptions. You will use this soon.
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_11.jpg" alt="" />
+                                        <figcaption>Choose a funding source</figcaption>
+                                    </figure>
+                                    </li>
+                                </ol>
+                                <h4 className="underline">Enable Tremendous Integration on GetReviews</h4>
                                 <ol>
                                     <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" className="underline">Integrations Library</a></li>
-                                    <li>Locate the Shiphero integration and click "Configure"</li>
+                                    <li>Locate the Tremendous integration and click "Configure"</li>
                                     <li>Tick the "Enabled" checkbox</li>
-                                    <li>Paste the Access Token and Refresh Token generated on Shiphero</li>
+                                    <li>In the "Access Token" text box, paste the API Key you generated on Tremendous (Step 2 of "Generate API Key" instructions above).</li>
+                                    <li>In the "Funding Source ID" text box, paste the funding source ID you located on GetReviews (Step 2 of "Locate Funding Source ID" instructions above.)</li>
+                                    <li>For the "Order Endpoint" text box, set this to https://testflight.tremendous.com/api/v2/ for testing purposes or https://www.tremendous.com/api/v2/ to go live.</li>
                                     <li>Click "Save"</li>
                                 </ol>
-                                <h4 className="underline">Enable Shiphero Integration on Survey</h4>
+                                <h4 className="underline">Enable Tremendous Integration on Survey</h4>
                                 <ol>
                                     <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
-                                    <li>Next to the survey you would like to Shiphero to fulfill products from, click “Edit”</li>
+                                    <li>Next to the survey you would like to automatically fulfill gift card/eGifts with Tremendous from, click “Edit”</li>
                                     <li>Scroll down to the "Integrations" section</li>
-                                    <li>Enable Shiphero as an integration</li>
+                                    <li>Enable Tremendous as an integration</li>
                                     <li>Click "Save"</li>
                                 </ol>
-                                <p>Once all of the above steps are complete, when a customer completes your survey, Their shipping data along with the free gift they selected, will be sent to Shiphero for automated fulfillment.</p>
-                                <h4 className="underline">Notes</h4>
+                                <h4 className="underline">Create an Gift Card/eGift Giveaway</h4>
                                 <ol>
-                                    <li>Your GetReviews Giveaway SKU value must match your Shiphero Product SKU value. If the SKU values do not match, the automation will fail and an order will not be created.</li>
-                                    <li>All Shiphero orders created by GetReviews are tagged with the word "GetReviews"</li>
+                                    <li>Enabling Tremendous unlocks the eGift giveaway type. Take a look at the image below:
+                                    <figure className="mt-4">
+                                        <img class="w-full rounded-lg border border-gray-200" src="../../../tremendous_13.jpg" alt="" />
+                                        <figcaption>Before &amp; After Enabling Tremendous</figcaption>
+                                    </figure>
+                                    Notice how the "eGift" giveaway type does not appear until <i>after</i> you enable the Tremendous integration? This is because if someone was able to choose an eGift without a way to fulfill it, it would cause problems for both the customer and the merchant. So we make sure that you are able to fulfill the eGift <i>before</i> a customer chooses it by requiring you to sign up and configure your Tremendous.com account. Click the button below to learn more about how to create an eGift giveaway on GetReviews.<br />
+                                    <Link passHref href="/support/getting-started/giveaways/giftcard"><a><button type="button" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500">
+                                        Create an eGift Giveaway
+                                        </button></a></Link>
+                                    </li>
                                 </ol>
                             </div>
                         </div>

@@ -82,18 +82,23 @@ const SupportIndex = () => (
                                     <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Gift Card/eGift</span>
                                 </h1>
                             </div>
-                            <div className="mt-10 prose prose-indigo prose-lg mx-auto">
-                                <p>The &quot;product&quot; giveaway type is a physical item, such as a hat or a bottle of wine. Selecting this giveaway type requires your customer to input their shipping address so you can fulfill their giveaway redemption.</p>
+                            <div className="mt-10 prose prose-quoteless prose-sky prose-lg mx-auto text-gray-900">
+                            <blockquote>
+                                <p className="not-italic font-normal"><strong>Note:</strong> To use the Gift Card/eGift giveaway type, you first must enable the Tremendous.com integration. To read more about configuring the Tremendous.com integration, visit the <a href="/support/integrations/tremendous" target="_blank" className="underline">Tremendous.com integration page</a></p>
+                            </blockquote>
+                                <p>The &quot;eGift&quot; giveaway type allows your customer to select a gift card/eGift as their giveaway option, and have it immediately emailed to them upon survey completion via the Tremendous.com integration. To create an eGift giveaway, follow the instructions below.</p>
                                 <ol role="list">
-                                    <li>Click &quot;Add Giveaway&quot; and then select &quot;Product.&quot;<br />
-                                    <img className="w-full rounded-lg mt-4" src="../../../placeholder.png" alt="" width="1310" height="873" />
+                                    <li>On the <a href="https://app.getreviews.ai/giveaway" target="_blank" className="underline">giveaways</a> page, click &quot;Add Giveaway&quot; and then select &quot;eGift.&quot;<br />
+                                    <img className="w-full rounded-lg mt-4" src="../../../create_giveaway_page.jpg" alt="" width="1310" />
                                     </li>
-                                    <li>Complete the fields to create a product giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_giveaway.jpg" alt="" width="1310" /></li>
+                                    <li>Complete the fields to create an eGift giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_egift.jpg" alt="" width="1310" /></li>
                                     <ol>
-                                        <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for both you and your customer. The giveaway name will be presented to your customer.</li>
-                                        <li><strong>Giveaway Image</strong>: Upload an image of your giveaway. This will be shown to your customer.</li>
+                                        <li><strong>Giveaway Name</strong>: The giveaway name serves as an identifier for your customer. When your customer comes to the step in the survey that asks them which giveaway they would like, the name that you put into this text box will be displayed to them.</li>
+                                        <li><strong>Giveaway Image</strong>: This is an image of your giveaway. Once your customer selects this giveaway on your survey, this image will show and will serve as a visual representation of the giveaway they are selecting.</li>
+                                        <li><strong>Campaign ID</strong>: For the campaign ID, you will need to input the ID of your campaign from Tremendous.com. To locate your Tremendous.com campaign ID, please follow <a href="http://localhost:3000/support/integrations/tremendous#:~:text=Once%20you%27ve%20created%20your%20campaign%2C%20visit%20your%20%22Campaign%20templates%22%20page%2C%20and%20locate%20the%20campaign%20you%20just%20created.%20Take%20note%20of%20the%20campaign%20ID%20(seen%20below%2C)%20we%20will%20be%20using%20this%20in%20the%20future." target="_blank" className="underline">these instructions</a></li>
+                                        <li><strong>Order Value</strong>: The order value is how much you would like to make this gift card/eGift worth. For example, if you put 5 here, then the value of the gift card/eGift that your customer redeems will be $5. This text field accepts whole numbers only.</li>
                                         <li><strong>SKU</strong>: The SKU (or Stock Keeping Unit) is the unique identifier for this product. If you are utilizing a 3PL integration on GetReviews, ensure that this SKU value matches the SKU value in your warehouse <i>exactly</i>. Only when this SKU value and the SKU value in your warehouse match exactly will an order be successfully created. SKU values can also be used for analysis</li>
-                                        <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their gift.</li>
+                                        <li><strong>Description</strong>: The description serves as an area to describe your giveaway. For products that have multiple giveaways to choose from, the description serves as a great way to describe what it is your customer is choosing as their free gift. The description shows in tandem with the image to paint a complete picture of what your customer is choosing as their free gift.</li>
                                     </ol>
                                 </ol>
                             </div>

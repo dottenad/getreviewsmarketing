@@ -45,7 +45,7 @@ const SiteLayout = ({ children }) => (
                     <span className="inline-flex mr-2">
                         <Link passHref href="https://app.getreviews.ai/login">
                             <a>
-                                <div className="inline-flex items-center px-4 py-2 text-base font-medium text-gray-900">
+                                <div className="inline-flex items-center px-4 py-2 font-medium text-gray-500 hover:text-gray-900">
                                     Log in
                                 </div>
                             </a>

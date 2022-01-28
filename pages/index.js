@@ -32,7 +32,7 @@ const SiteIndex = () => (
                 </form>
                 <p className="mt-3 text-sm text-gray-500">
                   We care about the protection of your data. Read our&nbsp;
-                  <Link passHref href="#">
+                  <Link passHref href="/privacy">
                     <a>
                       <div className="font-medium text-gray-900 underline">
                         Privacy Policy

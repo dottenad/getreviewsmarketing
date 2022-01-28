@@ -20,11 +20,11 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/validation"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Review Validation</a></Link>
+                                    <Link passHref href="/support/validation"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Review Validation</a></Link>
                                 </div>
                             </li>
 
@@ -74,42 +74,42 @@ const SupportIndex = () => (
                                 </h1>
                             </div>
                             <div className="mt-10 prose prose-sky prose-lg mx-auto">
-                                <p>Unlike automatic validation, manual validation does not reference a database to validate customer-submitted order numbers. With manual validation, customer-submitted order numbers are validated by a human. With manual validation enabled, when a customer submits their order number into your survey, so long as the customer's order number format matches the marketplace's order number format, then they are allowed into your survey to leave their review and claim their giveaway. However, unlike automatic validation, manual validation places reviews into a pending state, meaning that no integrations are fired until you have verified the legitimacy of the submitted order number and have hit the "Validate" button on their review. Let's go over the process to enable manual validation and learn how to manually validate a review.</p>
+                                <p>Unlike automatic validation, manual validation does not reference a database to validate customer-submitted order numbers. With manual validation, customer-submitted order numbers are validated by a human. With manual validation enabled, when a customer submits their order number into your survey, so long as the customer&apos;s order number format matches the marketplace&apos;s order number format, then they are allowed into your survey to leave their review and claim their giveaway. However, unlike automatic validation, manual validation places reviews into a pending state, meaning that no integrations are fired until you have verified the legitimacy of the submitted order number and have hit the &quot;Validate&quot; button on their review. Let&apos;s go over the process to enable manual validation and learn how to manually validate a review.</p>
                                 <h2>Enable a Marketplace</h2>
-                                <p>The first thing you will need to do to enable manual validation is to enable a marketplace. A "Marketplace" is where your customer's order number was generated. For example, if your customer purchased your product on Amazon, then an Amazon order number (with all of it's unique formats and characteristics) was generated. To enable a marketplace, visit your <a href="https://app.getreviews.ai/marketplace/manage" target="_blank" className="underline">Marketplace Library</a>. 
+                                <p>The first thing you will need to do to enable manual validation is to enable a marketplace. A &quot;Marketplace&quot; is where your customer&apos;s order number was generated. For example, if your customer purchased your product on Amazon, then an Amazon order number (with all of it&apos;s unique formats and characteristics) was generated. To enable a marketplace, visit your <a href="https://app.getreviews.ai/marketplace/manage" target="_blank" rel="noreferrer" className="underline">Marketplace Library</a>. 
                                 <figure>
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../marketplaces.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../marketplaces.jpg" alt="" />
                                     <figcaption>Marketplace Library</figcaption>
                                 </figure>
-                                Once in the marketplace library, click "Configure" on the marketplace that you would like to enable. Once on the Marketplace configuration page, tick the "Enabled" checkbox, and then ensure "Manual Validation" is selected as the validation method.
+                                Once in the marketplace library, click &quot;Configure&quot; on the marketplace that you would like to enable. Once on the Marketplace configuration page, tick the &quot;Enabled&quot; checkbox, and then ensure &quot;Manual Validation&quot; is selected as the validation method.
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../manual_validation.jpg" alt="" />
-                                    <figcaption>Ensure "Manual Validation" is selected as the validation method</figcaption>
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../manual_validation.jpg" alt="" />
+                                    <figcaption>Ensure &quot;Manual Validation&quot; is selected as the validation method</figcaption>
                                 </figure>
                                 </p>
                                 <h2>Validating Reviews</h2>
-                                <p>When a customer submits a review on a marketplace with manual validation enabled, their review is added to the list of reviews on the <a href="https://app.getreviews.ai/response" target="_blank" className="underline">reviews</a> page. You can quickly check to see the review's validation status via the "Validated?" column on the far right hand side of the screen.</p>
+                                <p>When a customer submits a review on a marketplace with manual validation enabled, their review is added to the list of reviews on the <a href="https://app.getreviews.ai/response" target="_blank" rel="noreferrer" className="underline">reviews</a> page. You can quickly check to see the review&apos;s validation status via the &quot;Validated?&quot; column on the far right hand side of the screen.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../validated_column.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../validated_column.jpg" alt="" />
                                     <figcaption>An example of an unvalidated review</figcaption>
                                 </figure>
-                                <p>To validate a review, you have two options. <strong>(1)</strong> Bulk validate reviews in the Validation Center, or <strong>(2)</strong> Validate reviews by viewing and validating each review individually. Let's go over how both of these work.</p>
+                                <p>To validate a review, you have two options. <strong>(1)</strong> Bulk validate reviews in the Validation Center, or <strong>(2)</strong> Validate reviews by viewing and validating each review individually. Let&apos;s go over how both of these work.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../validation_methods.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../validation_methods.jpg" alt="" />
                                     <figcaption><strong>(1)</strong> Validation Center <strong>(2)</strong> Individual review.</figcaption>
                                 </figure>
                                 <h2>Validation Center</h2>
-                                <p>The validation center allows you to more quickly validate reviews. Let's go over how to validate reviews in the validation center.</p>
-                                <p>To validate a review in the validation center, first visit the <a href="https://app.getreviews.ai/response/validate" target="_blank" className="underline">Validation Center</a>. Here you are shown some basic data about the customer's review, including name, date, product purchased, marketplace, link to full review, &amp; order number. Once you have verified that the customer's order number is legitimate, you'll want to click the big green "Verify" button on the far right of your screen.</p>
+                                <p>The validation center allows you to more quickly validate reviews. Let&apos;s go over how to validate reviews in the validation center.</p>
+                                <p>To validate a review in the validation center, first visit the <a href="https://app.getreviews.ai/response/validate" target="_blank" rel="noreferrer" className="underline">Validation Center</a>. Here you are shown some basic data about the customer&apos;s review, including name, date, product purchased, marketplace, link to full review, &amp; order number. Once you have verified that the customer&apos;s order number is legitimate, you&apos;ll want to click the big green &quot;Verify&quot; button on the far right of your screen.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../validate_via_validation_center.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../validate_via_validation_center.jpg" alt="" />
                                     <figcaption>Validation center showing the validation button</figcaption>
                                 </figure>
-                                <p>Once you click "Validate," you will be shown a prompt asking you to confirm your decision to validate this review. GetReviews asks this because once a review is validated, it cannot be invalidated. Once a review is validated, all integrations associated with the survey that this review was submitted to will fire, so be sure this is a legitimate order before you mark it as valid.</p>
+                                <p>Once you click &quot;Validate,&quot; you will be shown a prompt asking you to confirm your decision to validate this review. GetReviews asks this because once a review is validated, it cannot be invalidated. Once a review is validated, all integrations associated with the survey that this review was submitted to will fire, so be sure this is a legitimate order before you mark it as valid.</p>
                                 <h2>Individual Review</h2>
-                                <p>You can also validate a review by visiting the detail page of an individual review. Once you have clicked into the detail page of an individual review, notice the big green "Validate Review" button in the bottom left hand corner. Pressing this button does the same thing as pressing the Validate button in the validation center, it validates this review and fires all integrations associated with the survey that this review was left on.</p>
+                                <p>You can also validate a review by visiting the detail page of an individual review. Once you have clicked into the detail page of an individual review, notice the big green &quot;Validate Review&quot; button in the bottom left hand corner. Pressing this button does the same thing as pressing the Validate button in the validation center, it validates this review and fires all integrations associated with the survey that this review was left on.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../individual_review.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../individual_review.jpg" alt="" />
                                     <figcaption>Validate review button on individual review detail page.</figcaption>
                                 </figure>
                             </div>

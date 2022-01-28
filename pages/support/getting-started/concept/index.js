@@ -20,11 +20,11 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/getting-started"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Getting Started</a></Link>
+                                    <Link passHref href="/support/getting-started"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Getting Started</a></Link>
                                 </div>
                             </li>
 
@@ -74,17 +74,17 @@ const SupportIndex = () => (
                                 </h1>
                             </div>
                             <div className="mt-10 prose prose-sky prose-lg mx-auto">
-                                <p>GetReviews is a survey technology that gives businesses the ability to offer customers a free gift in exchange for their customer's review posted on the marketplace or platform of the business' choosing. For example, if you sell shoes on Amazon, and you would like the customer who purchased your shoes to leave you a review on Amazon, you would offer your customer a $5 Amazon gift card in order to participate in your survey (powered by GetReviews,) where the outcome of that survey is a verified customer review on your product on Amazon, in addition to the customer's marketing information (first name, last name, email, phone, etc.) All the while your customer gets a free $5 Amazon gift card. It's a win-win!</p>
+                                <p>GetReviews is a survey technology that gives businesses the ability to offer customers a free gift in exchange for their customer&apos;s review posted on the marketplace or platform of the business&apos; choosing. For example, if you sell shoes on Amazon, and you would like the customer who purchased your shoes to leave you a review on Amazon, you would offer your customer a $5 Amazon gift card in order to participate in your survey (powered by GetReviews,) where the outcome of that survey is a verified customer review on your product on Amazon, in addition to the customer&apos;s marketing information (first name, last name, email, phone, etc.) All the while your customer gets a free $5 Amazon gift card. It&apos;s a win-win!</p>
                                 <p>However, this likely raises some questions:
                                 <ol>
                                     <li><strong>How does my customer get to my survey?</strong> This is probably the most difficult question to answer. The answer is, it depends. Every business interacts with their customers in different ways. Some by email, some face-to-face, some with packing inserts. It all depends on your type of business. The most important things to remember with regards to getting your customer to your GetReviews survey are:
                                         <ol>
-                                            <li><strong>Communicate your free gift offering</strong>: Your customer won't have any incentive to visit your GetReviews survey if they do not know that they can get a free gift. So be sure to let them know that they have a free gift waiting for them at your survey URL.</li>
+                                            <li><strong>Communicate your free gift offering</strong>: Your customer won&apos;t have any incentive to visit your GetReviews survey if they do not know that they can get a free gift. So be sure to let them know that they have a free gift waiting for them at your survey URL.</li>
                                             <li><strong>Communicate your survey URL</strong>: Share with your customer a link to your survey. </li>
                                         </ol>
                                     </li>
                                     <li><strong>Who gives the free gift?</strong>: In short, you do. GetReviews serves as the technology that allows you to build the survey that your customer participates in, but does not provide your customer with their free gift. For example, if you were to create a $5 Amazon gift card giveaway on GetReviews, and make this an item that your customer could select as their free gift, you would be on the hook to fulfill this $5 Amazon gift card, not GetReviews.</li>
-                                    <li><strong>Isn't this against terms of service?</strong>: GetReviews promotes honesty, candidness, and truthfulness in the review collection process. We do not (nor should you) encourage only customers who have had a positive experience with your product or service to complete your GetReviews survey. Our goal is to collect reviews from customers on both ends of the spectrum, as both positive and negative reviews serve to improve your business. As such, GetReviews does not fall outside of terms of service since it does not exist to manipulate your ratings or reviews, but only to collect more of them.</li>
+                                    <li><strong>Isn&apos;t this against terms of service?</strong>: GetReviews promotes honesty, candidness, and truthfulness in the review collection process. We do not (nor should you) encourage only customers who have had a positive experience with your product or service to complete your GetReviews survey. Our goal is to collect reviews from customers on both ends of the spectrum, as both positive and negative reviews serve to improve your business. As such, GetReviews does not fall outside of terms of service since it does not exist to manipulate your ratings or reviews, but only to collect more of them.</li>
                                 </ol>
                                 </p>
                             </div>

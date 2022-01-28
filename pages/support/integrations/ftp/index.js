@@ -20,11 +20,11 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/integrations"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
+                                    <Link passHref href="/support/integrations"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
                                 </div>
                             </li>
 
@@ -54,15 +54,15 @@ const SupportIndex = () => (
                                     <li><strong>Host</strong>: Enter the host name for the server you would like to upload your survey responses to</li>
                                     <li><strong>Username</strong>: Enter the username for the server you would like to upload your survey responses to</li>
                                     <li><strong>Password</strong>: Enter the password for the server you would like to upload your survey responses to</li>
-                                    <li><strong>Directory</strong>: Enter the directory you would like to upload survey responses to. This is relative to the root of the server (i.e. "/" would indicate that you would like to upload survey responses to the root of the server.)</li>
+                                    <li><strong>Directory</strong>: Enter the directory you would like to upload survey responses to. This is relative to the root of the server (i.e. &quot;/&quot; would indicate that you would like to upload survey responses to the root of the server.)</li>
                                 </ol>
                                 <h4 className="underline">Enable FTP Integration on Survey</h4>
                                 <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" rel="noreferrer" className="underline">Surveys</a> page</li>
                                     <li>Next to the survey you would like to export respondent data to your FTP from, click “Edit”</li>
-                                    <li>Scroll down to the "Integrations" section</li>
+                                    <li>Scroll down to the &quot;Integrations&quot; section</li>
                                     <li>Enable FTP as an integration</li>
-                                    <li>Click "Save"</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
                             </div>
                         </div>

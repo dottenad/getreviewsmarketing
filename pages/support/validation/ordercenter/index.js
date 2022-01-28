@@ -20,11 +20,11 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/validation"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Review Validation</a></Link>
+                                    <Link passHref href="/support/validation"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Review Validation</a></Link>
                                 </div>
                             </li>
 
@@ -76,39 +76,39 @@ const SupportIndex = () => (
                             </div>
                             <div className="mt-10 prose prose-sky prose-lg mx-auto">
                                 <h2>Enabling a Marketplace</h2>
-                                <p>The first thing you will need to do to be able to upload order numbers to a marketplace, is enable the marketplace you would like to upload order numbers to. This is done in the <a href="https://app.getreviews.ai/marketplace/manage" target="_blank" className="underline">Marketplace Library</a>. 
+                                <p>The first thing you will need to do to be able to upload order numbers to a marketplace, is enable the marketplace you would like to upload order numbers to. This is done in the <a href="https://app.getreviews.ai/marketplace/manage" target="_blank" rel="noreferrer" className="underline">Marketplace Library</a>. 
                                 <figure>
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../marketplaces.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../marketplaces.jpg" alt="" />
                                     <figcaption>Marketplace Library</figcaption>
                                 </figure>
-                                Once on the marketplace library, click "Configure" on the marketplace that you would like to enable. To validate customer-submitted order numbers against your order number database, ensure that you select "Upload Orders" as the validation method. This will enable you to be able to upload order numbers to this marketplace's order number database in the order center.
+                                Once on the marketplace library, click &quot;Configure&quot; on the marketplace that you would like to enable. To validate customer-submitted order numbers against your order number database, ensure that you select &quot;Upload Orders&quot; as the validation method. This will enable you to be able to upload order numbers to this marketplace&apos;s order number database in the order center.
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg" src="../../../marketplace_upload.jpg" alt="" />
-                                    <figcaption>Ensure "Upload Orders" is selected as the validation method</figcaption>
+                                    <img className="w-full rounded-lg" src="../../../marketplace_upload.jpg" alt="" />
+                                    <figcaption>Ensure &quot;Upload Orders&quot; is selected as the validation method</figcaption>
                                 </figure>
                                 </p>
                                 <h2>Uploading Order Numbers</h2>
-                                <p>Now that we've enabled a marketplace, let's learn how to upload order numbers to this marketplace's database</p>
-                                <p>From any page, click the "Orders" item in the left navigation</p>
-                                <img class="w-full rounded-lg border border-gray-200" src="../../../../orders_left_nav.jpg" alt="" />
-                                <h3>"Upload Orders" section</h3>
+                                <p>Now that we&apos;ve enabled a marketplace, let&apos;s learn how to upload order numbers to this marketplace&apos;s database</p>
+                                <p>From any page, click the &quot;Orders&quot; item in the left navigation</p>
+                                <img className="w-full rounded-lg border border-gray-200" src="../../../../orders_left_nav.jpg" alt="" />
+                                <h3>&quot;Upload Orders&quot; section</h3>
                                 <img className="w-full mt-0 rounded-lg border border-gray-200" src="../../../upload_orders.jpg" alt="" />
                                 <ol role="list">
-                                    <li><strong>Order Source</strong>: First, you will need to select which marketplace's database you would like to upload order numbers to. Each marketplace has different order number formats, so be sure to select the right marketplace for your upload.</li>
+                                    <li><strong>Order Source</strong>: First, you will need to select which marketplace&apos;s database you would like to upload order numbers to. Each marketplace has different order number formats, so be sure to select the right marketplace for your upload.</li>
                                     <li><strong>Marketplace Instructions</strong>: GetReviews provides a dummy .CSV file for you to download to ensure you are uploading marketplace data in the correct format</li>
-                                    <li><strong>Order Report File (.csv)</strong>: To upload your order number file, click "Choose File" and navigate to where the order number file is located on your computer and select it. Then click the "Upload" button.</li>
+                                    <li><strong>Order Report File (.csv)</strong>: To upload your order number file, click &quot;Choose File&quot; and navigate to where the order number file is located on your computer and select it. Then click the &quot;Upload&quot; button.</li>
                                 </ol>
-                                <p><mark><strong>Note:</strong></mark> If you switched your marketplace validation method from "Manual Validation" to "Upload Orders," your account may have pending, unvalidated reviews that, if the order number exists in one of your order number uploads, will automatically validate. Be sure to double check that you are not approving any reviews that you would not like to validate by uploading a file containing one of these order numbers.</p>
-                                <h3>"Lookup Order Number" section</h3>
-                                <p>Beneath the order number upload section is the "Lookup Order Number" section. The lookup order number section allows you to search your order number database to see if you have uploaded an order number or not. If you have uploaded an order number, that order number's details will show.</p>
+                                <p><mark><strong>Note:</strong></mark> If you switched your marketplace validation method from &quot;Manual Validation&quot; to &quot;Upload Orders,&quot; your account may have pending, unvalidated reviews that, if the order number exists in one of your order number uploads, will automatically validate. Be sure to double check that you are not approving any reviews that you would not like to validate by uploading a file containing one of these order numbers.</p>
+                                <h3>&quot;Lookup Order Number&quot; section</h3>
+                                <p>Beneath the order number upload section is the &quot;Lookup Order Number&quot; section. The lookup order number section allows you to search your order number database to see if you have uploaded an order number or not. If you have uploaded an order number, that order number&apos;s details will show.</p>
                                 <figure>
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../../order_number.png" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../../order_number.png" alt="" />
                                     <figcaption>Order Number Lookup</figcaption>
                                 </figure>
-                                <h3>"Recent Uploads" section</h3>
-                                <p>The "Recent Uploads" section displays a list of recent uploads, including a link to the file, the marketplace it was uploaded to, who uploaded it, and how many order numbers were processed.</p>
+                                <h3>&quot;Recent Uploads&quot; section</h3>
+                                <p>The &quot;Recent &quot; section displays a list of recent uploads, including a link to the file, the marketplace it was uploaded to, who uploaded it, and how many order numbers were processed.</p>
                                 <figure>
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../../recent_uploads.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../../recent_uploads.jpg" alt="" />
                                     <figcaption>Order Number Lookup</figcaption>
                                 </figure>
                             </div>

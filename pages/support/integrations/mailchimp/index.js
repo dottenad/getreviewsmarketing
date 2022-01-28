@@ -20,11 +20,11 @@ const SupportIndex = () => (
                         </li>
 
                         <li>
-                            <div class="flex items-center">
-                                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <div className="flex items-center">
+                                <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <Link passHref href="/support/integrations"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
+                                <Link passHref href="/support/integrations"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
                             </div>
                         </li>
 
@@ -52,17 +52,17 @@ const SupportIndex = () => (
                                 <h4 className="underline">Create your MailChimp API key</h4>
                                 <p className="mb-0">The API key is what allows GetReviews to send respondent data to your MailChimp account.</p>
                                 <ol>
-                                    <li><a href="https://login.mailchimp.com/" target="_blank" className="underline">Log in</a> to your MailChimp account</li>
-                                    <li>Once logged in, go to your <a href="https://admin.mailchimp.com/account/api/" target="_blank" className="underline">API Keys</a></li>
-                                    <li>Under the "Your API keys" section, click "Create a Key." (<strong>Note</strong>: create a new key even if one or more already exist.)
+                                    <li><a href="https://login.mailchimp.com/" target="_blank" rel="noreferrer" className="underline">Log in</a> to your MailChimp account</li>
+                                    <li>Once logged in, go to your <a href="https://admin.mailchimp.com/account/api/" target="_blank" rel="noreferrer" className="underline">API Keys</a></li>
+                                    <li>Under the &quot;Your API keys&quot; section, click &quot;Create a Key.&quot; (<strong>Note</strong>: create a new key even if one or more already exist.)
                                     <figure className="mt-4">
-                                        <img class="w-full rounded-lg border border-gray-200" src="../../../mc_api_key.jpg" alt="" />
+                                        <img className="w-full rounded-lg border border-gray-200" src="../../../mc_api_key.jpg" alt="" />
                                         <figcaption>Create an API key</figcaption>
                                     </figure>
                                     </li>
                                     <li>Take note of your newly created API key. We will be using this later.
                                     <figure className="mt-4">
-                                        <img class="w-full rounded-lg border border-gray-200" src="../../../mc_api_key_2.jpg" alt="" />
+                                        <img className="w-full rounded-lg border border-gray-200" src="../../../mc_api_key_2.jpg" alt="" />
                                         <figcaption>Newly created API key</figcaption>
                                     </figure>
                                     </li>
@@ -70,29 +70,29 @@ const SupportIndex = () => (
                                 <h4 className="underline">Take Note of MailChimp Server Prefix</h4>
                                 <p>While on MailChimp.com, make note of the server prefix that your MailChimp account uses in your URL bar (highlighted in the image below). We will be using this later.
                                 <figure className="mt-4">
-                                    <img class="rounded-lg border border-gray-200" src="../../../mc_server_prefix.jpg" alt="" />
+                                    <img className="rounded-lg border border-gray-200" src="../../../mc_server_prefix.jpg" alt="" />
                                     <figcaption>MailChimp Server Prefix</figcaption>
                                 </figure>
                                 </p>
                                 <h4 className="underline">Copy your MailChimp Audience ID</h4>
                                 <p className="mb-0">The Audience ID is where you would like GetReviews to send your respondent data to on MailChimp. Follow along with the instructions below to locate your Audience ID.</p>
                                 <ol>
-                                    <li>View your <a href="https://us20.admin.mailchimp.com/lists/" target="_blank" className="underline">Lists</a></li>
-                                    <li>Locate the list you would like to send respondent data to, then <strong>(1)</strong>: click the down arrow, then <strong>(2)</strong>: click "Settings"
+                                    <li>View your <a href="https://us20.admin.mailchimp.com/lists/" target="_blank" rel="noreferrer" className="underline">Lists</a></li>
+                                    <li>Locate the list you would like to send respondent data to, then <strong>(1)</strong>: click the down arrow, then <strong>(2)</strong>: click &quot;Settings&quot;
                                         <figure className="mt-4">
-                                            <img class="w-full rounded-lg border border-gray-200" src="../../../mc_list.jpg" alt="" />
+                                            <img className="w-full rounded-lg border border-gray-200" src="../../../mc_list.jpg" alt="" />
                                             <figcaption>List settings</figcaption>
                                         </figure>
                                     </li>
-                                    <li>Click the link "Audience name and defaults"
+                                    <li>Click the link &quot;Audience name and defaults&quot;
                                     <figure className="mt-4">
-                                            <img class="w-full rounded-lg border border-gray-200" src="../../../mc_list_name.jpg" alt="" />
-                                            <figcaption>Click the link "Audience name and defaults"</figcaption>
+                                            <img className="w-full rounded-lg border border-gray-200" src="../../../mc_list_name.jpg" alt="" />
+                                            <figcaption>Click the link &quot;Audience name and defaults&quot;</figcaption>
                                         </figure>
                                     </li>
                                     <li>Take note of your Audience ID. We will be using this later.
                                         <figure className="mt-4">
-                                            <img class="w-full rounded-lg border border-gray-200" src="../../../mc_audience_id.jpg" alt="" />
+                                            <img className="w-full rounded-lg border border-gray-200" src="../../../mc_audience_id.jpg" alt="" />
                                             <figcaption>Audience ID</figcaption>
                                         </figure>
                                     </li>
@@ -100,23 +100,23 @@ const SupportIndex = () => (
                                 <h3 className="mb-6">On GetReviews:</h3>
                                 <h4 className="underline">Paste MailChimp API Key &amp; Server Prefix</h4>
                                 <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" className="underline">Integrations Library</a></li>
-                                    <li>Locate the MailChimp integration and click "Configure"</li>
-                                    <li>Tick the "Enabled" checkbox</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" rel="noreferrer" className="underline">Integrations Library</a></li>
+                                    <li>Locate the MailChimp integration and click &quot;Configure&quot;</li>
+                                    <li>Tick the &quot;Enabled&quot; checkbox</li>
                                     <li>In the API Key text box, paste the API key generated from Klaviyo</li>
                                     <li>In the Server Prefix text box, paste the server prefix from your MailChimp URL</li>
-                                    <li>Click "Save"</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
                                 <h4 className="underline">Paste MailChimp Audience ID</h4>
                                 <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" rel="noreferrer" className="underline">Surveys</a> page</li>
                                     <li>Next to the survey you would like to export respondent data to MailChimp from, click “Edit”</li>
-                                    <li>Scroll down to the "Integrations" section</li>
+                                    <li>Scroll down to the &quot;Integrations&quot; section</li>
                                     <li>Enable MailChimp as an integration</li>
                                     <li>Paste the Audience ID</li>
-                                    <li>Click "Save"</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
-                                <p>Once all of the above steps are complete, when a customer completes your survey, their data will be automatically sent to the MailChimp list you've defined above.</p>
+                                <p>Once all of the above steps are complete, when a customer completes your survey, their data will be automatically sent to the MailChimp list you&apos;ve defined above.</p>
                             </div>
                         </div>
                     </div>

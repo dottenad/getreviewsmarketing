@@ -164,7 +164,7 @@ const SiteLayout = ({ children }) => (
                     </div>
 
                     <div className="px-5 py-2">
-                        <Link passHref href="https://supernutritionco.com/" target="_blank">
+                        <Link passHref href="https://supernutritionco.com/" target="_blank" rel="noreferrer">
                             <a>
                                 <div className="text-base text-gray-500 hover:text-gray-900">
                                     Demo
@@ -174,7 +174,7 @@ const SiteLayout = ({ children }) => (
                     </div>
 
                     <div className="px-5 py-2">
-                        <Link passHref href="/support" target="_blank">
+                        <Link passHref href="/support" target="_blank" rel="noreferrer">
                             <a>
                                 <div className="text-base text-gray-500 hover:text-gray-900">
                                     Knowledge Base
@@ -184,7 +184,7 @@ const SiteLayout = ({ children }) => (
                     </div>
 
                     <div className="px-5 py-2">
-                        <Link passHref href="https://app.getreviews.ai/signup" target="_blank" >
+                        <Link passHref href="https://app.getreviews.ai/signup" target="_blank" rel="noreferrer" >
                             <a>
                                 <div className="text-base text-gray-500 hover:text-gray-900">
                                     Sign Up

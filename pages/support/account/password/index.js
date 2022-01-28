@@ -20,11 +20,11 @@ const SupportIndex = () => (
                         </li>
 
                         <li>
-                            <div class="flex items-center">
-                                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <div className="flex items-center">
+                                <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <Link passHref href="/support/account"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
+                                <Link passHref href="/support/account"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
                             </div>
                         </li>
 
@@ -74,30 +74,30 @@ const SupportIndex = () => (
                                 </h1>
                             </div>
                             <div className="mt-6 prose prose-sky prose-lg mx-auto">
-                                <p>To change your password in GetReviews, currently this needs to be done while logged out. To begin the process of changing your password <strong>(1)</strong> click the "User" icon in the top right corner of the GetReviews dashboard, then <strong>(2)</strong> click Logout</p>
+                                <p>To change your password in GetReviews, currently this needs to be done while logged out. To begin the process of changing your password <strong>(1)</strong> click the &quot;User&quot; icon in the top right corner of the GetReviews dashboard, then <strong>(2)</strong> click Logout</p>
                                 <figure className="mt-4">
-                                    <img class="rounded-lg border border-gray-200 mx-auto" src="../../../account_password_1.jpg" alt="" />
+                                    <img className="rounded-lg border border-gray-200 mx-auto" src="../../../account_password_1.jpg" alt="" />
                                     <figcaption>Logout of your GetReviews account.</figcaption>
                                 </figure>
-                                <p>Once on the login screen for GetReviews, click the "Forgot Password?" link.</p>
+                                <p>Once on the login screen for GetReviews, click the &quot;Forgot Password?&quot; link.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_password_2.jpg" alt="" />
-                                    <figcaption>Click "Forgot Password?" link</figcaption>
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_password_2.jpg" alt="" />
+                                    <figcaption>Click &quot;Forgot Password?&quot; link</figcaption>
                                 </figure>
-                                <p>Once on the "Forgot Password?" page, enter your email address and click the "Reset Password" button.</p>
+                                <p>Once on the &quot;Forgot Password?&quot; page, enter your email address and click the &quot;Reset Password&quot; button.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_password_3.jpg" alt="" />
-                                    <figcaption>Enter your email address, and click "Reset Password"</figcaption>
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_password_3.jpg" alt="" />
+                                    <figcaption>Enter your email address, and click &quot;Reset Password&quot;</figcaption>
                                 </figure>
-                                <p>After you click the "Reset Password" button, you should receive an email with a link to reset your password. Click this link to go to the "Reset Password" page.</p>
+                                <p>After you click the &quot;Reset Password&quot; button, you should receive an email with a link to reset your password. Click this link to go to the &quot;Reset Password&quot; page.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_password_4.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_password_4.jpg" alt="" />
                                     <figcaption>Click link in password reset email</figcaption>
                                 </figure>
-                                <p>Once on the password update page, input your new password and click the "Update Password" button.</p>
+                                <p>Once on the password update page, input your new password and click the &quot;Update Password&quot; button.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_password_5.jpg" alt="" />
-                                    <figcaption>Input your new password and click the "Update Password" button</figcaption>
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_password_5.jpg" alt="" />
+                                    <figcaption>Input your new password and click the &quot;Update Password&quot; button</figcaption>
                                 </figure>
                                 <p>You have successfully created a new account password.</p>
                             </div>

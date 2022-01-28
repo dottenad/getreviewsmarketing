@@ -20,11 +20,11 @@ const SupportIndex = () => (
                         </li>
 
                         <li>
-                            <div class="flex items-center">
-                                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <div className="flex items-center">
+                                <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <Link passHref href="/support/integrations"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
+                                <Link passHref href="/support/integrations"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
                             </div>
                         </li>
 
@@ -51,35 +51,35 @@ const SupportIndex = () => (
                                 <h3 className="mb-6">On Shiphero:</h3>
                                 <h4 className="underline">Create a Shiphero Access Token</h4>
                                 <ol>
-                                    <li><a href="https://app.shiphero.com/account/login" target="_blank" className="underline">Login</a> to Shiphero</li>
+                                    <li><a href="https://app.shiphero.com/account/login" target="_blank" rel="noreferrer" className="underline">Login</a> to Shiphero</li>
                                     <li>Once logged in, hover over “My Account” in the navigation and select “Users”</li>
                                     <li>In the top right corner, click the “+ Add Third-Party Developer” button</li>
-                                    <li>Enter “GetReviews” for the first name, “Integration” for the last name, and "app@getreviews.ai" as the email</li>
+                                    <li>Enter “GetReviews” for the first name, “Integration” for the last name, and &quot;app@getreviews.ai&quot; as the email</li>
                                     <li>Click the “Add Developer” button</li>
                                     <li>On the resulting page, you will see an Access Token and Refresh Token value. Copy both of these values to a word processor, you will need these later. (<strong>Note</strong>: you will only see the access token value once, so please be sure to copy it correctly.)</li>
                                     <li>Click “Update Developer” to save this token.</li>
                                 </ol>
                                 <h4 className="underline">Enable ShipHero Integration on GetReviews</h4>
                                 <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" className="underline">Integrations Library</a></li>
-                                    <li>Locate the Shiphero integration and click "Configure"</li>
-                                    <li>Tick the "Enabled" checkbox</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" rel="noreferrer" className="underline">Integrations Library</a></li>
+                                    <li>Locate the Shiphero integration and click &quot;Configure&quot;</li>
+                                    <li>Tick the &quot;Enabled&quot; checkbox</li>
                                     <li>Paste the Access Token and Refresh Token generated on Shiphero</li>
-                                    <li>Click "Save"</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
                                 <h4 className="underline">Enable Shiphero Integration on Survey</h4>
                                 <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" rel="noreferrer" className="underline">Surveys</a> page</li>
                                     <li>Next to the survey you would like to Shiphero to fulfill products from, click “Edit”</li>
-                                    <li>Scroll down to the "Integrations" section</li>
+                                    <li>Scroll down to the &quot;Integrations&quot; section</li>
                                     <li>Enable Shiphero as an integration</li>
-                                    <li>Click "Save"</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
                                 <p>Once all of the above steps are complete, when a customer completes your survey, Their shipping data along with the free gift they selected, will be sent to Shiphero for automated fulfillment.</p>
                                 <h4 className="underline">Notes</h4>
                                 <ol>
                                     <li>Your GetReviews Giveaway SKU value must match your Shiphero Product SKU value. If the SKU values do not match, the automation will fail and an order will not be created.</li>
-                                    <li>All Shiphero orders created by GetReviews are tagged with the word "GetReviews"</li>
+                                    <li>All Shiphero orders created by GetReviews are tagged with the word &quot;GetReviews&quot;</li>
                                 </ol>
                             </div>
                         </div>

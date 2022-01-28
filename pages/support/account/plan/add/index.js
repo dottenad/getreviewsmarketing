@@ -20,20 +20,20 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/getting-started"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
+                                    <Link passHref href="/support/getting-started"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
                                 </div>
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/getting-started/giveaways"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Plan</a></Link>
+                                    <Link passHref href="/support/getting-started/giveaways"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Plan</a></Link>
                                 </div>
                             </li>
 
@@ -83,13 +83,13 @@ const SupportIndex = () => (
                                 </h1>
                             </div>
                             <figure className="mt-4">
-                                    <img class="w-full rounded-lg" src="../../../account_select_plan.jpg" alt="" />
-                                    <figcaption>Ensure "Upload Orders" is selected as the validation method</figcaption>
+                                    <img className="w-full rounded-lg" src="../../../account_select_plan.jpg" alt="" />
+                                    <figcaption>Ensure &quot;Upload Orders&quot; is selected as the validation method</figcaption>
                                 </figure>
                             <div className="mt-6 prose prose-sky prose-lg mx-auto">
-                                <p>The &quot;coupon&quot; giveaway type is a digital coupon that is emailed to your customer upon survey completion. Follow along with the steps below to learn how to create a giveaway with the type of "Coupon"</p>
+                                <p>The &quot;coupon&quot; giveaway type is a digital coupon that is emailed to your customer upon survey completion. Follow along with the steps below to learn how to create a giveaway with the type of &quot;Coupon&quot;</p>
                                 <ol role="list">
-                                    <li>On the <a href="https://app.getreviews.ai/giveaway" target="_blank" className="underline">giveaway</a> page, click &quot;Add Giveaway&quot; and then select &quot;Coupon.&quot;<br />
+                                    <li>On the <a href="https://app.getreviews.ai/giveaway" target="_blank" rel="noreferrer" className="underline">giveaway</a> page, click &quot;Add Giveaway&quot; and then select &quot;Coupon.&quot;<br />
                                     <img className="w-full rounded-lg mt-4" src="../../../create_giveaway_page.jpg" alt="" width="1310" />
                                     </li>
                                     <li>Complete the fields to create a coupon giveaway<br /><img className="w-full rounded-lg mt-4" src="../../../create_coupon.jpg" alt="" width="1310" /></li>

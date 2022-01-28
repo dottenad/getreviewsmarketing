@@ -20,11 +20,11 @@ const SupportIndex = () => (
                         </li>
 
                         <li>
-                            <div class="flex items-center">
-                                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <div className="flex items-center">
+                                <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <Link passHref href="/support/account"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
+                                <Link passHref href="/support/account"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
                             </div>
                         </li>
 
@@ -74,19 +74,19 @@ const SupportIndex = () => (
                                 </h1>
                             </div>
                             <div className="mt-6 prose prose-sky prose-lg mx-auto">
-                                <p>In some situations, you may want to prohibit specific order numbers from being able to participate in any of your surveys (for example, those who have claimed a rebate, coupon, or free item.) This is done with this feature. To prohibit certain order numbers from being able to participate in any of your GetReviews surveys, <strong>(1)</strong> click the "User" icon in the top right corner of the GetReviews dashboard, then <strong>(2)</strong> click Account Settings</p>
+                                <p>In some situations, you may want to prohibit specific order numbers from being able to participate in any of your surveys (for example, those who have claimed a rebate, coupon, or free item.) This is done with this feature. To prohibit certain order numbers from being able to participate in any of your GetReviews surveys, <strong>(1)</strong> click the &quot;User&quot; icon in the top right corner of the GetReviews dashboard, then <strong>(2)</strong> click Account Settings</p>
                                 <figure className="mt-4">
-                                    <img class="rounded-lg border border-gray-200 mx-auto" src="../../../account_block_0.jpg" alt="" />
+                                    <img className="rounded-lg border border-gray-200 mx-auto" src="../../../account_block_0.jpg" alt="" />
                                     <figcaption>Visit your account settings page</figcaption>
                                 </figure>
-                                <p>Once on your account settings page, locate the section titled "Banned Order IDs," then click on the pencil icon on this section.</p>
+                                <p>Once on your account settings page, locate the section titled &quot;Banned Order IDs,&quot; then click on the pencil icon on this section.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_block_1.jpg" alt="" />
-                                    <figcaption>Click the pencil icon on the "Banned Order IDs" section to add banned order IDs</figcaption>
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_block_1.jpg" alt="" />
+                                    <figcaption>Click the pencil icon on the &quot;Banned Order IDs&quot; section to add banned order IDs</figcaption>
                                 </figure>
-                                <p>Once on the edit page, locate the Banned Order ID section, and input your banned order IDs. Please separate order IDs with a comma. Once you are finished inputting your banned order IDs, click "Save."</p>
+                                <p>Once on the edit page, locate the Banned Order ID section, and input your banned order IDs. Please separate order IDs with a comma. Once you are finished inputting your banned order IDs, click &quot;Save.&quot;</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_block_3.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_block_3.jpg" alt="" />
                                     <figcaption>Enter comma-separated list of banned order IDs</figcaption>
                                 </figure>
                                 <p>Once you have entered banned order IDs, these numbers will no longer work on any survey on your account.</p>

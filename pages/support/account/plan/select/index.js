@@ -20,20 +20,20 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/account"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
+                                    <Link passHref href="/support/account"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
                                 </div>
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/account/plan"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Plan/Billing</a></Link>
+                                    <Link passHref href="/support/account/plan"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Plan/Billing</a></Link>
                                 </div>
                             </li>
 
@@ -83,24 +83,24 @@ const SupportIndex = () => (
                                 </h1>
                             </div>
                             <div className="mt-6 prose prose-sky prose-lg mx-auto">
-                                <p>There are a couple of ways to select a plan within GetReviews. If you are currently on a trial plan, you can select a plan by clicking the green "x Days Remaining" button in the top right corner of the GetReviews dashboard.</p>
+                                <p>There are a couple of ways to select a plan within GetReviews. If you are currently on a trial plan, you can select a plan by clicking the green &quot;x Days Remaining&quot; button in the top right corner of the GetReviews dashboard.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_select_plan.jpg" alt="" />
-                                    <figcaption>Select plan by clicking "x Days Remaining" button</figcaption>
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_select_plan.jpg" alt="" />
+                                    <figcaption>Select plan by clicking &quot;x Days Remaining&quot; button</figcaption>
                                 </figure>
-                                <p>You can also select a plan by <strong>(1)</strong> clicking the "User" icon in the top right corner, <strong>(2)</strong> selecting "Account Settings, <strong>(3)</strong> clicking the "Plans/Billing" tab, and <strong>(4)</strong> clicking the "Upgrade Now" button</p>
+                                <p>You can also select a plan by <strong>(1)</strong> clicking the &quot;User&quot; icon in the top right corner, <strong>(2)</strong> selecting &quot;Account Settings, <strong>(3)</strong> clicking the &quot;Plans/Billing&quot; tab, and <strong>(4)</strong> clicking the &quot;Upgrade Now&quot; button</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_select_2.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_select_2.jpg" alt="" />
                                     <figcaption>Select plan in account settings</figcaption>
                                 </figure>
-                                <p>Once on the select plan page, you are presented with GetReviews' plans. Once you have identified which plan best suits your needs, click the blue "Select Plan" button.</p>
+                                <p>Once on the select plan page, you are presented with GetReviews&apos; plans. Once you have identified which plan best suits your needs, click the blue &quot;Select Plan&quot; button.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_select_3.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_select_3.jpg" alt="" />
                                     <figcaption>Choose which plan best suits your needs</figcaption>
                                 </figure>
-                                <p>Once you have selected which plan best suits your needs, you are taken to the plan checkout page. Once on the plan checkout page, input your card details and hit the "Submit Payment" button. Once you have successfully completed this step, you are officially on a paid plan.</p>
+                                <p>Once you have selected which plan best suits your needs, you are taken to the plan checkout page. Once on the plan checkout page, input your card details and hit the &quot;Submit Payment&quot; button. Once you have successfully completed this step, you are officially on a paid plan.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_select_4.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_select_4.jpg" alt="" />
                                     <figcaption>Input payment details on the plan checkout page</figcaption>
                                 </figure>
                             </div>

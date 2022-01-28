@@ -20,11 +20,11 @@ const SupportIndex = () => (
                         </li>
 
                         <li>
-                            <div class="flex items-center">
-                                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <div className="flex items-center">
+                                <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <Link passHref href="/support/integrations"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
+                                <Link passHref href="/support/integrations"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
                             </div>
                         </li>
 
@@ -50,31 +50,31 @@ const SupportIndex = () => (
                             <div className="mt-6 prose prose-lg prose-sky mx-auto text-gray-900">
                                 <h4 className="underline">Configure the ShipBob integration</h4>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../shipbob.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../shipbob.jpg" alt="" />
                                     <figcaption>ShipBob Settings</figcaption>
                                 </figure>
                                 <ol>
                                     <li><strong>Enabled</strong>: Tick this checkbox to enable the integration</li>
-                                    <li><strong>Access Token (PAT)</strong>: PAT tokens must be requested directly from ShipBob. You can request a PAT Token <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRyS39zBhQfdC-AV4Yf1Oi0BNDExCZPSw0QAvYm4eaURsZ8g/viewform" target="_blank" className="underline">here</a></li>
+                                    <li><strong>Access Token (PAT)</strong>: PAT tokens must be requested directly from ShipBob. You can request a PAT Token <a href="https://docs.google.com/forms/d/e/1FAIpQLSdRyS39zBhQfdC-AV4Yf1Oi0BNDExCZPSw0QAvYm4eaURsZ8g/viewform" target="_blank" rel="noreferrer" className="underline">here</a></li>
                                     <li><strong>Channel ID</strong>: Once your request for a PAT Token has been granted by ShipBob, please <a href="mailto:info@getreviews.ai">email GetReviews</a> your PAT Token so that we may grab your Channel ID.</li>
-                                    <li><strong>Shipping Method</strong>: This is the shipping method you would like to use to send your customer's giveaway.</li>
+                                    <li><strong>Shipping Method</strong>: This is the shipping method you would like to use to send your customer&apos;s giveaway.</li>
                                     <li><strong>Shipping Type:</strong> There are three shipping types in ShipBob - DTC, DropShip, or B2B. Select the shipping type that best represents your situation (contact ShipBob before using B2B.)</li>
-                                    <li><strong>Order Endpoint</strong>: There are two order endpoints. If you are testing this integration with ShipBob's sandbox environment, use https://sandbox-api.shipbob.com/1.0/order in this text box. Otherwise, if you are ready to go live, use https://api.shipbob.com/1.0/order in this text box.</li>
-                                    <li>Click "Save"</li>
+                                    <li><strong>Order Endpoint</strong>: There are two order endpoints. If you are testing this integration with ShipBob&apos;s sandbox environment, use https://sandbox-api.shipbob.com/1.0/order in this text box. Otherwise, if you are ready to go live, use https://api.shipbob.com/1.0/order in this text box.</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
                                 <h4 className="underline">Enable ShipBob Integration on Survey</h4>
                                 <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" rel="noreferrer" className="underline">Surveys</a> page</li>
                                     <li>Next to the survey you would like to export respondent data to ShipBob from, click “Edit”</li>
-                                    <li>Scroll down to the "Integrations" section</li>
+                                    <li>Scroll down to the &quot;Integrations&quot; section</li>
                                     <li>Enable ShipBob as an integration</li>
-                                    <li>Click "Save"</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
                                 <p>Once all of the above steps are complete, when a customer completes your survey, Their shipping data along with the free gift they selected, will be sent to ShipBob for automated fulfillment.</p>
                                 <h4 className="underline">Notes</h4>
                                 <ol>
                                     <li>Your GetReviews Giveaway SKU value must match your ShipBob Product SKU value. If the SKU values do not match, the automation will fail and an order will not be created.</li>
-                                    <li>All ShipBob orders created by GetReviews are tagged with the word "GetReviews"</li>
+                                    <li>All ShipBob orders created by GetReviews are tagged with the word &quot;GetReviews&quot;</li>
                                 </ol>
                             </div>
                         </div>

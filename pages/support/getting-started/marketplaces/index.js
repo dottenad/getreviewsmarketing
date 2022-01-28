@@ -20,11 +20,11 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/getting-started"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Getting Started</a></Link>
+                                    <Link passHref href="/support/getting-started"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Getting Started</a></Link>
                                 </div>
                             </li>
 
@@ -82,9 +82,9 @@ const SupportIndex = () => (
                                 <h2>Enabling a Platform/Marketplace</h2>
                                 <p>To begin collecting reviews on a marketplace, you will first need to enable the marketplace on GetReviews. Follow along with the instructions below to learn how to enable a marketplace on GetReviews</p>
                                 <ol role="list">
-                                    <li>Visit the <a href="https://app.getreviews.ai/marketplace/manage" target="_blank" className="underline">Marketplace Library</a>
+                                    <li>Visit the <a href="https://app.getreviews.ai/marketplace/manage" target="_blank" rel="noreferrer" className="underline">Marketplace Library</a>
                                     </li>
-                                    <li>Click "Configure" on the marketplace that you would like to collect reviews on</li>
+                                    <li>Click &quot;Configure&quot; on the marketplace that you would like to collect reviews on</li>
                                     <li>Once on the marketplace configuration screen, tick the checkbox next to the word &quot;Enabled&quot; to enable this marketplace<br />
                                     <img className="w-full rounded-lg mt-4" src="../../marketplace_enable.jpg" alt="" width="1310" height="873" />
                                     </li>
@@ -95,8 +95,8 @@ const SupportIndex = () => (
                                             <li><strong>Manual Validation</strong>: Manual validation puts customer-submitted order numbers into a pending state on GetReviews for you to &quot;manually&quot; review their order details and approve or deny their giveaway redemption based on the legitimacy of their order number in your systems. If the order number exists in your systems, you will &quot;validate&quot; their redemption request in GetReviews, meaning if you have any integrations setup to automatically fulfill giveaways, these integrations will fire once you have validated their redemption request. If their order number does not exist, you will &quot;invalidate&quot; their redemption request.</li>
                                             <li><strong>Automatic Validation</strong>: Automatic validation automatically validates any customer-submitted order number so long as the customer-submitted order number exists in your order number database on GetReviews. The order number database allows you to upload and maintain a database of order numbers for your surveys to validate against. If a customer submits an order number that exists in your order number database, they will be automatically validated, and any integrations that exist on your survey will automatically fire once they have completed your survey.
                                             <ul>
-                                                <li><strong>Upload Schedule</strong>: When automatic validation is enabled, an additional setting appears called "Upload Schedule."
-                                                <img class="w-full rounded-lg border border-gray-200 mt-4" src="../../../upload_schedule.jpg" alt="" />
+                                                <li><strong>Upload Schedule</strong>: When automatic validation is enabled, an additional setting appears called &quot;Upload Schedule.&quot;
+                                                <img className="w-full rounded-lg border border-gray-200 mt-4" src="../../../upload_schedule.jpg" alt="" />
                                                 Upload schedule is the number of days you plan to lapse between order number uploads. For example, if a customer purchases an item on day 1, and receives it on day 3, but your upload schedule is set to 7 days, this means that this customer will be shown an error message alerting them to come back in at least 7 days since this is how much time you have alotted yourself between order number CSV uploads. Setting an upload schedule does not mean that you cannot upload an order number .CSV <i>before</i> 7 days, this is just the maximum amount of time that you expect to lapse between order number .CSV uploads.</li>
                                             </ul>
                                             </li>

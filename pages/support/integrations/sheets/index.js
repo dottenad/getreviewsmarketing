@@ -20,11 +20,11 @@ const SupportIndex = () => (
                         </li>
 
                         <li>
-                            <div class="flex items-center">
-                                <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <div className="flex items-center">
+                                <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <Link passHref href="/support/integrations"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
+                                <Link passHref href="/support/integrations"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Integrations</a></Link>
                             </div>
                         </li>
 
@@ -50,12 +50,12 @@ const SupportIndex = () => (
                             <div className="mt-6 prose prose-lg prose-sky mx-auto text-gray-900">
                                 <h3>On Google Sheets:</h3>
                                 <ol>
-                                    <li>Visit <a href="https://www.google.com/sheets/about/" target="_blank" className="underline">Google Sheets</a></li>
+                                    <li>Visit <a href="https://www.google.com/sheets/about/" target="_blank" rel="noreferrer" className="underline">Google Sheets</a></li>
                                     <li>Create new Sheet (<strong>important</strong>: Leave sheet blank. Adding any content to sheet will break functionality)</li>
-                                    <li>In the top right corner of your sheet, click the green "Share" button</li>
-                                    <li>Paste this email address into the "Share with people and groups" textbox: getreviews@getreviews-sheets-integration.iam.gserviceaccount.com</li>
-                                    <li>Make sure "Editor" privileges are selected</li>
-                                    <li>Uncheck "Notify People"</li>
+                                    <li>In the top right corner of your sheet, click the green &quot;Share&quot; button</li>
+                                    <li>Paste this email address into the &quot;Share with people and groups&quot; textbox: getreviews@getreviews-sheets-integration.iam.gserviceaccount.com</li>
+                                    <li>Make sure &quot;Editor&quot; privileges are selected</li>
+                                    <li>Uncheck &quot;Notify People&quot;</li>
                                     <li>Leave message area blank</li>
                                     <li>Click Share</li>
                                     <li>In the URL bar, locate the Sheet ID. This should look something like the bolded text docs.google.com/spreadsheets/d/<strong>1KbpKS_kImmTOc2Xr1x3vXlssjqtXLTs_kaUV8L3CkyI</strong>/</li>
@@ -63,18 +63,18 @@ const SupportIndex = () => (
                                 </ol>
                                 <h3>On GetReviews:</h3>
                                 <ol>
-                                    <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" className="underline">Integrations Library</a></li>
-                                    <li>Locate the Google Sheets integration and click "Configure"</li>
-                                    <li>Tick the "Enabled" checkbox</li>
-                                    <li>Click "Save"</li>
-                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" className="underline">Surveys</a> page</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/integration/manage" target="_blank" rel="noreferrer" className="underline">Integrations Library</a></li>
+                                    <li>Locate the Google Sheets integration and click &quot;Configure&quot;</li>
+                                    <li>Tick the &quot;Enabled&quot; checkbox</li>
+                                    <li>Click &quot;Save&quot;</li>
+                                    <li>Visit the <a href="https://app.getreviews.ai/survey" target="_blank" rel="noreferrer" className="underline">Surveys</a> page</li>
                                     <li>Click “Edit” next to the survey you would like to export data to Google Sheets from</li>
-                                    <li>Scroll down to the "Integrations" section</li>
+                                    <li>Scroll down to the &quot;Integrations&quot; section</li>
                                     <li>Tick the “Google Sheets” checkbox</li>
                                     <li>Paste the Sheet ID into the textbox</li>
-                                    <li>Click "Save"</li>
+                                    <li>Click &quot;Save&quot;</li>
                                 </ol>
-                                <p><strong>Note:</strong> The Google Sheet you've created to export respondent information to is <strong><mark>read-only</mark></strong>. Do not add/edit/delete data from the Google Sheet you've linked to GetReviews. GetReviews exports customer data to pre-defined column letters (i.e. first name goes into column A, last name goes into column B, etc.) If you delete Column A, GetReviews would still print first name to Column A even though Column A is now last name. If you would like to modify data, either mirror the data to a new sheet, or export and modify.</p>
+                                <p><strong>Note:</strong> The Google Sheet you&apos;ve created to export respondent information to is <strong><mark>read-only</mark></strong>. Do not add/edit/delete data from the Google Sheet you&apos;ve linked to GetReviews. GetReviews exports customer data to pre-defined column letters (i.e. first name goes into column A, last name goes into column B, etc.) If you delete Column A, GetReviews would still print first name to Column A even though Column A is now last name. If you would like to modify data, either mirror the data to a new sheet, or export and modify.</p>
                             </div>
                         </div>
                     </div>

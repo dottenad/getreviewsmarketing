@@ -13,7 +13,7 @@
 	.st7{fill:none;stroke:#B3B3B3;stroke-miterlimit:10;}
 	.st8{fill:url(#SVGID_00000121966020444083370180000017863893243344554656_);}
 	.st9{fill:#FFFFFF;}
-	.st10{fill:none;stroke:#FCA5A5;stroke-width:3.7386;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#FCA5A5;strokeWidth:3.7386;stroke-miterlimit:10;}
 	.st11{fill:#7F1D1D;}
 	.st12{font-family:'Inter-Regular';}
 	.st13{font-size:48.602px;}
@@ -22,15 +22,15 @@
 	.st16{fill:#EF4444;}
 </style>
 <g>
-	<line class="st0" x1="119.66" y1="664.01" x2="1397.46" y2="202.41"/>
-	<polyline class="st0" points="119.66,664.01 860.92,9.44 1397.46,203.41 	"/>
-	<polyline class="st0" points="899.66,630.01 1377.66,493.01 460.82,8.92 9.44,231.38 	"/>
+	<line className="st0" x1="119.66" y1="664.01" x2="1397.46" y2="202.41"/>
+	<polyline className="st0" points="119.66,664.01 860.92,9.44 1397.46,203.41 	"/>
+	<polyline className="st0" points="899.66,630.01 1377.66,493.01 460.82,8.92 9.44,231.38 	"/>
 	
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5226.2129" y1="662.6559" x2="5226.2129" y2="633.8807" gradientTransform="matrix(0.7071 -0.7071 0.7071 0.7071 -3255.7544 3863.5513)">
 		<stop  offset="0" style="stop-color:#32A1E5"/>
 		<stop  offset="1" style="stop-color:#39B4FF"/>
 	</linearGradient>
-	<circle class="st1" cx="901.56" cy="629.88" r="9.44"/>
+	<circle className="st1" cx="901.56" cy="629.88" r="9.44"/>
 	
 		<linearGradient id="SVGID_00000003075524118421542890000001807400488918001055_" gradientUnits="userSpaceOnUse" x1="4650.6279" y1="135.1543" x2="4650.6279" y2="106.379" gradientTransform="matrix(0.7071 -0.7071 0.7071 0.7071 -3255.7544 3863.5513)">
 		<stop  offset="0" style="stop-color:#32A1E5"/>
@@ -61,7 +61,7 @@
 		<stop  offset="1" style="stop-color:#39B4FF"/>
 	</linearGradient>
 	<circle style="fill:url(#SVGID_00000047054907836715572080000010673446586554667169_);" cx="1377.56" cy="492.62" r="9.44"/>
-	<line class="st7" x1="9.66" y1="231.01" x2="901.66" y2="630.01"/>
+	<line className="st7" x1="9.66" y1="231.01" x2="901.66" y2="630.01"/>
 	
 		<linearGradient id="SVGID_00000052062509863266283130000011964046071925450912_" gradientUnits="userSpaceOnUse" x1="5878.8726" y1="711.4464" x2="5878.8726" y2="682.6711" gradientTransform="matrix(0.7071 -0.7071 0.7071 0.7071 -3255.7544 3863.5513)">
 		<stop  offset="0" style="stop-color:#32A1E5"/>
@@ -185,16 +185,16 @@ ANrmnT53qKK/tyd48MJJAAAAAPjV/ODvPcSzBoECTAAAAABoe7qtEl859BNoAgAAAPCq9GwBAAAA
 AAAAAAAAAAAAAADg3v5PgAEAuV7kj3pBGQMAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 42.5232 234.4544)">
 		</image>
 		<g>
-			<path class="st9" d="M1314.02,408.29H92.98c-13.92,0-25.2-11.28-25.2-25.2v-99.04c0-13.92,11.28-25.2,25.2-25.2h1221.04
+			<path className="st9" d="M1314.02,408.29H92.98c-13.92,0-25.2-11.28-25.2-25.2v-99.04c0-13.92,11.28-25.2,25.2-25.2h1221.04
 				c13.92,0,25.2,11.28,25.2,25.2v99.04C1339.22,397.01,1327.94,408.29,1314.02,408.29z"/>
-			<path class="st10" d="M1314.02,408.29H92.98c-13.92,0-25.2-11.28-25.2-25.2v-99.04c0-13.92,11.28-25.2,25.2-25.2h1221.04
+			<path className="st10" d="M1314.02,408.29H92.98c-13.92,0-25.2-11.28-25.2-25.2v-99.04c0-13.92,11.28-25.2,25.2-25.2h1221.04
 				c13.92,0,25.2,11.28,25.2,25.2v99.04C1339.22,397.01,1327.94,408.29,1314.02,408.29z"/>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 111.7526 352.6868)" class="st11 st12 st13">114-9320332-3392230</text>
-	<text transform="matrix(1 0 0 1 71.3668 212.4885)" class="st14 st13">Order Number</text>
-	<text transform="matrix(1 0 0 1 71.3668 487.2771)" class="st15 st12 st13">Invalid Order Number</text>
-	<path class="st16" d="M1267.76,302.01c-17.03,0-30.84,13.81-30.84,30.84c0,17.03,13.81,30.84,30.84,30.84s30.84-13.81,30.84-30.84
+	<text transform="matrix(1 0 0 1 111.7526 352.6868)" className="st11 st12 st13">114-9320332-3392230</text>
+	<text transform="matrix(1 0 0 1 71.3668 212.4885)" className="st14 st13">Order Number</text>
+	<text transform="matrix(1 0 0 1 71.3668 487.2771)" className="st15 st12 st13">Invalid Order Number</text>
+	<path className="st16" d="M1267.76,302.01c-17.03,0-30.84,13.81-30.84,30.84c0,17.03,13.81,30.84,30.84,30.84s30.84-13.81,30.84-30.84
 		C1298.6,315.82,1284.79,302.01,1267.76,302.01z M1267.76,352.13c-2.13,0-3.86-1.73-3.86-3.86s1.73-3.86,3.86-3.86
 		s3.86,1.73,3.86,3.86S1269.89,352.13,1267.76,352.13z M1271.61,332.86c0,2.13-1.73,3.86-3.86,3.86s-3.86-1.73-3.86-3.86v-15.42
 		c0-2.13,1.73-3.86,3.86-3.86s3.86,1.73,3.86,3.86V332.86z"/>

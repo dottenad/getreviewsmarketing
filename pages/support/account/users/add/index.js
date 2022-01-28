@@ -20,20 +20,20 @@ const SupportIndex = () => (
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/account"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
+                                    <Link passHref href="/support/account"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Account Settings</a></Link>
                                 </div>
                             </li>
 
                             <li>
-                                <div class="flex items-center">
-                                    <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <div className="flex items-center">
+                                    <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path>
                                     </svg>
-                                    <Link passHref href="/support/account/users"><a class="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Users</a></Link>
+                                    <Link passHref href="/support/account/users"><a className="ml-4 text-sm font-medium text-gray-700 hover:text-gray-900">Users</a></Link>
                                 </div>
                             </li>
 
@@ -83,19 +83,19 @@ const SupportIndex = () => (
                                 </h1>
                             </div>
                             <div className="mt-6 prose prose-sky prose-lg mx-auto">
-                                <p>To add a user to your GetReviews account, click the "User" icon in the top right corner of the GetReviews dashboard, then click "Users"</p>
+                                <p>To add a user to your GetReviews account, click the &quot;User&quot; icon in the top right corner of the GetReviews dashboard, then click &quot;Users&quot;</p>
                                 <figure className="mt-4">
-                                    <img class="rounded-lg border border-gray-200 mx-auto" src="../../../account_users_1.jpg" alt="" />
-                                    <figcaption>Select "Users" from the account menu in GetReviews</figcaption>
+                                    <img className="rounded-lg border border-gray-200 mx-auto" src="../../../account_users_1.jpg" alt="" />
+                                    <figcaption>Select &quot;Users&quot; from the account menu in GetReviews</figcaption>
                                 </figure>
-                                <p>Once on the users page, click the blue "Add User" button in the top right corner</p>
+                                <p>Once on the users page, click the blue &quot;Add User&quot; button in the top right corner</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_users_2.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_users_2.jpg" alt="" />
                                     <figcaption>Add user button</figcaption>
                                 </figure>
-                                <p>When you click the "Add Users" button, a modal will pop up that asks you to enter some information on the user to be added.</p>
+                                <p>When you click the &quot;Add Users&quot; button, a modal will pop up that asks you to enter some information on the user to be added.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_users_3.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_users_3.jpg" alt="" />
                                     <figcaption>Add User modal</figcaption>
                                 </figure>
                                 <ol>
@@ -105,12 +105,12 @@ const SupportIndex = () => (
                                         <li>Member</li>
                                         <li>Administrator</li>
                                     </ul>
-                                    Users with "Member" role-designations are not allowed into two areas of the site. These areas are the "Users" page, meaning they cannot add, edit, or remove new or existing users, and the "Plan/Billing" area, meaning they cannot access any plan or billing functions on the account. Users with Administrator privileges have no restrictions. <strong>Note</strong>: There is no concept of a super-admin in GetReviews. If you assign someone Administrator credentials, you are allowing them full access to the account, including the ability to delete you as a user/change your role-designation. Ensure Administrator credentials are handed out appropriately.
+                                    Users with &quot;Member&quot; role-designations are not allowed into two areas of the site. These areas are the &quot;Users&quot; page, meaning they cannot add, edit, or remove new or existing users, and the &quot;Plan/Billing&quot; area, meaning they cannot access any plan or billing functions on the account. Users with Administrator privileges have no restrictions. <strong>Note</strong>: There is no concept of a super-admin in GetReviews. If you assign someone Administrator credentials, you are allowing them full access to the account, including the ability to delete you as a user/change your role-designation. Ensure Administrator credentials are handed out appropriately.
                                     </li>
                                 </ol>
-                                <p>Once you click the "Add User" button, an email will be sent to the user with instructions on how to sign up. Until the user signs up, they will be shown as an "Invited" user on the user administration page. If you would like to revoke this user invite, you can click the trash can icon next to the user invite you would like to revoke.</p>
+                                <p>Once you click the &quot;Add User&quot; button, an email will be sent to the user with instructions on how to sign up. Until the user signs up, they will be shown as an &quot;Invited&quot; user on the user administration page. If you would like to revoke this user invite, you can click the trash can icon next to the user invite you would like to revoke.</p>
                                 <figure className="mt-4">
-                                    <img class="w-full rounded-lg border border-gray-200" src="../../../account_users_4.jpg" alt="" />
+                                    <img className="w-full rounded-lg border border-gray-200" src="../../../account_users_4.jpg" alt="" />
                                     <figcaption>Invited users</figcaption>
                                 </figure>
                             </div>

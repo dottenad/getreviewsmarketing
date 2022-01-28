@@ -6,10 +6,10 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 
 const nav = [
-    { name: 'Integrations', href: '/integrations' },
     { name: 'Features', href: '/features' },
+    { name: 'Integrations', href: '/integrations' },
     { name: 'Pricing', href: '/pricing' },
-    { name: 'Demo', href: 'https://supernutritionco.com/', target: '_blank' },
+    { name: 'Demo', href: '/demo' },
 ]
 
 const SiteLayout = ({ children }) => (
@@ -164,7 +164,7 @@ const SiteLayout = ({ children }) => (
                     </div>
 
                     <div className="px-5 py-2">
-                        <Link passHref href="https://supernutritionco.com/" target="_blank" rel="noreferrer">
+                        <Link passHref href="/demo" target="_blank" rel="noreferrer">
                             <a>
                                 <div className="text-base text-gray-500 hover:text-gray-900">
                                     Demo

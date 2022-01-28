@@ -1,9 +1,14 @@
 import CallToAction from '/components/CallToAction.js';
 import Link from 'next/link';
-import SiteLayout from '../components/SiteLayout'
+import SiteLayout from '../components/SiteLayout';
+import Head from "next/head";
 
 const SiteIndex = () => (
   <div>
+    <Head>
+      <title>GetReviews.ai - Collect Customer Reviews on Autopilot</title>
+      <meta name="description" content="Generate authentic reviews from organic customers on platforms that matter to your business with GetReviews.ai's proprietary review generation technology." />
+    </Head>
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
       <div className="relative mt-6 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 pb-16 sm:pb-24 lg:pb-16">
@@ -12,7 +17,7 @@ const SiteIndex = () => (
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
                 <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                  <span className="block text-sky-600">Collect Reviews on Autopilot with GetReviews.ai</span>
+                  <span className="block text-sky-600">Collect Customer Reviews on Autopilot with GetReviews.ai</span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">

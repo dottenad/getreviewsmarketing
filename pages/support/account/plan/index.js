@@ -1,5 +1,5 @@
-import Link from "next/link"
-import SupportLayout from '../../../../components/SupportLayout'
+import Link from "next/link";
+import SupportLayout from '../../../../components/SupportLayout';
 
 
 const SupportIndex = () => (

@@ -1,9 +1,13 @@
-import Link from "next/link"
-import SupportLayout from '../../../components/SupportLayout'
-
+import Link from "next/link";
+import SupportLayout from '../../../components/SupportLayout';
+import Head from "next/head";
 
 const SupportIndex = () => (
-        <div>
+  <div>
+    <Head>
+      <title>Integrations - GetReviews.ai</title>
+      <meta name="description" content="Automate your dataflow utilizing GetReviews' integration library" />
+    </Head>
             <div className="bg-gray-200 pt-10 pb-14">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <nav className="flex pb-10" aria-label="Breadcrumb">
@@ -166,7 +170,7 @@ const SupportIndex = () => (
                                     <h3 className="text-lg font-medium">
                                         <Link passHref href="/support/integrations/mailchimp" className="focus:outline-none"><a>
                                             <span className="absolute inset-0" aria-hidden="true"></span>
-                                            Mailchimp
+                                            MailChimp
                                         </a></Link>
                                     </h3>
                                     <p className="mt-2 text-sm text-gray-500">

@@ -1,7 +1,7 @@
 import React from 'react'
 import App from 'next/app'
 // import SiteLayout from '../components/SiteLayout'
-// import SupportLayout from '../components/SupportLayout'
+// import SupportLayout from '../components/SupportLayout';
 import '../styles/globals.css'
 
 // class MyApp extends App {
@@ -29,11 +29,12 @@ import '../styles/globals.css'
 
 class MyApp extends App {
   render() {
-    const { Component, pageProps, router } = this.props
+    const { Component, pageProps } = this.props
 
     const getLayout = Component.getLayout || (page => page)
 
-    return getLayout(<Component {...pageProps}></Component>)
+    return getLayout(
+    <Component {...pageProps}></Component>)
   }
 }
 

@@ -1,9 +1,14 @@
 import CallToAction from '/components/CallToAction.js';
-import Link from "next/link"
+import Link from "next/link";
 import SiteLayout from '../components/SiteLayout'
+import Head from "next/head";
 
 const SiteIndex = () => (
     <div>
+        <Head>
+            <title>Features - GetReviews.ai</title>
+            <meta name="description" content="Unlock your brand's maximum potential with GetReviews suite of cutting-edge features." />
+        </Head>
         <div className="relative bg-white overflow-hidden">
             <div className="relative bg-sky-900">
                 <div className="absolute inset-0">

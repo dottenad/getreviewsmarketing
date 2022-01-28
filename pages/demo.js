@@ -1,10 +1,15 @@
 import CallToAction from '/components/CallToAction.js';
 import CalendlyEmbed from '/components/CalendlyEmbed.js';
-import Link from "next/link"
+import Link from "next/link";
 import SiteLayout from '../components/SiteLayout'
+import Head from "next/head";
 
 const SiteIndex = () => (
     <div>
+        <Head>
+            <title>Demo - GetReviews.ai</title>
+            <meta name="description" content="Book a demo with GetReviews today to learn more about our cutting edge suite of review generation features." />
+        </Head>
         <div className="relative bg-white overflow-hidden">
             <div className="relative bg-sky-900">
                 <div className="absolute inset-0">

@@ -1,8 +1,13 @@
 import Link from 'next/link';
-import SiteLayout from '../components/SiteLayout'
+import SiteLayout from '../components/SiteLayout';
+import Head from "next/head";
 
 const SiteIndex = () => (
     <div>
+        <Head>
+            <title>Privacy Policy - GetReviews.ai</title>
+            <meta name="description" content="Learn how GetReviews uses personal data to improve it's services." />
+        </Head>
         <div className="bg-gray-200 pt-10 pb-14">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="relative py-16 bg-white overflow-hidden">

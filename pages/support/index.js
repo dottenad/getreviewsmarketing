@@ -1,9 +1,13 @@
-import Link from "next/link"
-import SupportLayout from '../../components/SupportLayout'
-
+import Link from "next/link";
+import SupportLayout from '../../components/SupportLayout';
+import Head from "next/head";
 
 const SupportIndex = () => (
   <div>
+    <Head>
+      <title>Knowledge Base - GetReviews.ai</title>
+      <meta name="description" content="Advice and answers from the GetReviews.ai team" />
+    </Head>
     <div className="bg-gray-200 pt-14 pb-14">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:gap-px">

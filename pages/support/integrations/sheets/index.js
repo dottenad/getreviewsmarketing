@@ -1,9 +1,13 @@
-import Link from "next/link"
-import SupportLayout from '../../../../components/SupportLayout'
-
+import Link from "next/link";
+import SupportLayout from '../../../../components/SupportLayout';
+import Head from "next/head";
 
 const SupportIndex = () => (
-    <div>
+  <div>
+    <Head>
+      <title>Google Sheets - GetReviews.ai</title>
+      <meta name="description" content="Learn how to enable and configure the Google Sheets integration here" />
+    </Head>
         <div className="bg-gray-200 pt-10 pb-14">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <nav className="flex pb-10" aria-label="Breadcrumb">

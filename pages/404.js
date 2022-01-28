@@ -1,9 +1,15 @@
-import Link from "next/link"
+import Link from "next/link";
+import Head from "next/head";
 
 export default function Example() {
   return (
+    
 
 <div className="min-h-full pt-16 pb-12 flex flex-col bg-white">
+  <Head>
+    <title>Page Not Found - GetReviews.ai</title>
+    <meta name="description" content="Learn how to ban specific order numbers at the account level here." />
+  </Head>
   <main className="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex-shrink-0 flex justify-center">
       <Link passHref href="/"><a className="inline-flex">

@@ -28,7 +28,7 @@ const SupportLayout = ({ children }) => {
                     </div>
                 </nav>
                 <div className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 mt-8">
-                    <h2 className="text-2xl font-extralight text-white">Advice and answers from the GetReviews.ai Team</h2>
+                    <h2 className="text-2xl font-extralight text-white">Advice and answers from the GetReviews.ai team</h2>
                 </div>
             </div>
             {children}

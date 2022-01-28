@@ -39,7 +39,6 @@ const SiteIndex = () => (
                       </div>
                     </a>
                   </Link>
-                  .
                 </p>
               </div>
             </div>
@@ -113,7 +112,7 @@ const SiteIndex = () => (
           </svg>
 
           <div className="relative">
-            <h2 className="text-center font-semibold text-sky-700 mb-3">...so, how does GetReviews help?</h2>
+            <h2 className="text-center font-semibold text-sky-700 mb-3">...so, how does GetReviews work?</h2>
             <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               GetReviews.ai is a review funnel optimized to generate verified reviews on platforms that matter to your business.
             </h2>

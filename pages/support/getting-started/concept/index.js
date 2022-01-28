@@ -33,7 +33,7 @@ const SupportIndex = () => (
                                     <svg className="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                         <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                                     </svg>
-                                    <span className="ml-4 text-sm font-medium text-gray-500">Products</span>
+                                    <span className="ml-4 text-sm font-medium text-gray-500">Concept</span>
                                 </div>
                             </li>
                         </ol>
@@ -70,23 +70,23 @@ const SupportIndex = () => (
                         <div className="relative px-4 sm:px-6 lg:px-8">
                             <div className="text-lg max-w-prose mx-auto">
                                 <h1>
-                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Products</span>
+                                    <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Concept</span>
                                 </h1>
                             </div>
                             <div className="mt-10 prose prose-sky prose-lg mx-auto">
-                                <p>A product is the item that your customer purchased from you on the marketplaces you sell on. A product has unique attributes associated with it that enables the GetReviews process to work. Let's go over what these are while learning how to create a product in GetReviews.</p>
-                                <ol role="list">
-                                    <li>On the <a href="https://app.getreviews.ai/product" target="_blank" className="underline">products</a> page, click &quot;Add Product&quot;<br />
-                                    <img className="w-full rounded-lg mt-4" src="../../../add_product.jpg" alt="" width="1310" />
+                                <p>GetReviews is a survey technology that gives businesses the ability to offer customers a free gift in exchange for their customer's review posted on the marketplace or platform of the business' choosing. For example, if you sell shoes on Amazon, and you would like the customer who purchased your shoes to leave you a review on Amazon, you would offer your customer a $5 Amazon gift card in order to participate in your survey (powered by GetReviews,) where the outcome of that survey is a verified customer review on your product on Amazon, in addition to the customer's marketing information (first name, last name, email, phone, etc.) All the while your customer gets a free $5 Amazon gift card. It's a win-win!</p>
+                                <p>However, this likely raises some questions:
+                                <ol>
+                                    <li><strong>How does my customer get to my survey?</strong> This is probably the most difficult question to answer. The answer is, it depends. Every business interacts with their customers in different ways. Some by email, some face-to-face, some with packing inserts. It all depends on your type of business. The most important things to remember with regards to getting your customer to your GetReviews survey are:
+                                        <ol>
+                                            <li><strong>Communicate your free gift offering</strong>: Your customer won't have any incentive to visit your GetReviews survey if they do not know that they can get a free gift. So be sure to let them know that they have a free gift waiting for them at your survey URL.</li>
+                                            <li><strong>Communicate your survey URL</strong>: Share with your customer a link to your survey. </li>
+                                        </ol>
                                     </li>
-                                    <li>Complete the fields to create a product<br /><img className="w-full rounded-lg mt-4" src="../../../create_product.jpg" alt="" width="1310" /></li>
-                                    <ol>
-                                        <li><strong>Product Name</strong>: This is the name of your product. This will be how your customer identifies the product they purchased, so be sure that the product name matches the product name on the marketplace they purchased your product on.</li>
-                                        <li><strong>Eligible Giveaways</strong>: Eligible giveaways are the items that you would like to make eligible for your customer to claim as their free gift offering for purchasing <i>this</i> product. For example, if a customer purchased this product from you, what would you like them to be able to select as their free gift? This section is where you define that.</li>
-                                        <li><strong>Product Image</strong>: This is an image of your product. Similar to the product name, the product image will display once your customer selects the product they purchased on your survey, so be sure this product image matches the product image on the marketplace that your customer purchased your product on.</li>
-                                        <li><strong>Product ID</strong>: Input the product ID for the marketplace(s) that you're selling this product on. If a product has a product ID populated, and if that product is assigned to a survey, the customer will be able to select which marketplace they purchased this product from. For example, if you populate Amazon and Walmart product IDs, then if the customer selects this product as the product they purchased, they will be asked where they purchased this product from (Amazon or Walmart?)</li>
-                                    </ol>
+                                    <li><strong>Who gives the free gift?</strong>: In short, you do. GetReviews serves as the technology that allows you to build the survey that your customer participates in, but does not provide your customer with their free gift. For example, if you were to create a $5 Amazon gift card giveaway on GetReviews, and make this an item that your customer could select as their free gift, you would be on the hook to fulfill this $5 Amazon gift card, not GetReviews.</li>
+                                    <li><strong>Isn't this against terms of service?</strong>: GetReviews promotes honesty, candidness, and truthfulness in the review collection process. We do not (nor should you) encourage only customers who have had a positive experience with your product or service to complete your GetReviews survey. Our goal is to collect reviews from customers on both ends of the spectrum, as both positive and negative reviews serve to improve your business. As such, GetReviews does not fall outside of terms of service since it does not exist to manipulate your ratings or reviews, but only to collect more of them.</li>
                                 </ol>
+                                </p>
                             </div>
                         </div>
                     </div>

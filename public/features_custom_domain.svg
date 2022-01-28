@@ -12,7 +12,7 @@
 	.st6{font-size:20px;}
 	.st7{fill:url(#SVGID_1_);}
 </style>
-<rect className="st0" width="620" height="431"/>
+<rect class="st0" width="620" height="431"/>
 <g>
 	
 		<image style="overflow:visible;opacity:0.3;" width="587" height="390" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAksAAAGGCAYAAABrI8X1AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
@@ -78,24 +78,24 @@ l7NIwyEXe220tAKoNXtkNgkAeKtoan3v4Eg6VSz1XmffLJJoAgBeG0lz/j289mLnipbFO1wTAPj/
 Daa53/swsSSUAID3DCYAAN7CvwUYAGKbBKDs90N+AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 15 27)">
 	</image>
 	<g>
-		<path className="st0" d="M576.45,404.07H40.51c-7.44,0-13.48-6.03-13.48-13.48V52.49c0-7.44,6.03-13.48,13.48-13.48h535.94
+		<path class="st0" d="M576.45,404.07H40.51c-7.44,0-13.48-6.03-13.48-13.48V52.49c0-7.44,6.03-13.48,13.48-13.48h535.94
 			c7.44,0,13.48,6.03,13.48,13.48v338.1C589.93,398.03,583.9,404.07,576.45,404.07z"/>
 	</g>
 </g>
-<circle className="st1" cx="43" cy="54" r="6"/>
-<circle className="st2" cx="61" cy="54" r="6"/>
-<circle className="st3" cx="79" cy="54" r="6"/>
-<line className="st4" x1="27.03" y1="68.37" x2="589.93" y2="68.37"/>
-<line className="st4" x1="27.03" y1="131.37" x2="589.93" y2="131.37"/>
+<circle class="st1" cx="43" cy="54" r="6"/>
+<circle class="st2" cx="61" cy="54" r="6"/>
+<circle class="st3" cx="79" cy="54" r="6"/>
+<line class="st4" x1="27.03" y1="68.37" x2="589.93" y2="68.37"/>
+<line class="st4" x1="27.03" y1="131.37" x2="589.93" y2="131.37"/>
 <g>
-	<path className="st4" d="M560.5,123H58.53c-12.98,0-23.5-10.52-23.5-23.5v0c0-12.98,10.52-23.5,23.5-23.5H560.5
+	<path class="st4" d="M560.5,123H58.53c-12.98,0-23.5-10.52-23.5-23.5v0c0-12.98,10.52-23.5,23.5-23.5H560.5
 		c12.98,0,23.5,10.52,23.5,23.5v0C584,112.48,573.48,123,560.5,123z"/>
 </g>
-<text transform="matrix(1 0 0 1 55.1196 106.541)" className="st5 st6">www.yourwebsite.com</text>
+<text transform="matrix(1 0 0 1 55.1196 106.541)" class="st5 st6">www.yourwebsite.com</text>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="310" y1="431" x2="310" y2="201">
 	<stop  offset="0" style="stop-color:#FFFFFF"/>
 	<stop  offset="0.8587" style="stop-color:#FFFFFF;stop-opacity:0.1413"/>
 	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
 </linearGradient>
-<rect y="201" className="st7" width="620" height="230"/>
+<rect y="201" class="st7" width="620" height="230"/>
 </svg>

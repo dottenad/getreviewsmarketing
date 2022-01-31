@@ -25,16 +25,16 @@ const SiteIndex = () => (
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900">Start your free 30-day trial today (no CC required)</p>
-                <form action="#" method="POST" className="mt-3 sm:flex">
+                <span className="mt-3 sm:flex">
                   <label htmlFor="email" className="sr-only">
                     Email
                   </label>
                   <input type="email" name="email" id="email" className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-sky-500 sm:flex-1 border-gray-300" placeholder="Enter your email"
                   />
-                  <button type="submit" className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto" >
+                  <button type="submit" id="loginButton" className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto" >
                     Start Free Trial
                   </button>
-                </form>
+                </span>
                 <p className="mt-3 text-sm text-gray-500">
                   We care about the protection of your data. Read our&nbsp;
                   <Link passHref href="/privacy">
@@ -99,7 +99,7 @@ const SiteIndex = () => (
             </p>
           </div>
           <p className="mt-5 max-w-prose mx-auto text-xl">
-            At GetReviews, we see this as a collosal waste of potential. Potential that would let prospective customers know more about your products &amp; services. Potential that would let you better understand customer sentiment about your products &amp; services. This waste of potential is what led us to develop the industry-leading post-purchase review funnel optimized to unlock feedback from the 99% of customers who are not leaving a reviews on your products or services. Read more about how we help businesses drive reviews below.
+            At GetReviews, we see this as a collosal waste of potential. Potential that would let prospective customers know more about your products or services. Potential that would let you better understand customer sentiment about your products &amp; services. This waste of potential is what led us to develop the industry-leading post-purchase review funnel optimized to unlock feedback from the 99% of customers who are not leaving a reviews on your products or services. Read more about how we help businesses drive reviews below.
           </p>
         </div>
       </div>

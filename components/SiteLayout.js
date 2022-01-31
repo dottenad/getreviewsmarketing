@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import Script from 'next/script'
 
 
 const nav = [
@@ -226,12 +227,15 @@ const SiteLayout = ({ children }) => (
                             </div>
                         </a>
                     </Link>
-
+                    <>
+                        <Script src="/SignUp.js"/>
+                    </>
                 </div>
                 <p className="mt-8 text-center text-base text-gray-400">
                     &copy; 2022 GetReviews.ai. All rights reserved.
                 </p>
             </div>
+
         </footer>
     </div>
 )

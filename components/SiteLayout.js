@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import Script from 'next/script'
 
 
 const nav = [
@@ -183,19 +182,9 @@ const SiteLayout = ({ children }) => (
                             </a>
                         </Link>
                     </div>
-
-                    <div className="px-5 py-2">
-                        <Link passHref href="https://app.getreviews.ai/signup" target="_blank" rel="noreferrer" >
-                            <a>
-                                <div className="text-base text-gray-500 hover:text-gray-900">
-                                    Sign Up
-                                </div>
-                            </a>
-                        </Link>
-                    </div>
                 </nav>
                 <div className="mt-8 flex justify-center space-x-6">
-                    <Link passHref href="#">
+                    <Link passHref href="https://www.facebook.com/getreviewsai">
                         <a>
                             <div className="text-gray-400 hover:text-gray-500">
                                 <span className="sr-only">Facebook</span>
@@ -206,7 +195,7 @@ const SiteLayout = ({ children }) => (
                         </a>
                     </Link>
 
-                    <Link passHref href="#">
+                    <Link passHref href="https://www.instagram.com/getreviewsai/">
                         <a>
                             <div className="text-gray-400 hover:text-gray-500">
                                 <span className="sr-only">Instagram</span>
@@ -217,7 +206,7 @@ const SiteLayout = ({ children }) => (
                         </a>
                     </Link>
 
-                    <Link passHref href="#">
+                    <Link passHref href="https://twitter.com/getreviewsai">
                         <a>
                             <div className="text-gray-400 hover:text-gray-500">
                                 <span className="sr-only">Twitter</span>
@@ -227,9 +216,6 @@ const SiteLayout = ({ children }) => (
                             </div>
                         </a>
                     </Link>
-                    <>
-                        <Script src="/SignUp.js"/>
-                    </>
                 </div>
                 <p className="mt-8 text-center text-base text-gray-400">
                     &copy; 2022 GetReviews.ai. All rights reserved.

@@ -41,7 +41,7 @@ const SiteIndex = () => (
                                 Generate reviews on the platforms &amp; marketplaces that matter most to your business with GetReviews.ai&apos;s intelligent review generation methods.
                             </p>
                             <div>
-                                <Link passHref href="/support/getting-started/platforms" className="inline-flex space-x-4 mt-3"><a>
+                                <Link passHref href="/support/getting-started/marketplaces" className="inline-flex space-x-4 mt-3"><a>
                                     <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
                                         <span>Learn more</span>
                                         <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -84,7 +84,7 @@ const SiteIndex = () => (
                                     Ensure only valid order numbers are accessing your review flow and claiming their free gift with GetReviews.ai&apos;s order number validation feature.
                                 </p>
                                 <div>
-                                    <Link passHref href="#" className="inline-flex space-x-4 mt-3"><a>
+                                    <Link passHref href="/support/validation/automatic" className="inline-flex space-x-4 mt-3"><a>
                                         <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
                                             <span>Learn more</span>
                                             <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -130,7 +130,7 @@ const SiteIndex = () => (
                                 Embed your GetReviews survey wherever you would like with GetReviews.ai&apos;s custom domain support.
                             </p>
                             <div>
-                                    <Link passHref href="#" className="inline-flex space-x-4 mt-3"><a>
+                                    <Link passHref href="https://www.getreviews.ai/support/getting-started/surveys#:~:text=http%3A//%20or%20https%3A//)-,Embed%20Survey,-Once%20you%20have" className="inline-flex space-x-4 mt-3"><a>
                                         <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
                                             <span>Learn more</span>
                                             <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

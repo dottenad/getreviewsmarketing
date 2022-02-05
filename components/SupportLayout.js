@@ -41,7 +41,7 @@ const SupportLayout = ({ children }) => {
                         </div>
                     </nav>
                     <div className="mt-8 flex justify-center space-x-6">
-                        <Link passHref href="#"><a>
+                        <Link passHref href="https://www.facebook.com/getreviewsai"><a>
                             <div className="text-gray-400 hover:text-gray-500">
                                 <div className="sr-only">Facebook</div>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -50,7 +50,7 @@ const SupportLayout = ({ children }) => {
                             </div>
                         </a></Link>
 
-                        <Link passHref href="#"><a>
+                        <Link passHref href="https://www.instagram.com/getreviewsai/"><a>
                             <div className="text-gray-400 hover:text-gray-500">
                                 <div className="sr-only">Instagram</div>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -59,7 +59,7 @@ const SupportLayout = ({ children }) => {
                             </div>
                         </a></Link>
 
-                        <Link passHref href="#"><a>
+                        <Link passHref href="https://twitter.com/getreviewsai"><a>
                             <div className="text-gray-400 hover:text-gray-500">
                                 <div className="sr-only">Twitter</div>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

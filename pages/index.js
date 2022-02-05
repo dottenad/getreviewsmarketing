@@ -2,6 +2,7 @@ import CallToAction from '/components/CallToAction.js';
 import Link from 'next/link';
 import SiteLayout from '../components/SiteLayout';
 import Head from "next/head";
+import Script from 'next/script';
 
 const SiteIndex = () => (
   <div>
@@ -21,7 +22,7 @@ const SiteIndex = () => (
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Generate authentic reviews from organic customers on platforms that matter to your business with GetReviews.ai&apos;s proprietary review generation technology.
+                Generate authentic reviews from actual customers on platforms that matter to your business with GetReviews.ai&apos;s proprietary review generation technology.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900">Start your free 30-day trial today (no CC required)</p>
@@ -571,6 +572,9 @@ const SiteIndex = () => (
       {/* End Integration Partners */}
       <CallToAction />
     </div>
+    <>
+      <Script src="/SignUp.js" />
+    </>
   </div>
 )
 

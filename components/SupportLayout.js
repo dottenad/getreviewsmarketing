@@ -74,6 +74,7 @@ const SupportLayout = ({ children }) => {
                     </p>
                 </div>
             </footer>
+            <script src="//code.tidio.co/kgupkmurrrqfhelxal0dbvvlk4gf5aup.js" async></script>
         </div>
     )
 }

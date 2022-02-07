@@ -123,7 +123,13 @@ const SiteLayout = ({ children }) => (
         {children}
         <footer className="bg-white">
             <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-                <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+                <nav className="-mx-5 -my-2 flex justify-center" aria-label="Footer">
+                    <div className="flex items-center">
+                        <div className="sr-only">GetReviews.ai</div>
+                        <img className="h-10 w-auto sm:h-10" src="/logo.svg" alt="GetReviews Logo" />
+                    </div>
+                </nav>
+                <nav className="-mx-5 -my-2 flex flex-wrap justify-center mt-8" aria-label="Footer">
                     <div className="px-5 py-2">
                         <Link passHref href="/">
                             <a>

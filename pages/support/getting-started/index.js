@@ -38,8 +38,7 @@ const SupportIndex = () => (
                     </ol>
                 </nav>
                 <div className="rounded-lg bg-gray-200 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:gap-px">
-                    <div className="rounded-tl-lg rounded-tr-lg relative group bg-white py-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
-                        <div className="max-w-3xl mx-auto px-4 sm:px-6 md:flex md:items-center md:justify-between md:space-x-5 lg:max-w-7xl lg:px-8">
+                    <div className="rounded-tl-lg rounded-tr-lg relative group bg-white p-8 focus-within:ring-2 focus-within:ring-inset focus-within:ring-sky-500">
                             <div className="flex items-center space-x-5">
                                 <div className="flex-shrink-0">
                                     <div className="relative">
@@ -61,7 +60,6 @@ const SupportIndex = () => (
                                         How does GetReviews work? Learn more about the GetReviews process here
                                     </p>
                                 </div>
-                            </div>
                         </div>
                         <span className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400" aria-hidden="true">
                             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">

@@ -25,7 +25,7 @@ const SiteIndex = () => (
                 Generate authentic reviews from actual customers on platforms that matter to your business with GetReviews.ai&apos;s proprietary review generation technology.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <p className="text-base font-medium text-gray-900">Start your free 30-day trial today (no CC required)</p>
+                <p className="text-base font-medium text-gray-900 mb-3">Start your free 30-day trial today (no CC required)</p>
                 <span className="mt-3 sm:flex">
                   <label htmlFor="email" className="sr-only">
                     Email
@@ -68,6 +68,9 @@ const SiteIndex = () => (
               <img className="max-h-12" src="amazon.svg" alt="Amazon" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <img className="max-h-12" src="walmart.svg" alt="Walmart" />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
               <img className="max-h-12" src="google.svg" alt="Google" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -75,9 +78,6 @@ const SiteIndex = () => (
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
               <img className="max-h-12" src="yelp.svg" alt="Yelp" />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-              <img className="max-h-12" src="bbb.svg" alt="Better Business Bureau" />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
               <img className="max-h-12" src="andmore.svg" alt="And" />

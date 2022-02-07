@@ -1,34 +1,20 @@
 import React from 'react'
 import App from 'next/app'
-// import SiteLayout from '../components/SiteLayout'
-// import SupportLayout from '../components/SupportLayout';
 import '../styles/globals.css'
-
-// class MyApp extends App {
-//   render() {
-//     const { Component, pageProps, router } = this.props
-
-//     if (router.pathname.startsWith('/support')) {
-//       return (
-//         <SupportLayout>
-//           <Component {...pageProps} />
-//         </SupportLayout>
-//       )
-//     }
-
-//     return (
-//       <SiteLayout>
-//         <Component {...pageProps} />
-//       </SiteLayout>
-//     )
-//   }
-// }
-
-// export default MyApp
-
+import TagManager from 'react-gtm-module'
+ 
+const tagManagerArgs = {
+    gtmId: 'GTM-WJTCXB3'
+}
 
 class MyApp extends App {
+
+  componentDidMount() {
+    TagManager.initialize(tagManagerArgs)
+  }
+
   render() {
+
     const { Component, pageProps } = this.props
 
     const getLayout = Component.getLayout || (page => page)

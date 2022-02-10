@@ -22,7 +22,10 @@ const SiteIndex = () => (
         property="og:description"
         content="Learn how to use GetReviews on any and all marketplaces that you sell on"
       />
-      <meta property="og:image" content="https://www.getreviews.ai/cart.jpg" />
+      <meta
+        property="og:image"
+        content="https://www.getreviews.ai/seo_gr.png"
+      />
       <meta
         property="og:url"
         content="https://www.getreviews.ai/blog/multimarketplace"

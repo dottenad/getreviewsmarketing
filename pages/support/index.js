@@ -17,7 +17,10 @@ const SupportIndex = () => (
         property="og:description"
         content="Advice and answers from the GetReviews.ai team"
       />
-      <meta property="og:image" content="https://www.getreviews.ai/demo.jpg" />
+      <meta
+        property="og:image"
+        content="https://www.getreviews.ai/seo_gr.png"
+      />
       <meta property="og:url" content="https://www.getreviews.ai/support/" />
       <meta property="og:site_name" content="GetReviews.ai" />
     </Head>

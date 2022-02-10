@@ -19,7 +19,10 @@ const SiteIndex = () => (
         property="og:description"
         content="Book a demo with GetReviews today to learn more about our cutting edge suite of review generation features."
       />
-      <meta property="og:image" content="https://www.getreviews.ai/demo.jpg" />
+      <meta
+        property="og:image"
+        content="https://www.getreviews.ai/seo_gr.png"
+      />
       <meta property="og:url" content="https://www.getreviews.ai/demo/" />
       <meta property="og:site_name" content="GetReviews.ai" />
     </Head>

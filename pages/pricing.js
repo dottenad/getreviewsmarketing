@@ -20,7 +20,7 @@ const SiteIndex = () => (
       />
       <meta
         property="og:image"
-        content="https://www.getreviews.ai/pricing.jpg"
+        content="https://www.getreviews.ai/seo_gr.png"
       />
       <meta property="og:url" content="https://www.getreviews.ai/pricing/" />
       <meta property="og:site_name" content="GetReviews.ai" />

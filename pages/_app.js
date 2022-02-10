@@ -19,8 +19,9 @@ class MyApp extends App {
 
     const getLayout = Component.getLayout || (page => page)
 
-    return getLayout(
-    <Component {...pageProps}></Component>)
+    return getLayout (
+      <Component {...pageProps}></Component>
+    )
   }
 }
 

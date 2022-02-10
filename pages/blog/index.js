@@ -80,8 +80,8 @@ const SiteIndex = () => (
             From the blog
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Learn about what's happening at GetReviews and in the industry as a
-            whole
+            Learn about what&apos;s happening at GetReviews and in the industry
+            as a whole
           </p>
         </div>
 
@@ -128,7 +128,7 @@ const SiteIndex = () => (
                       </Link>
                     </p>
                     <div className="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="February 10, 2022">
+                      <time dateTime="February 10, 2022">
                         {" "}
                         February 10, 2022{" "}
                       </time>

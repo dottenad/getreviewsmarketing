@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import SiteLayout from "../../../components/SiteLayout";
 
 const SiteIndex = () => (
@@ -17,11 +18,13 @@ const SiteIndex = () => (
             <ol role="list" className="flex items-center space-x-4">
               <li>
                 <div className="flex items-center">
-                  <a href="/blog">
-                    <span className="text-sm font-bold text-gray-700 hover:text-gray-900">
-                      Blog
-                    </span>
-                  </a>
+                  <Link href="/blog">
+                    <a>
+                      <span className="text-sm font-bold text-gray-700 hover:text-gray-900">
+                        Blog
+                      </span>
+                    </a>
+                  </Link>
                 </div>
               </li>
               <li>
@@ -153,10 +156,10 @@ const SiteIndex = () => (
             <div className="relative px-4 sm:px-6 lg:px-8">
               <div className="prose prose-sky prose-lg mx-auto">
                 <h1 className="mt-16 mb-0">
-                  <span class="block text-base text-left text-sky-600 font-semibold tracking-wide uppercase mb-4">
+                  <span className="block text-base text-left text-sky-600 font-semibold tracking-wide uppercase mb-4">
                     Announcement
                   </span>
-                  <span class="block text-4xl text-left leading-normal font-light text-gray-900">
+                  <span className="block text-4xl text-left leading-normal font-light text-gray-900">
                     Introducing, Multi-Marketplace Review Collection
                   </span>
                 </h1>
@@ -174,7 +177,7 @@ const SiteIndex = () => (
                       Dan Ottenad, Founder &amp; CEO
                     </span>
                     <div className="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="February 10, 2022">
+                      <time dateTime="February 10, 2022">
                         February 10, 2022
                       </time>
                     </div>
@@ -203,22 +206,22 @@ const SiteIndex = () => (
                 </p>
                 <p>
                   With this launch, you can now enable as many marketplaces on
-                  your GetReviews account as you'd like at no extra charge.
+                  your GetReviews account as you&apos;d like at no extra charge.
                   Meaning that if you sell on Amazon, Walmart, and Target, you
                   can now enable all three of these marketplaces on your
                   GetReviews account and begin collecting verified customer
                   reviews on these marketplaces. You can also enable as many
-                  marketplaces on each survey as you'd like. For example, say
-                  you sold the same product on Amazon, Walmart, and Target, and
-                  you didn't want to go through the hassle of creating and
-                  maintaining three separate GetReviews surveys (one for each
-                  marketplace,) but instead wanted to drive traffic from all
-                  three marketplaces back to one GetReviews survey. This is now
-                  possible in GetReviews. Customer's are simply asked the
-                  additional question of "Where did you purchase?" where they
-                  then select the marketplace they purchased your product on,
-                  and are taken through the corresponding review flow. Simple as
-                  that!
+                  marketplaces on each survey as you&apos;d like. For example,
+                  say you sold the same product on Amazon, Walmart, and Target,
+                  and you didn&apos;t want to go through the hassle of creating
+                  and maintaining three separate GetReviews surveys (one for
+                  each marketplace,) but instead wanted to drive traffic from
+                  all three marketplaces back to one GetReviews survey. This is
+                  now possible in GetReviews. Customer&apos;s are simply asked
+                  the additional question of &quot;Where did you purchase?&quot;
+                  where they then select the marketplace they purchased your
+                  product on, and are taken through the corresponding review
+                  flow. Simple as that!
                 </p>
                 <p>
                   To learn more about multi-marketplace functionality, as well
@@ -226,15 +229,17 @@ const SiteIndex = () => (
                   button below to visit our knowledgebase article covering this
                   in more detail.
                 </p>
-                <div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
-                  <div class="rounded-md shadow">
-                    <a
+                <div className="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
+                  <div className="rounded-md shadow">
+                    <Link
                       href="https://www.getreviews.ai/support/getting-started/marketplaces"
-                      class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700"
+                      passHref
                     >
-                      {" "}
-                      Configure Marketplaces{" "}
-                    </a>
+                      <a className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700">
+                        {" "}
+                        Configure Marketplaces{" "}
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>

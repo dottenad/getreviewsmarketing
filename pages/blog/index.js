@@ -6,10 +6,20 @@ const SiteIndex = () => (
   <div>
     <Head>
       <title>Blog - GetReviews.ai</title>
+      <meta name="robots" content="index, follow" />
       <meta
         name="description"
-        content="Book a demo with GetReviews today to learn more about our cutting edge suite of review generation features."
+        content="Learn about what's happening at GetReviews and in the industry as a whole"
       />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Blog - GetReviews.ai" />
+      <meta
+        property="og:description"
+        content="Learn about what's happening at GetReviews and in the industry as a whole"
+      />
+      <meta property="og:image" content="cart.jpg" />
+      <meta property="og:url" content="https://www.getreviews.ai/blog/" />
+      <meta property="og:site_name" content="GetReviews.ai" />
     </Head>
     <div className="relative bg-white overflow-hidden">
       <div className="relative bg-sky-900">

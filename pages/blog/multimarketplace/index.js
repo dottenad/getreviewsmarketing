@@ -5,11 +5,29 @@ import SiteLayout from "../../../components/SiteLayout";
 const SiteIndex = () => (
   <div>
     <Head>
-      <title>Introducing, Multi-Marketplace! - GetReviews.ai</title>
+      <title>
+        Introducing, Multi-Marketplace Review Collection - GetReviews.ai
+      </title>
+      <meta name="robots" content="index, follow" />
       <meta
         name="description"
         content="Learn how to use GetReviews on any and all marketplaces that you sell on"
       />
+      <meta property="og:type" content="article" />
+      <meta
+        property="og:title"
+        content="Introducing, Multi-Marketplace Review Collection"
+      />
+      <meta
+        property="og:description"
+        content="Learn how to use GetReviews on any and all marketplaces that you sell on"
+      />
+      <meta property="og:image" content="../cart.jpg" />
+      <meta
+        property="og:url"
+        content="https://www.getreviews.ai/blog/multimarketplace"
+      />
+      <meta property="og:site_name" content="GetReviews.ai" />
     </Head>
     <div>
       <div className="bg-gray-200 pt-10 pb-14">

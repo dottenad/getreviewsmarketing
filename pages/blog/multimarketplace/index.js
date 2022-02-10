@@ -205,7 +205,7 @@ const SiteIndex = () => (
                   </div>
                 </div>
                 <p className="mt-0">
-                  We are proud to announce the release of multi-marketplace
+                  We are happy to announce the release of multi-marketplace
                   review collection on GetReviews. What exactly is
                   multi-marketplace review collection? Let me explain.
                   Previously, GetReviews only collected reviews from customers

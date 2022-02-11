@@ -39,7 +39,7 @@ const SiteIndex = () => (
           ></div>
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <p className="mt-6 text-xl text-indigo-100 max-w-3xl tracking-widest">
+          <p className="mt-6 text-xl text-sky-100 max-w-3xl tracking-widest">
             FEATURES
           </p>
           <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">

@@ -56,7 +56,7 @@ const SiteIndex = () => (
                     type="email"
                     name="email"
                     id="email"
-                    className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-indigo-500 focus:border-sky-500 sm:flex-1 border-gray-300"
+                    className="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-sky-500 focus:border-sky-500 sm:flex-1 border-gray-300"
                     placeholder="Enter your email"
                   />
                   <button

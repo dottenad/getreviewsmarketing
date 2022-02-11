@@ -668,33 +668,37 @@ const SiteIndex = () => (
             </div>
           </div>
         </div>
-        <div class="relative bg-sky-700 mt-12">
-          <div class="h-56 bg-sky-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-            <img class="w-full h-full object-cover" src="agency.jpg" alt="" />
+        <div className="relative bg-sky-700 mt-12">
+          <div className="h-56 bg-sky-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+            <img
+              className="w-full h-full object-cover"
+              src="agency.jpg"
+              alt=""
+            />
           </div>
-          <div class="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-            <div class="md:ml-auto md:w-1/2 md:pl-10">
-              <h2 class="text-base font-semibold uppercase tracking-wider text-white">
+          <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+            <div className="md:ml-auto md:w-1/2 md:pl-10">
+              <h2 className="text-base font-semibold uppercase tracking-wider text-white">
                 Run an Agency?
               </h2>
-              <p class="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Take Advantage of Our Agency Pricing!
               </p>
-              <p class="mt-3 text-lg text-white">
+              <p className="mt-3 text-lg text-white">
                 GetReviews offers special perks for agency owners for signing up
                 their clientbase, including discounted pricing, pro-tier
                 support, 1-on-1 onboarding call, multi-account management,
                 intuitive dashboard experience, and more!
               </p>
-              <div class="mt-8">
-                <div class="inline-flex rounded-md shadow">
+              <div className="mt-8">
+                <div className="inline-flex rounded-md shadow">
                   <a
                     href="mailto:info@getreviews.ai"
-                    class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
+                    className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
                   >
                     Apply for Agency Access
                     <svg
-                      class="-mr-1 ml-3 h-5 w-5 text-gray-400"
+                      className="-mr-1 ml-3 h-5 w-5 text-gray-400"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"

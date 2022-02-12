@@ -5,9 +5,7 @@ import SiteLayout from "../../../components/SiteLayout";
 const SiteIndex = () => (
   <div>
     <Head>
-      <title>
-        Introducing, Multi-Marketplace Review Collection - GetReviews.ai
-      </title>
+      <title>3 Strategies To Get More Etsy Reviews - GetReviews.ai</title>
       <meta name="robots" content="index, follow" />
       <meta
         name="description"

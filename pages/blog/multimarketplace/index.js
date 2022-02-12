@@ -189,7 +189,7 @@ const SiteIndex = () => (
                     <span className="sr-only">Dan Ottenad</span>
                     <img
                       className="h-16 w-16 rounded-full"
-                      src="/dan.jpg"
+                      src="/_blog/dan.jpg"
                       alt="Dan Ottenad"
                     />
                   </div>

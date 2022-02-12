@@ -186,7 +186,7 @@ const SiteIndex = () => (
                 </h1>
                 <figure className="mt-0">
                   <img
-                    class="w-full rounded-lg"
+                    className="w-full rounded-lg"
                     src="/_blog/3-strategies-to-get-more-etsy-reviews/main.jpg"
                     alt=""
                   />{" "}
@@ -207,10 +207,10 @@ const SiteIndex = () => (
                   have a perfect transaction with a customer, they could love
                   your product, and still not leave you a review. Why is that?
                   Most of the time, life takes precedence over leaving a review
-                  on your product on Etsy. This doesn't mean they had a bad
-                  experience, it just means they don't have the time to leave
-                  you a review. So, how do you get this customer to leave a
-                  review? Let us show you the top 3 tactics Etsy sellers are
+                  on your product on Etsy. This doesn&apos;t mean they had a bad
+                  experience, it just means they don&apos;t have the time to
+                  leave you a review. So, how do you get this customer to leave
+                  a review? Let us show you the top 3 tactics Etsy sellers are
                   using to generate product reviews on their Etsy store below.
                 </p>
                 <h2>1.) Request a review in your order confirmation email</h2>
@@ -218,16 +218,16 @@ const SiteIndex = () => (
                   The confirmation email is what is sent to your customer
                   immediately after they place their order with you. Etsy allows
                   you to customize this email to say whatever you would like it
-                  to say via the "Message to Buyers" feature. To access your
-                  Message to Buyers feature, visit{" "}
+                  to say via the &quot;Message to Buyers&quot; feature. To
+                  access your Message to Buyers feature, visit{" "}
                   <Link
                     href="https://www.etsy.com/your/shops/me?ref=seller-platform-mcnav"
                     passHref
                   >
                     <a target="_blank">this link</a>
                   </Link>{" "}
-                  and search for the "Message to Buyers" text box (2nd up from
-                  bottom at the time of this writing.) Here you can
+                  and search for the &quot;Message to Buyers&quot; text box (2nd
+                  up from bottom at the time of this writing.) Here you can
                   automatically remind every customer to remember to leave you a
                   review. Here is a basic template you can use in this area
                   <blockquote>
@@ -237,27 +237,27 @@ const SiteIndex = () => (
                       leave us a review. We would really appreciate it!
                     </p>
                   </blockquote>
-                  While requesting a review in your order confirmation doesn't
-                  necessarily yield the best conversion rate, it does serve as
-                  an additional reminder for your customer to leave their review
-                  that doesn't make since not to have (especially since it's a
-                  free feature built into Etsy.)
+                  While requesting a review in your order confirmation
+                  doesn&apos;t necessarily yield the best conversion rate, it
+                  does serve as an additional reminder for your customer to
+                  leave their review that doesn&apos;t make since not to have
+                  (especially since it&apos;s a free feature built into Etsy.)
                 </p>
                 <h2>2.) Offer a free gift on your insert cards</h2>
                 <p>
                   An insert card is a slip of paper that you insert into the box
                   that you send to your customer. Insert cards can vary in size
                   depending on the size of your product, but typically range in
-                  size from the size of a business card (2" x 3.5") to the size
-                  of a post card (5" x 7"). What an insert card allows you to do
-                  is communicate a message to your customer. This can be a
-                  simple "Thank you for your purchase!" message, or in this
-                  case, the message that you'll want to communicate on your
-                  insert card is an offer for a free gift. Here is an example of
-                  how this looks:
+                  size from the size of a business card (2&quot; x 3.5&quot;) to
+                  the size of a post card (5&quot; x 7&quot;). What an insert
+                  card allows you to do is communicate a message to your
+                  customer. This can be a simple &quot;Thank you for your
+                  purchase!&quot; message, or in this case, the message that
+                  you&apos;ll want to communicate on your insert card is an
+                  offer for a free gift. Here is an example of how this looks:
                   <figure className="mt-4 mb-4">
                     <img
-                      class="w-full rounded-lg shadow"
+                      className="w-full rounded-lg shadow"
                       src="/_blog/3-strategies-to-get-more-etsy-reviews/insert.jpg"
                       alt=""
                     />{" "}
@@ -270,22 +270,22 @@ const SiteIndex = () => (
                     <a>GetReviews.ai</a>
                   </Link>{" "}
                   comes into play. GetReviews.ai facilitates the exchange of a
-                  free gift for your customer's honest review on the platform
-                  that they purchased your product from. Whereas typically your
-                  customer would forget to leave you a review, a free gift
-                  offering on an insert card in collaboration with a GetReviews
-                  survey will greatly increase the likelihood that your customer
-                  does leave you a review on the platform that they purchased
-                  your product from. In this case, since your customer purchased
-                  your product from Etsy, GetReviews will collect their review
-                  via a survey hosted on GetReviews, and request that they post
-                  their completed review to Etsy. Then, once your customer has
-                  posted their review to Etsy, they will be able to claim a free
-                  gift that you have designated for them. This can be a product,
-                  coupon, or eGift card. The possibilities are endless! This
-                  combination of an insert card and GetReviews is a very
-                  effective way to generate more reviews on your products on
-                  Etsy.
+                  free gift for your customer&apos;s honest review on the
+                  platform that they purchased your product from. Whereas
+                  typically your customer would forget to leave you a review, a
+                  free gift offering on an insert card in collaboration with a
+                  GetReviews survey will greatly increase the likelihood that
+                  your customer does leave you a review on the platform that
+                  they purchased your product from. In this case, since your
+                  customer purchased your product from Etsy, GetReviews will
+                  collect their review via a survey hosted on GetReviews, and
+                  request that they post their completed review to Etsy. Then,
+                  once your customer has posted their review to Etsy, they will
+                  be able to claim a free gift that you have designated for
+                  them. This can be a product, coupon, or eGift card. The
+                  possibilities are endless! This combination of an insert card
+                  and GetReviews is a very effective way to generate more
+                  reviews on your products on Etsy.
                 </p>
                 <h2>3.) Request a review in a follow up email</h2>
                 <p>
@@ -295,10 +295,10 @@ const SiteIndex = () => (
                   this. Some may interpret follow-up emails as pestering the
                   customer, but if your intentions are pure, your customer will
                   notice this and engage. Once you have ensured that your
-                  customer's experience has been nothing but the best (and after
-                  correcting any issues they may have encountered), feel free to
-                  ask them politely to provide a review on Etsy for the product
-                  that they purchased from you. You can also use your
+                  customer&apos;s experience has been nothing but the best (and
+                  after correcting any issues they may have encountered), feel
+                  free to ask them politely to provide a review on Etsy for the
+                  product that they purchased from you. You can also use your
                   GetReviews.ai survey link here since GetReviews gives you a
                   survey URL that you can easily share, so including this survey
                   URL in your follow up email could also be a possibility.
@@ -309,12 +309,12 @@ const SiteIndex = () => (
                   have any questions or comments about this post or about
                   GetReviews.ai, please feel free to send me a message. Thanks!
                 </p>
-                <div class="relative">
+                <div className="relative">
                   <div
-                    class="absolute inset-0 flex items-center"
+                    className="absolute inset-0 flex items-center"
                     aria-hidden="true"
                   >
-                    <div class="w-full border-t border-gray-300"></div>
+                    <div className="w-full border-t border-gray-300"></div>
                   </div>
                 </div>
                 <div className="flex items-center">

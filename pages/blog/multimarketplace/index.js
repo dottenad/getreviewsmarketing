@@ -184,7 +184,7 @@ const SiteIndex = () => (
                     Introducing, Multi-Marketplace Review Collection
                   </span>
                 </h1>
-                <div className="flex items-center mb-6">
+                <div className="flex items-center mb-0">
                   <div className="flex-shrink-0">
                     <span className="sr-only">Dan Ottenad</span>
                     <img

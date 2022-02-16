@@ -161,70 +161,77 @@ const SiteLayout = ({ children }) => (
         >
           <div className="px-5 py-2">
             <Link passHref href="/">
-              <a id="footer_nav_home_click">
-                <div className="text-base text-gray-500 hover:text-gray-900">
-                  Home
-                </div>
+              <a
+                className="text-base text-gray-500 hover:text-gray-900"
+                id="footer_nav_home_click"
+              >
+                Home
               </a>
             </Link>
           </div>
 
           <div className="px-5 py-2">
             <Link passHref href="/integrations">
-              <a id="footer_nav_integrations_click">
-                <div className="text-base text-gray-500 hover:text-gray-900">
-                  Integrations
-                </div>
+              <a
+                className="text-base text-gray-500 hover:text-gray-900"
+                id="footer_nav_integrations_click"
+              >
+                Integrations
               </a>
             </Link>
           </div>
 
           <div className="px-5 py-2">
             <Link passHref href="/features">
-              <a id="footer_nav_features_click">
-                <div className="text-base text-gray-500 hover:text-gray-900">
-                  Features
-                </div>
+              <a
+                className="text-base text-gray-500 hover:text-gray-900"
+                id="footer_nav_features_click"
+              >
+                Features
               </a>
             </Link>
           </div>
 
           <div className="px-5 py-2">
             <Link passHref href="/pricing">
-              <a id="footer_nav_pricing_click">
-                <div className="text-base text-gray-500 hover:text-gray-900">
-                  Pricing
-                </div>
+              <a
+                className="text-base text-gray-500 hover:text-gray-900"
+                id="footer_nav_pricing_click"
+              >
+                Pricing
               </a>
             </Link>
           </div>
 
           <div className="px-5 py-2">
             <Link passHref href="/demo" target="_blank" rel="noreferrer">
-              <a id="footer_nav_demo_click">
-                <div className="text-base text-gray-500 hover:text-gray-900">
-                  Demo
-                </div>
+              <a
+                className="text-base text-gray-500 hover:text-gray-900"
+                id="footer_nav_demo_click"
+              >
+                Demo
               </a>
             </Link>
           </div>
 
           <div className="px-5 py-2">
             <Link passHref href="/blog" target="_blank" rel="noreferrer">
-              <a id="footer_nav_blog_click">
-                <div className="text-base text-gray-500 hover:text-gray-900">
-                  Blog
-                </div>
+              <a
+                className="text-base text-gray-500 hover:text-gray-900"
+                id="footer_nav_blog_click"
+              >
+                Blog
               </a>
             </Link>
           </div>
 
           <div className="px-5 py-2">
             <Link passHref href="/support" target="_blank" rel="noreferrer">
-              <a id="footer_nav_kb_click">
-                <div className="text-base text-gray-500 hover:text-gray-900">
-                  Knowledge Base
-                </div>
+              <a
+                className="text-base text-gray-500 hover:text-gray-900"
+                id="footer_nav_kb_click"
+              >
+                Knowledge Base
               </a>
             </Link>
           </div>

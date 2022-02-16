@@ -61,7 +61,7 @@ const SiteIndex = () => (
                   />
                   <button
                     type="submit"
-                    id="loginButton"
+                    id="signupButton"
                     className="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
                   >
                     Start Free Trial

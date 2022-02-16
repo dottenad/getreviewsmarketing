@@ -6,11 +6,11 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Head from "next/head";
 
 const nav = [
-  { name: "Features", href: "/features" },
-  { name: "Integrations", href: "/integrations" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "Blog", href: "/blog" },
-  { name: "Demo", href: "/demo" },
+  { name: "Features", href: "/features", id: "features_nav_click" },
+  { name: "Integrations", href: "/integrations", id: "integrations_nav_click" },
+  { name: "Pricing", href: "/pricing", id: "pricing_nav_click" },
+  { name: "Blog", href: "/blog", id: "blog_nav_click" },
+  { name: "Demo", href: "/demo", id: "demo_nav_click" },
 ];
 
 const SiteLayout = ({ children }) => (
@@ -46,8 +46,12 @@ const SiteLayout = ({ children }) => (
                 key={item.name}
                 href={item.href}
                 target={item.target}
+                id={item.id}
               >
-                <a className="font-medium text-gray-500 hover:text-gray-900">
+                <a
+                  className="font-medium text-gray-500 hover:text-gray-900"
+                  id={item.id}
+                >
                   {item.name}
                 </a>
               </Link>
@@ -67,7 +71,10 @@ const SiteLayout = ({ children }) => (
           <span className="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
             <Link passHref href="https://app.getreviews.ai/signup">
               <a>
-                <div className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                <div
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                  id="mobile_menu_sign_up"
+                >
                   Sign Up
                 </div>
               </a>
@@ -122,7 +129,10 @@ const SiteLayout = ({ children }) => (
             <span className="block w-full px-5 pb-5">
               <Link passHref href="https://app.getreviews.ai/signup">
                 <a>
-                  <div className="block w-full px-4 py-2 border border-transparent text-center font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                  <div
+                    className="block w-full px-4 py-2 border border-transparent text-center font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                    id="nav_sign_up"
+                  >
                     Sign Up
                   </div>
                 </a>
@@ -151,7 +161,7 @@ const SiteLayout = ({ children }) => (
         >
           <div className="px-5 py-2">
             <Link passHref href="/">
-              <a>
+              <a id="footer_nav_home_click">
                 <div className="text-base text-gray-500 hover:text-gray-900">
                   Home
                 </div>
@@ -161,7 +171,7 @@ const SiteLayout = ({ children }) => (
 
           <div className="px-5 py-2">
             <Link passHref href="/integrations">
-              <a>
+              <a id="footer_nav_integrations_click">
                 <div className="text-base text-gray-500 hover:text-gray-900">
                   Integrations
                 </div>
@@ -171,7 +181,7 @@ const SiteLayout = ({ children }) => (
 
           <div className="px-5 py-2">
             <Link passHref href="/features">
-              <a>
+              <a id="footer_nav_features_click">
                 <div className="text-base text-gray-500 hover:text-gray-900">
                   Features
                 </div>
@@ -181,7 +191,7 @@ const SiteLayout = ({ children }) => (
 
           <div className="px-5 py-2">
             <Link passHref href="/pricing">
-              <a>
+              <a id="footer_nav_pricing_click">
                 <div className="text-base text-gray-500 hover:text-gray-900">
                   Pricing
                 </div>
@@ -191,7 +201,7 @@ const SiteLayout = ({ children }) => (
 
           <div className="px-5 py-2">
             <Link passHref href="/demo" target="_blank" rel="noreferrer">
-              <a>
+              <a id="footer_nav_demo_click">
                 <div className="text-base text-gray-500 hover:text-gray-900">
                   Demo
                 </div>
@@ -201,7 +211,7 @@ const SiteLayout = ({ children }) => (
 
           <div className="px-5 py-2">
             <Link passHref href="/blog" target="_blank" rel="noreferrer">
-              <a>
+              <a id="footer_nav_blog_click">
                 <div className="text-base text-gray-500 hover:text-gray-900">
                   Blog
                 </div>
@@ -211,7 +221,7 @@ const SiteLayout = ({ children }) => (
 
           <div className="px-5 py-2">
             <Link passHref href="/support" target="_blank" rel="noreferrer">
-              <a>
+              <a id="footer_nav_kb_click">
                 <div className="text-base text-gray-500 hover:text-gray-900">
                   Knowledge Base
                 </div>

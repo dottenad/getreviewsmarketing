@@ -72,7 +72,10 @@ const SiteIndex = () => (
               </p>
               <Link passHref href="https://app.getreviews.ai/signup">
                 <a>
-                  <div className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                  <div
+                    className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                    id="basic_signup_button_click"
+                  >
                     Sign Up
                   </div>
                 </a>
@@ -224,7 +227,10 @@ const SiteIndex = () => (
               </p>
               <Link passHref href="https://app.getreviews.ai/signup">
                 <a>
-                  <div className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                  <div
+                    className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                    id="individual_signup_button_click"
+                  >
                     Sign Up
                   </div>
                 </a>
@@ -377,7 +383,10 @@ const SiteIndex = () => (
               </p>
               <Link passHref href="https://app.getreviews.ai/signup">
                 <a>
-                  <div className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                  <div
+                    className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                    id="professional_signup_button_click"
+                  >
                     Sign Up
                   </div>
                 </a>
@@ -530,7 +539,10 @@ const SiteIndex = () => (
               </p>
               <Link passHref href="https://app.getreviews.ai/signup">
                 <a>
-                  <div className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                  <div
+                    className="mt-8 block w-full text-center py-2 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
+                    id="enterprise_signup_button_click"
+                  >
                     Sign Up
                   </div>
                 </a>

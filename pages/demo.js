@@ -40,13 +40,13 @@ const SiteIndex = () => (
             DEMO
           </p>
           <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Book a Demo Today to Learn More
+            See GetReviews in Action
           </h1>
         </div>
       </div>
 
       <div className="overflow-hidden">
-        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
+        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl mb-12 sm:mb-16 lg:mb-24">
           <svg
             className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
             width="404"
@@ -81,11 +81,112 @@ const SiteIndex = () => (
             />
           </svg>
 
-          <div className="relative lg:grid lg:items-center">
+          <div className="relative mt-8 lg:mt-16 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="relative">
-              <CalendlyEmbed />
+              <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl text-center">
+                Demo a GetReviews Survey
+              </h3>
+              <p className="mt-3 text-lg text-gray-500 text-center">
+                Interact with a GetReviews survey as if you were your customer
+                who just received your offer for a free gift from your business.
+                Use order number{" "}
+                <span className="font-bold text-black highlight">
+                  <mark>888-7567859-5242609</mark>
+                </span>{" "}
+                to access the survey flow
+              </p>
+              <div className="flex  justify-center">
+                <Link href="https://www.supernutritionco.com/" passHref>
+                  <a>
+                    <button
+                      type="button"
+                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 mt-6"
+                    >
+                      View Survey
+                    </button>
+                  </a>
+                </Link>
+              </div>
+              <div className="relative my-10">
+                <div
+                  className="absolute inset-0 flex items-center"
+                  aria-hidden="true"
+                >
+                  <div className="w-full border-t border-gray-300"></div>
+                </div>
+                <div className="relative flex justify-center">
+                  <span className="px-2 bg-white text-sm text-gray-500">
+                    {" "}
+                    or{" "}
+                  </span>
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <p className="font-bold">Scan QR Code</p>
+              </div>
+              <div className="flex justify-center mt-6">
+                <img className="w-24 h-24" src="qr.png" alt="QR Code" />
+              </div>
+            </div>
+
+            <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+              <svg
+                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+                width="784"
+                height="404"
+                fill="none"
+                viewBox="0 0 784 404"
+              >
+                <defs>
+                  <pattern
+                    id="ca9667ae-9f92-4be7-abcb-9e3d727f2941"
+                    x="0"
+                    y="0"
+                    width="20"
+                    height="20"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <rect
+                      x="0"
+                      y="0"
+                      width="4"
+                      height="4"
+                      className="text-gray-200"
+                      fill="currentColor"
+                    />
+                  </pattern>
+                </defs>
+                <rect
+                  width="784"
+                  height="404"
+                  fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
+                />
+              </svg>
+              <img
+                className="relative mx-auto"
+                width="350"
+                src="cell.png"
+                alt=""
+              />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="relative">
+        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+          <div className="w-full border-t border-gray-300"></div>
+        </div>
+        <div className="relative flex justify-center">
+          <span className="px-3 bg-white text-lg font-medium text-gray-900">
+            {" "}
+            Still Have Questions? Book A Demo!{" "}
+          </span>
+        </div>
+      </div>
+
+      <div className="overflow-hidden">
+        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl py-8 sm:py-8">
+          <CalendlyEmbed />
         </div>
       </div>
 

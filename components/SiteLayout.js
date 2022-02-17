@@ -21,7 +21,7 @@ const SiteLayout = ({ children }) => (
         aria-label="Global"
       >
         <div className="flex items-center flex-1">
-          <div className="flex items-center justify-between w-full md:w-auto">
+          <div className="flex items-center justify-between w-full lg:w-auto">
             <Link passHref href="/">
               <a>
                 <span className="sr-only">GetReviews.ai</span>
@@ -32,14 +32,14 @@ const SiteLayout = ({ children }) => (
                 />
               </a>
             </Link>
-            <div className="-mr-2 flex items-center md:hidden">
+            <div className="-mr-2 flex items-center lg:hidden">
               <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                 <span className="sr-only">Open main menu</span>
                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
               </Popover.Button>
             </div>
           </div>
-          <div className="hidden md:block md:ml-10 md:space-x-10">
+          <div className="hidden lg:block md:ml-10 md:space-x-10">
             {nav.map((item) => (
               <Link
                 passHref
@@ -58,11 +58,11 @@ const SiteLayout = ({ children }) => (
             ))}
           </div>
         </div>
-        <div className="hidden md:block text-right">
+        <div className="hidden lg:block text-right">
           <span className="inline-flex mr-2">
             <Link passHref href="https://app.getreviews.ai/login">
               <a>
-                <div className="inline-flex items-center px-4 py-2 font-medium text-gray-500 hover:text-gray-900">
+                <div className="inline-flex items-center pl-10 pr-4 py-2 font-medium text-gray-500 hover:text-gray-900">
                   Log in
                 </div>
               </a>
@@ -94,7 +94,7 @@ const SiteLayout = ({ children }) => (
       >
         <Popover.Panel
           focus
-          className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+          className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
         >
           <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div className="px-5 pt-4 flex items-center justify-between">

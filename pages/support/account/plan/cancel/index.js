@@ -5,11 +5,10 @@ import Head from "next/head";
 const SupportIndex = () => (
   <div>
     <Head>
-      <title>Select Plan - GetReviews.ai</title>
+      <title>Cancel Account - GetReviews.ai</title>
       <meta
         name="description"
-        content="Select which plan you would like to sign up for on
-        GetReviews"
+        content="Learn how to cancel your account here"
       />
     </Head>
     <div className="bg-gray-200 pt-10 pb-14">
@@ -97,7 +96,7 @@ const SupportIndex = () => (
                   />
                 </svg>
                 <span className="ml-4 text-sm font-medium text-gray-500">
-                  Select Plan
+                  Cancel Account
                 </span>
               </div>
             </li>
@@ -211,73 +210,36 @@ const SupportIndex = () => (
             <div className="text-lg max-w-prose mx-auto">
               <h1>
                 <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  Select Plan
+                  Cancel Account
                 </span>
               </h1>
             </div>
             <div className="mt-6 prose prose-sky prose-lg mx-auto">
               <p>
-                There are a couple of ways to select a plan within GetReviews.
-                If you are currently on a trial plan, you can select a plan by
-                clicking the green &quot;x Days Remaining&quot; button in the
-                top right corner of the GetReviews dashboard.
+                Due to technical limitations, GetReviews accounts are currently
+                cancelled manually by GetReviews administrators. To cancel your
+                account, please send us an email with the name of your account
+                and we will cancel your account no-questions-asked. When your
+                account is cancelled, all of your data is retained on GetReviews
+                should you ever need to access it again. When your account is
+                cancelled, GetReviews disables all active surveys so no more
+                reviews are able to be collected.
               </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_plan.jpg"
-                  alt=""
-                />
-                <figcaption>
-                  Select plan by clicking &quot;x Days Remaining&quot; button
-                </figcaption>
-              </figure>
-              <p>
-                You can also select a plan by <strong>(1)</strong> clicking the
-                &quot;User&quot; icon in the top right corner,{" "}
-                <strong>(2)</strong> selecting &quot;Account Settings,{" "}
-                <strong>(3)</strong> clicking the &quot;Plans/Billing&quot; tab,
-                and <strong>(4)</strong> clicking the &quot;Upgrade Now&quot;
-                button
-              </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_2.jpg"
-                  alt=""
-                />
-                <figcaption>Select plan in account settings</figcaption>
-              </figure>
-              <p>
-                Once on the select plan page, you are presented with
-                GetReviews&apos; plans. Once you have identified which plan best
-                suits your needs, click the blue &quot;Select Plan&quot; button.
-              </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_3.jpg"
-                  alt=""
-                />
-                <figcaption>Choose which plan best suits your needs</figcaption>
-              </figure>
-              <p>
-                Once you have selected which plan best suits your needs, you are
-                taken to the plan checkout page. Once on the plan checkout page,
-                input your card details and hit the &quot;Submit Payment&quot;
-                button. Once you have successfully completed this step, you are
-                officially on a paid plan.
-              </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_4.jpg"
-                  alt=""
-                />
-                <figcaption>
-                  Input payment details on the plan checkout page
-                </figcaption>
-              </figure>
+              <div class="flex justify-center">
+                <Link
+                  href="mailto:support@getreviews.ai?subject=Please cancel my GetReviews account&body=Company Name: "
+                  passHref
+                >
+                  <a>
+                    <button
+                      type="button"
+                      class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+                    >
+                      Cancel Account
+                    </button>
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

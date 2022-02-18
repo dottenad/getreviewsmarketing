@@ -5,11 +5,10 @@ import Head from "next/head";
 const SupportIndex = () => (
   <div>
     <Head>
-      <title>Select Plan - GetReviews.ai</title>
+      <title>Change Plan - GetReviews.ai</title>
       <meta
         name="description"
-        content="Select which plan you would like to sign up for on
-        GetReviews"
+        content="Need to change which plan you are on? Learn how here"
       />
     </Head>
     <div className="bg-gray-200 pt-10 pb-14">
@@ -97,7 +96,7 @@ const SupportIndex = () => (
                   />
                 </svg>
                 <span className="ml-4 text-sm font-medium text-gray-500">
-                  Select Plan
+                  Change Plan
                 </span>
               </div>
             </li>
@@ -211,73 +210,81 @@ const SupportIndex = () => (
             <div className="text-lg max-w-prose mx-auto">
               <h1>
                 <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                  Select Plan
+                  Change Plan
                 </span>
               </h1>
             </div>
             <div className="mt-6 prose prose-sky prose-lg mx-auto">
               <p>
-                There are a couple of ways to select a plan within GetReviews.
-                If you are currently on a trial plan, you can select a plan by
-                clicking the green &quot;x Days Remaining&quot; button in the
-                top right corner of the GetReviews dashboard.
+                If you are already on a paid plan, and would like to upgrade or
+                downgrade your plan, follow along with the instructions below.
               </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_plan.jpg"
-                  alt=""
-                />
-                <figcaption>
-                  Select plan by clicking &quot;x Days Remaining&quot; button
-                </figcaption>
-              </figure>
-              <p>
-                You can also select a plan by <strong>(1)</strong> clicking the
-                &quot;User&quot; icon in the top right corner,{" "}
-                <strong>(2)</strong> selecting &quot;Account Settings,{" "}
-                <strong>(3)</strong> clicking the &quot;Plans/Billing&quot; tab,
-                and <strong>(4)</strong> clicking the &quot;Upgrade Now&quot;
-                button
-              </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_2.jpg"
-                  alt=""
-                />
-                <figcaption>Select plan in account settings</figcaption>
-              </figure>
-              <p>
-                Once on the select plan page, you are presented with
-                GetReviews&apos; plans. Once you have identified which plan best
-                suits your needs, click the blue &quot;Select Plan&quot; button.
-              </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_3.jpg"
-                  alt=""
-                />
-                <figcaption>Choose which plan best suits your needs</figcaption>
-              </figure>
-              <p>
-                Once you have selected which plan best suits your needs, you are
-                taken to the plan checkout page. Once on the plan checkout page,
-                input your card details and hit the &quot;Submit Payment&quot;
-                button. Once you have successfully completed this step, you are
-                officially on a paid plan.
-              </p>
-              <figure className="mt-4">
-                <img
-                  className="w-full rounded-lg border border-gray-200"
-                  src="../../../account_select_4.jpg"
-                  alt=""
-                />
-                <figcaption>
-                  Input payment details on the plan checkout page
-                </figcaption>
-              </figure>
+              <ul>
+                <li>
+                  <p>
+                    <strong>(1)</strong> Click the "User" icon in the top right
+                    of your GetReviews admin panel, then <strong>(2)</strong>{" "}
+                    click "Account Settings."
+                  </p>
+                  <div class="flex justify-center">
+                    <figure className="mt-0">
+                      <img
+                        className="w-full rounded-lg border border-gray-200"
+                        src="../../../plan_1.png"
+                        alt=""
+                      />
+                      <figcaption>
+                        <center>
+                          Click the "User" icon, then select "Account Settings"
+                        </center>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <p>
+                    <strong>(1)</strong> Click the "Plan/Billing" tab, then{" "}
+                    <strong>(2)</strong> click one of the "Change Plan" links
+                  </p>
+                  <div class="flex justify-center">
+                    <figure className="mt-0">
+                      <img
+                        className="w-full rounded-lg border border-gray-200"
+                        src="../../../plan_change.jpg"
+                        alt=""
+                      />
+                      <figcaption>
+                        <center>
+                          <strong>(1)</strong> Click the "Plan/Billing" tab,
+                          then <strong>(2)</strong> click one of the "Change
+                          Plan" links
+                        </center>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <p>
+                    Once on the "Plan" page, click the "Select Plan" button on
+                    whichever plan you would like to upgrade or downgrade to.
+                  </p>
+                  <div class="flex justify-center">
+                    <figure className="mt-0">
+                      <img
+                        className="w-full rounded-lg border border-gray-200"
+                        src="../../../change_plan_1.jpg"
+                        alt=""
+                      />
+                      <figcaption>
+                        <center>
+                          Click the "Select Plan" button on whichever plan you
+                          would like to upgrade or downgrade to.
+                        </center>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

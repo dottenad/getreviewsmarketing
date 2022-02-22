@@ -225,7 +225,7 @@ const SupportIndex = () => (
                 cancelled, GetReviews disables all active surveys so no more
                 reviews are able to be collected.
               </p>
-              <div class="flex justify-center">
+              <div className="flex justify-center">
                 <Link
                   href="mailto:support@getreviews.ai?subject=Please cancel my GetReviews account&body=Company Name: "
                   passHref
@@ -233,7 +233,7 @@ const SupportIndex = () => (
                   <a>
                     <button
                       type="button"
-                      class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
+                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
                     >
                       Cancel Account
                     </button>

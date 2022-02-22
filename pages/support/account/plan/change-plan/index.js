@@ -222,11 +222,11 @@ const SupportIndex = () => (
               <ul>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "User" icon in the top right
-                    of your GetReviews admin panel, then <strong>(2)</strong>{" "}
-                    click "Account Settings."
+                    <strong>(1)</strong> Click the &quot;User&quot; icon in the
+                    top right of your GetReviews admin panel, then{" "}
+                    <strong>(2)</strong> click &quot;Account Settings.&quot;
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -235,7 +235,8 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          Click the "User" icon, then select "Account Settings"
+                          Click the &quot;User&quot; icon, then select
+                          &quot;Account Settings&quot;
                         </center>
                       </figcaption>
                     </figure>
@@ -243,10 +244,11 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "Plan/Billing" tab, then{" "}
-                    <strong>(2)</strong> click one of the "Change Plan" links
+                    <strong>(1)</strong> Click the &quot;Plan/Billing&quot; tab,
+                    then <strong>(2)</strong> click one of the &quot;Change
+                    Plan&quot; links
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -255,9 +257,10 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          <strong>(1)</strong> Click the "Plan/Billing" tab,
-                          then <strong>(2)</strong> click one of the "Change
-                          Plan" links
+                          <strong>(1)</strong> Click the
+                          &quot;Plan/Billing&quot; tab, then{" "}
+                          <strong>(2)</strong> click one of the &quot;Change
+                          Plan&quot; links
                         </center>
                       </figcaption>
                     </figure>
@@ -265,10 +268,11 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    Once on the "Plan" page, click the "Select Plan" button on
-                    whichever plan you would like to upgrade or downgrade to.
+                    Once on the &quot;Plan&quot; page, click the &quot;Select
+                    Plan&quot; button on whichever plan you would like to
+                    upgrade or downgrade to.
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -277,8 +281,8 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          Click the "Select Plan" button on whichever plan you
-                          would like to upgrade or downgrade to.
+                          Click the &quot;Select Plan&quot; button on whichever
+                          plan you would like to upgrade or downgrade to.
                         </center>
                       </figcaption>
                     </figure>

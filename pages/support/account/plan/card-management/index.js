@@ -217,8 +217,8 @@ const SupportIndex = () => (
             <div className="mt-6 prose prose-sky prose-lg mx-auto">
               <p>
                 Are you needing to add, edit, or remove payment cards from you
-                GetReviews account? Then you've come to the right place. Learn
-                more below.
+                GetReviews account? Then you&apos;ve come to the right place.
+                Learn more below.
               </p>
             </div>
             <hr className="mt-10 mb-10" />
@@ -237,11 +237,11 @@ const SupportIndex = () => (
               <ul>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "User" icon in the top right
-                    of your GetReviews admin panel, then <strong>(2)</strong>{" "}
-                    click "Account Settings."
+                    <strong>(1)</strong> Click the &quot;User&quot; icon in the
+                    top right of your GetReviews admin panel, then{" "}
+                    <strong>(2)</strong> click &quot;Account Settings.&quot;
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -250,7 +250,8 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          Click the "User" icon, then select "Account Settings"
+                          Click the &quot;User&quot; icon, then select
+                          &quot;Account Settings&quot;
                         </center>
                       </figcaption>
                     </figure>
@@ -258,11 +259,11 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "Plan/Billing" tab, then{" "}
-                    <strong>(2)</strong> click one of the "Edit billing and
-                    payment" link
+                    <strong>(1)</strong> Click the &quot;Plan/Billing&quot; tab,
+                    then <strong>(2)</strong> click one of the &quot;Edit
+                    billing and payment&quot; link
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -271,9 +272,10 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          <strong>(1)</strong> Click the "Plan/Billing" tab,
-                          then <strong>(2)</strong> click one of the "Edit
-                          billing and payment" link
+                          <strong>(1)</strong> Click the
+                          &quot;Plan/Billing&quot; tab, then{" "}
+                          <strong>(2)</strong> click one of the &quot;Edit
+                          billing and payment&quot; link
                         </center>
                       </figcaption>
                     </figure>
@@ -281,10 +283,10 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    On the Billing and Payment page under the "Your Payment
-                    Method" section, click "Add New"
+                    On the Billing and Payment page under the &quot;Your Payment
+                    Method&quot; section, click &quot;Add New&quot;
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -292,19 +294,20 @@ const SupportIndex = () => (
                         alt=""
                       />
                       <figcaption>
-                        <center>Click "Add New"</center>
+                        <center>Click &quot;Add New&quot;</center>
                       </figcaption>
                     </figure>
                   </div>
                 </li>
                 <li>
                   <p>
-                    On the "Add New Card" page, enter your card information,
-                    then click "Add Card." If you would like to set this as your
-                    default payment method, tick the "Default Payment Method?"
-                    checkbox before clicking the "Add Card" button.
+                    On the &quot;Add New Card&quot; page, enter your card
+                    information, then click &quot;Add Card.&quot; If you would
+                    like to set this as your default payment method, tick the
+                    &quot;Default Payment Method?&quot; checkbox before clicking
+                    the &quot;Add Card&quot; button.
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -313,7 +316,8 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          Enter your card information, then click "Add Card"
+                          Enter your card information, then click &quot;Add
+                          Card&quot;
                         </center>
                       </figcaption>
                     </figure>
@@ -337,11 +341,11 @@ const SupportIndex = () => (
               <ul>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "User" icon in the top right
-                    of your GetReviews admin panel, then <strong>(2)</strong>{" "}
-                    click "Account Settings."
+                    <strong>(1)</strong> Click the &quot;User&quot; icon in the
+                    top right of your GetReviews admin panel, then{" "}
+                    <strong>(2)</strong> click &quot;Account Settings.&quot;
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -350,7 +354,8 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          Click the "User" icon, then select "Account Settings"
+                          Click the &quot;User&quot; icon, then select
+                          &quot;Account Settings&quot;
                         </center>
                       </figcaption>
                     </figure>
@@ -358,11 +363,11 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "Plan/Billing" tab, then{" "}
-                    <strong>(2)</strong> click one of the "Edit billing and
-                    payment" link
+                    <strong>(1)</strong> Click the &quot;Plan/Billing&quot; tab,
+                    then <strong>(2)</strong> click one of the &quot;Edit
+                    billing and payment&quot; link
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -371,9 +376,10 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          <strong>(1)</strong> Click the "Plan/Billing" tab,
-                          then <strong>(2)</strong> click one of the "Edit
-                          billing and payment" link
+                          <strong>(1)</strong> Click the
+                          &quot;Plan/Billing&quot; tab, then{" "}
+                          <strong>(2)</strong> click one of the &quot;Edit
+                          billing and payment&quot; link
                         </center>
                       </figcaption>
                     </figure>
@@ -381,12 +387,13 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    On the Billing and Payment page under the "Your Payment
-                    Method" section, <strong>(1)</strong> tick the radio button
-                    on the card that you'd like to change to the default charge
-                    card, then <strong>(2)</strong> click "Make Default."{" "}
+                    On the Billing and Payment page under the &quot;Your Payment
+                    Method&quot; section, <strong>(1)</strong> tick the radio
+                    button on the card that you&apos;d like to change to the
+                    default charge card, then <strong>(2)</strong> click
+                    &quot;Make Default.&quot;{" "}
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -396,8 +403,9 @@ const SupportIndex = () => (
                       <figcaption>
                         <center>
                           <strong>(1)</strong> Tick the radio button on the card
-                          that you'd like to change to the default charge card,
-                          then <strong>(2)</strong> click "Make Default."
+                          that you&apos;d like to change to the default charge
+                          card, then <strong>(2)</strong> click &quot;Make
+                          Default.&quot;
                         </center>
                       </figcaption>
                     </figure>
@@ -421,11 +429,11 @@ const SupportIndex = () => (
               <ul>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "User" icon in the top right
-                    of your GetReviews admin panel, then <strong>(2)</strong>{" "}
-                    click "Account Settings."
+                    <strong>(1)</strong> Click the &quot;User&quot; icon in the
+                    top right of your GetReviews admin panel, then{" "}
+                    <strong>(2)</strong> click &quot;Account Settings.&quot;
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -434,7 +442,8 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          Click the "User" icon, then select "Account Settings"
+                          Click the &quot;User&quot; icon, then select
+                          &quot;Account Settings&quot;
                         </center>
                       </figcaption>
                     </figure>
@@ -442,11 +451,11 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    <strong>(1)</strong> Click the "Plan/Billing" tab, then{" "}
-                    <strong>(2)</strong> click one of the "Edit billing and
-                    payment" link
+                    <strong>(1)</strong> Click the &quot;Plan/Billing&quot; tab,
+                    then <strong>(2)</strong> click one of the &quot;Edit
+                    billing and payment&quot; link
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -455,9 +464,10 @@ const SupportIndex = () => (
                       />
                       <figcaption>
                         <center>
-                          <strong>(1)</strong> Click the "Plan/Billing" tab,
-                          then <strong>(2)</strong> click one of the "Edit
-                          billing and payment" link
+                          <strong>(1)</strong> Click the
+                          &quot;Plan/Billing&quot; tab, then{" "}
+                          <strong>(2)</strong> click one of the &quot;Edit
+                          billing and payment&quot; link
                         </center>
                       </figcaption>
                     </figure>
@@ -465,16 +475,16 @@ const SupportIndex = () => (
                 </li>
                 <li>
                   <p>
-                    On the Billing and Payment page under the "Your Payment
-                    Method" section, <strong>(1)</strong> tick the radio button
-                    on the card that you'd like to delete, then{" "}
-                    <strong>(2)</strong> click "Delete Card."{" "}
+                    On the Billing and Payment page under the &quot;Your Payment
+                    Method&quot; section, <strong>(1)</strong> tick the radio
+                    button on the card that you&apos;d like to delete, then{" "}
+                    <strong>(2)</strong> click &quot;Delete Card.&quot;{" "}
                     <strong>Note:</strong> You cannot delete a card that is set
                     to the default charge card on the account. If you would like
                     to delete this card, first add another card, set this new
                     card as default, then come back and delete the old card.
                   </p>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <figure className="mt-0">
                       <img
                         className="w-full rounded-lg border border-gray-200"
@@ -484,8 +494,8 @@ const SupportIndex = () => (
                       <figcaption>
                         <center>
                           <strong>(1)</strong> Tick the radio button on the card
-                          that you'd like to delete, then <strong>(2)</strong>{" "}
-                          click "Delete Card."
+                          that you&apos;d like to delete, then{" "}
+                          <strong>(2)</strong> click &quot;Delete Card.&quot;
                         </center>
                       </figcaption>
                     </figure>

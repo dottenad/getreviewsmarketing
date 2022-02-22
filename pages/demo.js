@@ -101,6 +101,7 @@ const SiteIndex = () => (
                     <button
                       type="button"
                       className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 mt-6"
+                      id="demoButtonClick"
                     >
                       View Survey
                     </button>

@@ -7,17 +7,17 @@ import Script from "next/script";
 const SiteIndex = () => (
   <div>
     <Head>
-      <title>GetReviews.ai - Collect Customer Reviews on Autopilot</title>
+      <title>GetReviews.ai - Collect Reviews on Autopilot</title>
       <meta name="robots" content="index, follow" />
       <meta
         name="description"
-        content="Generate authentic reviews from actual customers on platforms that matter to your business with GetReviews.ai's proprietary review generation technology."
+        content="Generate authentic reviews on platforms that matter to your business with GetReviews.ai's proprietary review generation technology."
       />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="GetReviews.ai" />
       <meta
         property="og:description"
-        content="Generate authentic reviews from actual customers on platforms that matter to your business with GetReviews.ai's proprietary review generation technology"
+        content="Generate authentic reviews on platforms that matter to your business with GetReviews.ai's proprietary review generation technology"
       />
       <meta
         property="og:image"
@@ -35,14 +35,14 @@ const SiteIndex = () => (
               <h1>
                 <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                   <span className="block text-sky-600">
-                    Collect Customer Reviews on Autopilot with GetReviews.ai
+                    Get More Verified Reviews with GetReviews.ai
                   </span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Generate authentic reviews from actual customers on platforms
-                that matter to your business with GetReviews.ai&apos;s
-                proprietary review generation technology.
+                Did you know that only 1% of people leave their reviews online?
+                Collect reviews from the other 99% with GetReviews.ai's
+                proprietary QR-code review generation technology.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900 mb-3">
@@ -67,7 +67,7 @@ const SiteIndex = () => (
                     Start Free Trial
                   </button>
                 </span>
-                <p className="mt-3 text-sm text-gray-500">
+                <p className="mt-3 text-sm text-gray-900">
                   We care about the protection of your data. Read our&nbsp;
                   <Link passHref href="/privacy">
                     <a>
@@ -96,7 +96,7 @@ const SiteIndex = () => (
       <div className="bg-white mb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:py-8 lg:px-8">
           <p className="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
-            Generate verified customer reviews on dozens of online platforms,
+            Generate verified reviews on dozens of online platforms,
             including...
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
@@ -123,7 +123,7 @@ const SiteIndex = () => (
       </div>
       {/* End Platform Logos */}
       {/* Begin 1% Section */}
-      <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16 py-16">
+      {/* <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16 py-16">
         <div className="flex justify-center mb-6 text-yellow-400">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -143,23 +143,23 @@ const SiteIndex = () => (
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <div className="flex justify-center">
             <p className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl lg:max-w-3xl">
-              Did you know that only 1% of customers review their experiences
+              Did you know that only 1% of people review their experiences
               online?
             </p>
           </div>
           <p className="mt-5 max-w-prose mx-auto text-xl">
             At GetReviews, we see this as a collosal waste of potential.
-            Potential that would let prospective customers know more about your
-            products or services. Potential that would let you better understand
-            customer sentiment about your products &amp; services. This waste of
-            potential is what led us to develop the industry-leading
-            post-purchase review funnel optimized to unlock feedback from the
-            99% of customers who are not leaving a reviews on your products or
-            services. Read more about how we help businesses drive reviews
-            below.
+            Potential that would let people know more about your products,
+            services, or business. Potential that would let you better
+            understand sentiment about your products, services, or business.
+            This waste of potential is what led us to develop the
+            industry-leading review funnel optimized to unlock feedback from the
+            99% of people who are not leaving their reviews on your products,
+            services, or business. Read more about how we help businesses drive
+            reviews below.
           </p>
         </div>
-      </div>
+      </div> */}
       {/* End 1% Section */}
       {/* Begin Features and Benefits */}
       <div className="py-16 overflow-hidden lg:py-16 mb-8">
@@ -200,14 +200,14 @@ const SiteIndex = () => (
 
           <div className="relative">
             <h2 className="text-center font-semibold text-sky-700 mb-3">
-              ...so, how does GetReviews work?
+              What is GetReviews.ai?
             </h2>
             <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               GetReviews.ai is a review funnel optimized to generate verified
               reviews on platforms that matter to your business.
             </h2>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-              This is done by taking your customers through a survey containing
+            <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-900">
+              This is done by taking your respondent through a survey containing
               a set of highly-optimized actions that result in reviews on the
               platforms that matter to your business.
             </p>
@@ -277,12 +277,13 @@ const SiteIndex = () => (
                         Verified Reviews
                       </p>
                     </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                      With GetReviews, only verified purchases are allowed to
-                      post reviews. Typically verified purchases carry heavier
-                      algorithmic weight than non-verified purchases within
-                      platform algorithms, leading to increased rank for your
-                      products or services.
+                    <dd className="mt-2 ml-16 text-base text-gray-900">
+                      GetReviews only allows those who have had a verifiable
+                      interaction with your product, service, or business to be
+                      allowed into your review funnel. This is accomplished with
+                      order number validation (someone purchased a product from
+                      you) or unique, pre-validated links or QR codes (one-time
+                      use URLs).
                     </dd>
                   </div>
 
@@ -305,15 +306,13 @@ const SiteIndex = () => (
                         </svg>
                       </div>
                       <p className="ml-16 text-lg leading-6 font-bold text-gray-900">
-                        Customer Profiles
+                        Reviewer Profiles
                       </p>
                     </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                      GetReviews.ai stores all submitted customer information,
-                      including full name, email, cell phone number, and
-                      physical address, which opens the door to vast
-                      re-marketing possibilities. You can also pixel GetReviews
-                      landing pages for even greater customer targetting.
+                    <dd className="mt-2 ml-16 text-base text-gray-900">
+                      GetReviews.ai stores all submitted respondent information,
+                      including (but not limited to) rating, review, full name,
+                      email, cell, and physical address.
                     </dd>
                   </div>
                   <div className="relative">
@@ -338,8 +337,8 @@ const SiteIndex = () => (
                         Business Insights
                       </p>
                     </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                      Analyze customer sentiment about your product or service
+                    <dd className="mt-2 ml-16 text-base text-gray-900">
+                      Analyze sentiment about your product, service, or business
                       with review data collected on GetReviews.ai. This includes
                       star rating and at least 50 characters of review text per
                       review.
@@ -364,14 +363,14 @@ const SiteIndex = () => (
                         </svg>
                       </div>
                       <p className="ml-16 text-lg leading-6 font-bold text-gray-900">
-                        Customer Loyalty
+                        Loyalty Program
                       </p>
                     </dt>
-                    <dd className="mt-2 ml-16 text-base text-gray-500">
-                      If there is one thing customers love, it&apos;s free
-                      stuff! With GetReviews.ai&apos;s seamless survey
-                      technology, customers are happy to provide their honest,
-                      candid feedback in exchange for their free gift.
+                    <dd className="mt-2 ml-16 text-base text-gray-900">
+                      If there is one thing people love, it&apos;s free stuff!
+                      With GetReviews.ai&apos;s seamless survey technology,
+                      people are happy to provide their honest, candid feedback
+                      in exchange for their free gift.
                     </dd>
                   </div>
                 </dl>
@@ -471,12 +470,12 @@ const SiteIndex = () => (
             </div>
             <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
               <span className="block xl:inline">
-                Trusted By 7, 8, and 9-Figure Businesses
+                Trusted By Businesses Of All Sizes
               </span>
             </h1>
             <p className="mt-3 mx-auto text-base sm:text-lg md:mt-5 md:text-xl">
-              With over 250,000 reviews generated, GetReviews is a trusted
-              partner for businesses of all sizes.
+              From small businesses to Fortune 500s, GetReviews works for
+              businesses of all sizes.
             </p>
           </div>
         </div>
@@ -488,11 +487,11 @@ const SiteIndex = () => (
             ...so, what types of businesses can GetReviews collect reviews for?
           </h2>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-            GetReviews works with all business types!
+            GetReviews works with all business types
           </p>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-900">
             Whether you sell products or services, GetReviews is able to collect
-            reviews from customers on any and all types of businesses
+            reviews on any and all types of businesses
           </p>
           <div className="mt-6">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
@@ -677,11 +676,10 @@ const SiteIndex = () => (
                   <img className="w-full" src="features_platforms.svg" alt="" />
                   <div className="px-6 pb-4">
                     <p className="mt-5 text-base text-gray-900">
-                      Want to collect more customer reviews on the services that
-                      you sell on the platforms that matter to your business?
-                      Collect reviews on popular platforms, including Google,
-                      Facebook, Yelp, Tripadvisor, Better Business Bureau,
-                      Angie&apos;s List, and more.
+                      Want to collect more reviews on the platforms that matter
+                      to your business? Collect reviews on popular platforms
+                      including Google, Facebook, Yelp, Tripadvisor, Better
+                      Business Bureau, Angie&apos;s List, and more.
                     </p>
                   </div>
                   <div className="px-6">
@@ -886,7 +884,7 @@ const SiteIndex = () => (
               </p>
             </div>
             <p className="mt-5 max-w-prose mx-auto text-xl">
-              Reward customer feedback with pre-defined giveaway types!
+              Reward respondent feedback with pre-defined giveaway types!
             </p>
           </div>
           <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8 text-white text-center">
@@ -902,7 +900,7 @@ const SiteIndex = () => (
                 <p className="mt-5 text-2xl leading-6 font-bold">Gift Card</p>
               </dt>
               <dd className="mt-4 text-base">
-                Gift your customer a gift card!
+                Gift your respondent a gift card!
               </dd>
             </div>
             <div>
@@ -917,7 +915,7 @@ const SiteIndex = () => (
                 <p className="mt-5 text-2xl leading-6 font-bold">Coupon</p>
               </dt>
               <dd className="mt-4 text-base">
-                Gift your customer a percentage off of their next purchase!
+                Gift your respondent a percentage off of their next purchase!
               </dd>
             </div>
             <div>
@@ -932,7 +930,7 @@ const SiteIndex = () => (
                 <p className="mt-5 text-2xl leading-6 font-bold">Product</p>
               </dt>
               <dd className="mt-4 text-base">
-                Gift your customer a free product!
+                Gift your respondent a free product!
               </dd>
             </div>
           </dl>
@@ -949,7 +947,7 @@ const SiteIndex = () => (
               The GetReviews.ai Process
             </p>
           </div>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-900">
             Collecting reviews with GetReviews is as easy as 1-2-3!
           </p>
           <div className="mt-12">
@@ -994,7 +992,8 @@ const SiteIndex = () => (
                       Distribute QR Code
                     </h3>
                     <p className="my-5 text-base text-gray-900">
-                      Distribute your survey&apos;s QR code to your customers
+                      Distribute your survey&apos;s QR code to your desired
+                      respondents
                     </p>
                     <span className="inline-flex items-center justify-center">
                       <img src="save_2.png" alt="Step 2" />
@@ -1014,7 +1013,7 @@ const SiteIndex = () => (
                       GetReviews!
                     </h3>
                     <p className="my-5 text-base text-gray-900">
-                      Watch as customer reviews come flowing in on auto-pilot!
+                      Watch as reviews come flowing in on auto-pilot!
                     </p>
                     <span className="inline-flex items-center justify-center">
                       <img src="save_3.png" alt="Step 3" />
@@ -1035,7 +1034,7 @@ const SiteIndex = () => (
               Integration Partners
             </p>
           </div>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-900">
           Save time and money by utilizing our library of integrations to automate your data flow
           </p>
           <img className="w-full" src="integration_partners.png" alt="Step 1" />

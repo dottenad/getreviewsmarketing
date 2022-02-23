@@ -41,7 +41,7 @@ const SiteIndex = () => (
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Did you know that only 1% of people leave their reviews online?
-                Collect reviews from the other 99% with GetReviews.ai's
+                Collect reviews from the other 99% with GetReviews.ai&apos;s
                 proprietary QR-code review generation technology.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">

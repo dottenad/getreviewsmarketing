@@ -87,9 +87,9 @@ const SiteIndex = () => (
                 Demo a GetReviews Survey
               </h3>
               <p className="mt-3 text-lg text-gray-500 text-center">
-                Interact with a GetReviews survey as if you were your customer
-                who just received your offer for a free gift from your business.
-                Use order number{" "}
+                Interact with a GetReviews survey as if you just received an
+                offer for a free gift from a business you purchased from. Use
+                order number{" "}
                 <span className="font-bold text-black highlight">
                   <mark>888-7567859-5242609</mark>
                 </span>{" "}

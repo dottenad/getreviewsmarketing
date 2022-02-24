@@ -101,7 +101,7 @@ const SiteIndex = () => (
                   className="inline-flex space-x-4 mt-3"
                 >
                   <a>
-                    <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
+                    <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1 mt-2">
                       <span>Learn more</span>
                       <svg
                         className="h-5 w-5"
@@ -216,7 +216,7 @@ const SiteIndex = () => (
                     className="inline-flex space-x-4 mt-3"
                   >
                     <a>
-                      <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1">
+                      <span className="inline-flex items-center text-md font-medium text-sky-500 space-x-1 mt-2">
                         <span>Learn more</span>
                         <svg
                           className="h-5 w-5"

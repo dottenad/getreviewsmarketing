@@ -13,9 +13,9 @@
 	.st7{fill:url(#SVGID_7_);}
 	.st8{fill:url(#SVGID_8_);}
 	.st9{fill:#FFFFFF;}
-	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_9_);}
-	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_10_);}
-	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_11_);}
+	.st10{fillRule:evenodd;clipRule:evenodd;fill:url(#SVGID_9_);}
+	.st11{fillRule:evenodd;clipRule:evenodd;fill:url(#SVGID_10_);}
+	.st12{fillRule:evenodd;clipRule:evenodd;fill:url(#SVGID_11_);}
 </style>
 <line class="st0" x1="969.4" y1="1061.38" x2="632.5" y2="513.5"/>
 <polyline class="st0" points="784.69,848.81 190.5,690.5 109.5,1051.5 1018.9,371.13 1056.37,229.79 "/>

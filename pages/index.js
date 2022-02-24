@@ -1,6 +1,7 @@
-import CallToAction from "/components/CallToAction.js";
+import CallToActionGray from "/components/CallToActionGray.js";
 import Link from "next/link";
 import SiteLayout from "../components/SiteLayout";
+import Modal from "../components/Modal";
 import Head from "next/head";
 import Script from "next/script";
 
@@ -1023,12 +1024,16 @@ const SiteIndex = () => (
               </div>
             </div>
           </div>
-          <div className="relative mt-8 lg:mt-16 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        </div>
+      </div>
+      <div className="relative bg-sky-700 py-24 sm:py-24 lg:py-24 text-white">
+        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+          <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="relative">
-              <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl text-center">
+              <h3 className="text-2xl font-extrabold text-white tracking-tight sm:text-3xl text-center">
                 Demo a GetReviews Survey
               </h3>
-              <p className="mt-3 text-lg text-gray-500 text-center">
+              <p className="mt-3 text-lg text-white text-center">
                 Interact with a GetReviews survey as if you just received an
                 offer for a free gift from a business you purchased from. Use
                 order number{" "}
@@ -1037,12 +1042,12 @@ const SiteIndex = () => (
                 </span>{" "}
                 to access the survey flow
               </p>
-              <div className="flex  justify-center">
+              <div className="flex justify-center">
                 <Link href="https://www.supernutritionco.com/" passHref>
                   <a target="_blank">
                     <button
                       type="button"
-                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 mt-6"
+                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500 mt-6"
                       id="demoButtonClick"
                     >
                       View Survey
@@ -1058,7 +1063,7 @@ const SiteIndex = () => (
                   <div className="w-full border-t border-gray-300"></div>
                 </div>
                 <div className="relative flex justify-center">
-                  <span className="px-2 bg-white text-sm text-gray-500">
+                  <span className="px-2 bg-sky-700 text-sm text-white">
                     {" "}
                     or{" "}
                   </span>
@@ -1068,8 +1073,35 @@ const SiteIndex = () => (
                 <p className="font-bold">Scan QR Code</p>
               </div>
               <div className="flex justify-center mt-6">
-                <img className="w-24 h-24" src="qr.png" alt="QR Code" />
+                <img className="w-24 h-24" src="qr-code.svg" alt="QR Code" />
               </div>
+              <div className="relative my-10">
+                <div
+                  className="absolute inset-0 flex items-center"
+                  aria-hidden="true"
+                >
+                  <div className="w-full border-t border-gray-300"></div>
+                </div>
+                <div className="relative flex justify-center">
+                  <span className="px-2 bg-sky-700 text-sm text-white">
+                    {" "}
+                    or{" "}
+                  </span>
+                </div>
+              </div>
+              <p className="mt-4 text-lg leading-6 text-white font-bold">
+                Still have questions? Book a demo with a GetReviews specialist!
+              </p>
+              <Link href="https://calendly.com/getreviewsai/demo" passHref>
+                <a target="_blank">
+                  <button
+                    className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 sm:w-auto"
+                    id="cta_signup_button_click"
+                  >
+                    Book a Demo
+                  </button>
+                </a>
+              </Link>
             </div>
 
             <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
@@ -1105,12 +1137,16 @@ const SiteIndex = () => (
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
                 />
               </svg>
-              <img
-                className="relative mx-auto"
-                width="350"
-                src="cell.png"
-                alt=""
-              />
+              <Link href="https://www.supernutritionco.com/" passHref>
+                <a id="demoButtonClick">
+                  <img
+                    className="relative mx-auto"
+                    width="600"
+                    src="cell.png"
+                    alt=""
+                  />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1131,7 +1167,7 @@ const SiteIndex = () => (
         </div>
       </div> */}
       {/* End Integration Partners */}
-      <CallToAction />
+      <CallToActionGray />
     </div>
     <>
       <Script src="/SignUp.js" />

@@ -1,7 +1,6 @@
 import CallToActionGray from "/components/CallToActionGray.js";
 import Link from "next/link";
 import SiteLayout from "../components/SiteLayout";
-import Modal from "../components/Modal";
 import Head from "next/head";
 import Script from "next/script";
 

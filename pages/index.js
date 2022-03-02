@@ -28,21 +28,22 @@ const SiteIndex = () => (
     </Head>
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
-      <div className="relative mt-6 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 pb-16 sm:pb-24 lg:pb-16">
-        <div className="mx-auto max-w-7xl px-4 mt-8 sm:mt-12 md:mt-12 lg:mt-12 xl:mt-16 2xl:mt-16 sm:px-6">
+      <div className="relative mt-8 pb-16 sm:pb-24 lg:pb-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-            <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+            <div className="grid content-center sm:text-center md:max-w-2xl md:mx-auto lg:col-span-5 lg:text-left">
               <h1>
                 <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                   <span className="block text-sky-600">
-                    Get More Verified Reviews with GetReviews.ai
+                    Your Everything Review Generation Software
                   </span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Did you know that only 1% of people leave their reviews online?
-                Collect reviews from the other 99% with GetReviews.ai&apos;s
-                proprietary QR-code review generation technology.
+                Get reviews from whoever you want, wherever you want. From
+                customer reviews on Amazon to employee reviews on Glassdoor.
+                There is no limit to what you can do with GetReviews.ai. Sign up
+                today.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900 mb-3">
@@ -79,11 +80,11 @@ const SiteIndex = () => (
                 </p>
               </div>
             </div>
-            <div className="mt-12 relative sm:mx-auto lg:mt-0 lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+            <div className="mt-12 relative sm:mx-auto lg:mt-0 lg:mx-0 lg:col-span-7 lg:flex lg:items-center">
               <div className="relative mx-auto w-full">
                 <img
                   className="w-full"
-                  src="reviews.svg"
+                  src="reviews_2.svg"
                   alt="Home Page Graphic"
                 />
               </div>
@@ -96,7 +97,7 @@ const SiteIndex = () => (
       <div className="bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:py-8 lg:px-8">
           <p className="text-center text-base font-semibold uppercase text-gray-700 tracking-wider">
-            Generate verified reviews on dozens of online platforms,
+            Get Reviews on dozens of online platforms and marketplaces,
             including...
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
@@ -122,47 +123,8 @@ const SiteIndex = () => (
         </div>
       </div>
       {/* End Platform Logos */}
-      {/* Begin 1% Section */}
-      {/* <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16 py-16">
-        <div className="flex justify-center mb-6 text-yellow-400">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-16 w-16"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="#facc15"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-            />
-          </svg>
-        </div>
-        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <div className="flex justify-center">
-            <p className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl lg:max-w-3xl">
-              Did you know that only 1% of people review their experiences
-              online?
-            </p>
-          </div>
-          <p className="mt-5 max-w-prose mx-auto text-xl">
-            At GetReviews, we see this as a collosal waste of potential.
-            Potential that would let people know more about your products,
-            services, or business. Potential that would let you better
-            understand sentiment about your products, services, or business.
-            This waste of potential is what led us to develop the
-            industry-leading review funnel optimized to unlock feedback from the
-            99% of people who are not leaving their reviews on your products,
-            services, or business. Read more about how we help businesses drive
-            reviews below.
-          </p>
-        </div>
-      </div> */}
-      {/* End 1% Section */}
       {/* Begin Features and Benefits */}
-      <div className="py-16 overflow-hidden lg:py-16 mb-8">
+      <div className="py-16 overflow-hidden">
         <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
           <svg
             className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
@@ -203,12 +165,12 @@ const SiteIndex = () => (
               What is GetReviews.ai?
             </h2>
             <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              GetReviews.ai is a review funnel optimized to generate verified
-              reviews on platforms that matter to your business.
+              GetReviews.ai is a review funnel optimized to generate reviews on
+              platforms that matter to your business.
             </h2>
-            <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-900">
+            <p className="mt-4 max-w-3xl mx-auto text-center text-lg text-gray-900">
               This is done by taking your respondent through a survey containing
-              a set of highly-optimized actions that result in reviews on the
+              a set of highly-optimized questions that result in reviews on the
               platforms that matter to your business.
             </p>
           </div>
@@ -279,11 +241,9 @@ const SiteIndex = () => (
                     </dt>
                     <dd className="mt-2 ml-16 text-base text-gray-900">
                       GetReviews only allows those who have had a verifiable
-                      interaction with your product, service, or business to be
-                      allowed into your review funnel. This is accomplished with
-                      order number validation (someone purchased a product from
-                      you) or unique, pre-validated links or QR codes (one-time
-                      use URLs).
+                      interaction with your business to be allowed into your
+                      review funnel. This is accomplished with unique,
+                      pre-validated links or QR codes (one-time use URLs).
                     </dd>
                   </div>
 
@@ -311,8 +271,8 @@ const SiteIndex = () => (
                     </dt>
                     <dd className="mt-2 ml-16 text-base text-gray-900">
                       GetReviews.ai stores all submitted respondent information,
-                      including (but not limited to) rating, review, full name,
-                      email, cell, and physical address.
+                      including rating, review, full name, email, cell, and
+                      physical address.
                     </dd>
                   </div>
                   <div className="relative">
@@ -422,6 +382,209 @@ const SiteIndex = () => (
         </div>
       </div>
       {/* End Features and Benefits */}
+      {/* Begin GetReviews Process */}
+      <div className="relative bg-white py-16">
+        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+          <h2 className="text-center font-semibold text-sky-700 mb-2">
+            How does GetReviews.ai work?
+          </h2>
+          <div className="flex justify-center">
+            <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl lg:max-w-3xl">
+              The GetReviews.ai Process
+            </p>
+          </div>
+          <p className="mt-5 max-w-prose mx-auto text-lg text-gray-900">
+            Follow along as we explain how the GetReviews.ai process works.
+          </p>
+          <div className="mt-12">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
+                        <img className="h-6" src="1.svg" alt="Step 1" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                      Sign Up
+                    </h3>
+                    <p className="my-5 text-base text-gray-900">
+                      <Link passHref href="https://app.getreviews.ai/signup">
+                        <a
+                          className="underline text-sky-700"
+                          id="walkthroughSignupLink"
+                        >
+                          Sign up
+                        </a>
+                      </Link>{" "}
+                      for GetReviews.ai
+                    </p>
+                    <span className="inline-flex items-center justify-center">
+                      <img src="save_1.png" alt="Step 1" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
+                        <img className="h-6" src="2.svg" alt="Step 2" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                      Add Target
+                    </h3>
+                    <p className="my-5 text-base text-gray-900">
+                      <strong>
+                        <i>What</i>
+                      </strong>{" "}
+                      would you like to collect reviews on? This can be a
+                      product, business, service. You name it!
+                    </p>
+                    <span className="inline-flex items-center justify-center">
+                      <img src="save_11.png" alt="Step 2" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
+                        <img className="h-6" src="3.svg" alt="Step 3" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                      Add Platform
+                    </h3>
+                    <p className="my-5 text-base text-gray-900">
+                      <strong>
+                        <i>Where</i>
+                      </strong>{" "}
+                      would you like the reviews about your target posted? This
+                      can be Amazon, Google, Glassdoor. The sky is the limit!
+                    </p>
+                    <span className="inline-flex items-center justify-center">
+                      <img src="save_12.png" alt="Step 3" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-12">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
+                        <img className="h-6" src="4.svg" alt="Step 4" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                      Add Giveaway (optional)
+                    </h3>
+                    <p className="my-5 text-base text-gray-900">
+                      Entice your customer to complete your survey with a
+                      giveaway offer.
+                    </p>
+                    <span className="inline-flex items-center justify-center">
+                      <img src="save_13.png" alt="Step 1" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
+                        <img className="h-6" src="5.svg" alt="Step 5" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                      Distribute Survey URL
+                    </h3>
+                    <p className="my-5 text-base text-gray-900">
+                      Distribute your survey URL to those who you'd like to
+                      provide their review
+                    </p>
+                    <span className="inline-flex items-center justify-center">
+                      <img src="save_2.png" alt="Step 2" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="pt-6">
+                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
+                  <div className="-mt-6">
+                    <div>
+                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
+                        <img className="h-6" src="6.svg" alt="Step 6" />
+                      </span>
+                    </div>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
+                      GetReviews!
+                    </h3>
+                    <p className="my-5 text-base text-gray-900">
+                      Watch your review count grow on auto-pilot!
+                    </p>
+                    <span className="inline-flex items-center justify-center">
+                      <img src="save_14.png" alt="Step 3" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Begin 1% Section */}
+      {/* <div className="relative bg-sky-800 text-white sm:py-24 lg:py-16 py-16">
+        <div className="flex justify-center mb-6 text-yellow-400">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-16 w-16"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="#facc15"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </div>
+        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+          <div className="flex justify-center">
+            <p className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl lg:max-w-3xl">
+              Did you know that only 1% of people review their experiences
+              online?
+            </p>
+          </div>
+          <p className="mt-5 max-w-prose mx-auto text-xl">
+            At GetReviews, we see this as a collosal waste of potential.
+            Potential that would let people know more about your products,
+            services, or business. Potential that would let you better
+            understand sentiment about your products, services, or business.
+            This waste of potential is what led us to develop the
+            industry-leading review funnel optimized to unlock feedback from the
+            99% of people who are not leaving their reviews on your products,
+            services, or business. Read more about how we help businesses drive
+            reviews below.
+          </p>
+        </div>
+      </div> */}
+      {/* End 1% Section */}
       {/* Begin Trusted By 7, 8, 9 Figure Seller Section */}
       <div className="bg-sky-700 py-16">
         <div className="mx-auto max-w-7xl px-4">
@@ -489,7 +652,7 @@ const SiteIndex = () => (
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
             GetReviews works with all business types
           </p>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-900">
+          <p className="mt-5 max-w-prose mx-auto text-lg text-gray-900">
             Whether you sell products or services, GetReviews is able to collect
             reviews on any and all types of businesses
           </p>
@@ -875,7 +1038,7 @@ const SiteIndex = () => (
           </div>
         </div>
       </div>
-      <div className="py-16 bg-sky-700">
+      {/* <div className="py-16 bg-sky-700">
         <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl pb-8 text-white text-center">
             <div className="flex justify-center">
@@ -883,7 +1046,7 @@ const SiteIndex = () => (
                 Giveaway Types
               </p>
             </div>
-            <p className="mt-5 max-w-prose mx-auto text-xl">
+            <p className="mt-5 max-w-prose mx-auto text-lg">
               Reward respondent feedback with pre-defined giveaway types!
             </p>
           </div>
@@ -935,96 +1098,7 @@ const SiteIndex = () => (
             </div>
           </dl>
         </div>
-      </div>
-      {/* Begin GetReviews Process */}
-      <div className="relative bg-white py-16 sm:py-24 lg:py-16">
-        <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-          <h2 className="text-center font-semibold text-sky-700 mb-2">
-            How does GetReviews.ai work?
-          </h2>
-          <div className="flex justify-center">
-            <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl lg:max-w-3xl">
-              The GetReviews.ai Process
-            </p>
-          </div>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-900">
-            Collecting reviews with GetReviews is as easy as 1-2-3!
-          </p>
-          <div className="mt-12">
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="1.svg" alt="Step 1" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                      Sign Up &amp; Create Survey
-                    </h3>
-                    <p className="my-5 text-base text-gray-900">
-                      <Link
-                        passHref
-                        href="#"
-                        className="underline text-sky-700"
-                      >
-                        <a>Sign up</a>
-                      </Link>{" "}
-                      for GetReviews and create your survey
-                    </p>
-                    <span className="inline-flex items-center justify-center">
-                      <img src="save_1.png" alt="Step 1" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="2.svg" alt="Step 2" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                      Distribute QR Code
-                    </h3>
-                    <p className="my-5 text-base text-gray-900">
-                      Distribute your survey&apos;s QR code to your desired
-                      respondents
-                    </p>
-                    <span className="inline-flex items-center justify-center">
-                      <img src="save_2.png" alt="Step 2" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="pt-6">
-                <div className="flow-root bg-gray-50 rounded-lg px-6 pb-8">
-                  <div className="-mt-6">
-                    <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-sky-700 rounded-md shadow-lg">
-                        <img className="h-6" src="3.svg" alt="Step 3" />
-                      </span>
-                    </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">
-                      GetReviews!
-                    </h3>
-                    <p className="my-5 text-base text-gray-900">
-                      Watch as reviews come flowing in on auto-pilot!
-                    </p>
-                    <span className="inline-flex items-center justify-center">
-                      <img src="save_3.png" alt="Step 3" />
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div> */}
       <div className="relative bg-sky-700 py-24 sm:py-24 lg:py-24 text-white">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <div className="relative lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">

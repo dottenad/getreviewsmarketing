@@ -466,8 +466,8 @@ const SiteIndex = () => (
                       <strong>
                         <i>Where</i>
                       </strong>{" "}
-                      would you like the reviews about your target posted? This
-                      can be Amazon, Google, Glassdoor. The sky is the limit!
+                      would you like the reviews you collect posted? This can be
+                      Amazon, Google, Glassdoor. The sky is the limit!
                     </p>
                     <span className="inline-flex items-center justify-center">
                       <img src="save_12.png" alt="Step 3" />

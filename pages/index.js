@@ -513,7 +513,7 @@ const SiteIndex = () => (
                       Distribute Survey URL
                     </h3>
                     <p className="my-5 text-base text-gray-900">
-                      Distribute your survey URL to those who you'd like to
+                      Distribute your survey URL to those who you&apos;d like to
                       provide their review
                     </p>
                     <span className="inline-flex items-center justify-center">

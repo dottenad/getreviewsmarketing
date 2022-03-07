@@ -63,7 +63,7 @@ const SiteLayout = ({ children }) => (
             <Link passHref href="https://app.getreviews.ai/login">
               <a>
                 <div className="inline-flex items-center pl-10 pr-4 py-2 font-medium text-gray-500 hover:text-gray-900">
-                  Log in
+                  Login
                 </div>
               </a>
             </Link>
@@ -122,7 +122,7 @@ const SiteLayout = ({ children }) => (
             <Link passHref href="https://app.getreviews.ai/login">
               <a>
                 <div className="block w-full px-5 pb-3 text-center font-medium text-grey-900">
-                  Log in
+                  Login
                 </div>
               </a>
             </Link>

@@ -45,7 +45,7 @@ const SiteIndex = () => (
                 Amazon to employee reviews on Glassdoor, GetReviews make it easy
                 to collect reviews from whoever you want, wherever you want.
               </p>
-              <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+              <div className="mt-8 sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900 mb-3">
                   Start your free 30-day trial today (no CC required)
                 </p>

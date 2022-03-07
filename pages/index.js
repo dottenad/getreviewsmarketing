@@ -33,17 +33,17 @@ const SiteIndex = () => (
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="grid content-center sm:text-center md:max-w-2xl md:mx-auto lg:col-span-5 lg:text-left">
               <h1>
-                <span className="mt-1 block text-5xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
+                <span className="mt-1 block text-8xl tracking-tight font-extrabold sm:text-8xl xl:text-8xl">
                   <span className="block text-sky-600">
-                    Your Everything Review Generation Software
+                    Get. More. Reviews.
                   </span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Get reviews from whoever you want, wherever you want. From
-                customer reviews on Amazon to employee reviews on Glassdoor.
-                There is no limit to what you can do with GetReviews.ai. Sign up
-                today.
+                Grow your reviews with ease with GetReviews.ai's proprietary
+                review funnel technology. From customer reviews on Amazon to
+                employee reviews on Glassdoor, GetReviews make it easy to
+                collect reviews from whoever you want, wherever you want.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900 mb-3">

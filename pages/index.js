@@ -40,10 +40,10 @@ const SiteIndex = () => (
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-900 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Grow your reviews with ease with GetReviews.ai's proprietary
-                review funnel technology. From customer reviews on Amazon to
-                employee reviews on Glassdoor, GetReviews make it easy to
-                collect reviews from whoever you want, wherever you want.
+                Grow your reviews with ease with GetReviews.ai&apos;s
+                proprietary review funnel technology. From customer reviews on
+                Amazon to employee reviews on Glassdoor, GetReviews make it easy
+                to collect reviews from whoever you want, wherever you want.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <p className="text-base font-medium text-gray-900 mb-3">

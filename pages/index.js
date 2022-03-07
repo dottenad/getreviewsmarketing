@@ -28,13 +28,13 @@ const SiteIndex = () => (
     </Head>
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
-      <div className="relative mt-8 pb-16 sm:pb-24 lg:pb-16">
+      <div className="relative md:mt-8 pb-16 sm:pb-24 lg:pb-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="grid content-center sm:text-center md:max-w-2xl md:mx-auto lg:col-span-5 lg:text-left">
               <h1>
                 <span className="mt-1 block tracking-tight font-extrabold text-7xl lg:text-7xl xl:text-8xl">
-                  <span className="block text-sky-600">
+                  <span className="block text-sky-600 gradient-text">
                     Get. More. Reviews.
                   </span>
                 </span>

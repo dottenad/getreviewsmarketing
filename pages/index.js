@@ -33,7 +33,7 @@ const SiteIndex = () => (
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="grid content-center sm:text-center md:max-w-2xl md:mx-auto lg:col-span-5 lg:text-left">
               <h1>
-                <span className="mt-1 block text-8xl tracking-tight font-extrabold sm:text-8xl xl:text-8xl">
+                <span className="mt-1 block tracking-tight font-extrabold text-7xl lg:text-7xl xl:text-8xl">
                   <span className="block text-sky-600">
                     Get. More. Reviews.
                   </span>

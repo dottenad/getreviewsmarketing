@@ -325,7 +325,7 @@ const SiteLayout = ({ children }) => (
               </div>
               <div>
                 <a
-                  href="https://app.getreviews.ai/login"
+                  href="https://app.getreviews.ai/signup"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-orange-600 shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500"
                   id="mobile_menu_sign_up"
                 >
@@ -334,7 +334,7 @@ const SiteLayout = ({ children }) => (
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Have an account?{" "}
                   <a
-                    href="https://app.getreviews.ai/signup"
+                    href="https://app.getreviews.ai/login"
                     className="text-sky-600 hover:text-sky-500"
                   >
                     Login

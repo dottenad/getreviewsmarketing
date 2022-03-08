@@ -28,7 +28,7 @@ const SiteIndex = () => (
     </Head>
     <div className="relative bg-white overflow-hidden">
       {/* Begin Nav + Main Banner */}
-      <div className="relative md:mt-8 pb-16 sm:pb-24 lg:pb-16">
+      <div className="relative mt-8 pb-16 sm:pb-24 lg:pb-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="grid content-center sm:text-center md:max-w-2xl md:mx-auto lg:col-span-5 lg:text-left">
@@ -1165,8 +1165,8 @@ const SiteIndex = () => (
               <p className="mt-4 text-lg leading-6 text-white font-bold">
                 Still have questions? Book a demo with a GetReviews specialist!
               </p>
-              <Link href="https://calendly.com/getreviewsai/demo" passHref>
-                <a target="_blank">
+              <Link href="/book" passHref>
+                <a>
                   <button
                     className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-orange-600 shadow-sm hover:bg-orange-700 sm:w-auto"
                     id="cta_signup_button_click"

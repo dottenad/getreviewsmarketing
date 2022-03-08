@@ -7,17 +7,17 @@ import Head from "next/head";
 const SiteIndex = () => (
   <div>
     <Head>
-      <title>Demo - GetReviews.ai</title>
+      <title>Try It Out - GetReviews.ai</title>
       <meta name="robots" content="index, follow" />
       <meta
         name="description"
-        content="Book a demo with GetReviews today to learn more about our cutting edge suite of review generation features."
+        content="Test run a GetReviews survey to see how our proprietary flow can increase your reviews"
       />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Demo - GetReviews.ai" />
       <meta
         property="og:description"
-        content="Book a demo with GetReviews today to learn more about our cutting edge suite of review generation features."
+        content="Test run a GetReviews survey to see how our proprietary flow can increase your reviews"
       />
       <meta
         property="og:image"
@@ -37,7 +37,7 @@ const SiteIndex = () => (
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <p className="mt-6 text-xl text-sky-100 max-w-3xl tracking-widest">
-            DEMO
+            TRY IT OUT
           </p>
           <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
             See GetReviews in Action
@@ -165,7 +165,7 @@ const SiteIndex = () => (
               </svg>
               <img
                 className="relative mx-auto"
-                width="350"
+                width="450"
                 src="cell.png"
                 alt=""
               />
@@ -173,24 +173,6 @@ const SiteIndex = () => (
           </div>
         </div>
       </div>
-      <div className="relative">
-        <div className="absolute inset-0 flex items-center" aria-hidden="true">
-          <div className="w-full border-t border-gray-300"></div>
-        </div>
-        <div className="relative flex justify-center">
-          <span className="px-3 bg-white text-lg font-medium text-gray-900">
-            {" "}
-            Still Have Questions? Book A Demo!{" "}
-          </span>
-        </div>
-      </div>
-
-      <div className="overflow-hidden">
-        <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl py-8 sm:py-8">
-          <CalendlyEmbed />
-        </div>
-      </div>
-
       <CallToAction />
     </div>
   </div>

@@ -246,7 +246,8 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../plan_1.png"
-                        alt=""
+                        alt='Click the "User" icon, then select
+                        "Account Settings"'
                       />
                       <figcaption>
                         <center>
@@ -268,7 +269,7 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../add_1.jpg"
-                        alt=""
+                        alt='Click the "Plan/Billing" tab, then (2) click one of the "Edit billing and payment" link'
                       />
                       <figcaption>
                         <center>
@@ -291,7 +292,7 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../add_2.jpg"
-                        alt=""
+                        alt='Click "Add New"'
                       />
                       <figcaption>
                         <center>Click &quot;Add New&quot;</center>
@@ -312,7 +313,8 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../add_3.jpg"
-                        alt=""
+                        alt='Enter your card information, then click "Add
+                        Card"'
                       />
                       <figcaption>
                         <center>
@@ -350,7 +352,8 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../plan_1.png"
-                        alt=""
+                        alt='Click the "User" icon, then select
+                        "Account Settings"'
                       />
                       <figcaption>
                         <center>
@@ -372,7 +375,7 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../add_1.jpg"
-                        alt=""
+                        alt='(1) Click the "Plan/Billing" tab, then (2) click one of the "Edit billing and payment" link'
                       />
                       <figcaption>
                         <center>
@@ -398,7 +401,10 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../change_1.jpg"
-                        alt=""
+                        alt='(1) Tick the radio button on the card
+                        that youd like to change to the default charge
+                        card, then click "Make
+                        Default."'
                       />
                       <figcaption>
                         <center>
@@ -438,7 +444,8 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../plan_1.png"
-                        alt=""
+                        alt='Click the "User" icon, then select
+                        "Account Settings"'
                       />
                       <figcaption>
                         <center>
@@ -460,7 +467,9 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../add_1.jpg"
-                        alt=""
+                        alt='(1) Click the
+                        "Plan/Billing" tab, then (2) click one of the "Edit
+                        billing and payment" link'
                       />
                       <figcaption>
                         <center>
@@ -489,7 +498,8 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../remove_1.jpg"
-                        alt=""
+                        alt='(1) Tick the radio button on the card
+                        that youd like to delete, then (2) click "Delete Card."'
                       />
                       <figcaption>
                         <center>

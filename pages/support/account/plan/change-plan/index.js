@@ -231,7 +231,8 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../plan_1.png"
-                        alt=""
+                        alt='Click the "User" icon, then select
+                        "Account Settings"'
                       />
                       <figcaption>
                         <center>
@@ -253,7 +254,7 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../plan_change.jpg"
-                        alt=""
+                        alt='(1) Click the "Plan/Billing" tab, then (2) click one of the "Change Plan" links'
                       />
                       <figcaption>
                         <center>
@@ -277,7 +278,8 @@ const SupportIndex = () => (
                       <img
                         className="w-full rounded-lg border border-gray-200"
                         src="../../../change_plan_1.jpg"
-                        alt=""
+                        alt='Click the "Select Plan" button on whichever
+                        plan you would like to upgrade or downgrade to.'
                       />
                       <figcaption>
                         <center>

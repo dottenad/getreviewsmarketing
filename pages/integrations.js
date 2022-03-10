@@ -33,7 +33,7 @@ const SiteIndex = () => (
           <img
             className="w-full h-full object-cover"
             src="integrations.jpg"
-            alt=""
+            alt="Integrations"
           />
           <div
             className="absolute inset-0 bg-sky-900 mix-blend-multiply"
@@ -134,7 +134,7 @@ const SiteIndex = () => (
                 className="relative mx-auto"
                 width="490"
                 src="Integration_eComm.svg"
-                alt=""
+                alt="Integrations for eCommerce"
               />
             </div>
           </div>
@@ -224,7 +224,7 @@ const SiteIndex = () => (
                   className="relative mx-auto"
                   width="490"
                   src="Integration_esp.svg"
-                  alt=""
+                  alt="Integrations"
                 />
               </div>
             </div>
@@ -315,7 +315,7 @@ const SiteIndex = () => (
                 className="relative mx-auto"
                 width="490"
                 src="Integration_3pl.svg"
-                alt=""
+                alt="Integrations for 3PL"
               />
             </div>
           </div>
@@ -405,7 +405,7 @@ const SiteIndex = () => (
                   className="relative mx-auto"
                   width="490"
                   src="Integration_data.svg"
-                  alt=""
+                  alt="Integrations for Data"
                 />
               </div>
             </div>

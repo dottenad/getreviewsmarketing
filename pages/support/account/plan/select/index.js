@@ -226,7 +226,7 @@ const SupportIndex = () => (
                 <img
                   className="w-full rounded-lg border border-gray-200"
                   src="../../../account_select_plan.jpg"
-                  alt=""
+                  alt='Select plan by clicking "x Days Remaining" button'
                 />
                 <figcaption>
                   Select plan by clicking &quot;x Days Remaining&quot; button
@@ -244,7 +244,7 @@ const SupportIndex = () => (
                 <img
                   className="w-full rounded-lg border border-gray-200"
                   src="../../../account_select_2.jpg"
-                  alt=""
+                  alt="Select plan in account settings"
                 />
                 <figcaption>Select plan in account settings</figcaption>
               </figure>
@@ -257,7 +257,7 @@ const SupportIndex = () => (
                 <img
                   className="w-full rounded-lg border border-gray-200"
                   src="../../../account_select_3.jpg"
-                  alt=""
+                  alt="Choose which plan best suits your needs"
                 />
                 <figcaption>Choose which plan best suits your needs</figcaption>
               </figure>
@@ -272,7 +272,7 @@ const SupportIndex = () => (
                 <img
                   className="w-full rounded-lg border border-gray-200"
                   src="../../../account_select_4.jpg"
-                  alt=""
+                  alt="Input payment details on the plan checkout page"
                 />
                 <figcaption>
                   Input payment details on the plan checkout page

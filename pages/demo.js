@@ -29,7 +29,11 @@ const SiteIndex = () => (
     <div className="relative bg-white overflow-hidden">
       <div className="relative bg-sky-900">
         <div className="absolute inset-0">
-          <img className="w-full h-full object-cover" src="demo.jpg" alt="" />
+          <img
+            className="w-full h-full object-cover"
+            src="demo.jpg"
+            alt="Try it Out Banner"
+          />
           <div
             className="absolute inset-0 bg-sky-900 mix-blend-multiply"
             aria-hidden="true"
@@ -167,7 +171,7 @@ const SiteIndex = () => (
                 className="relative mx-auto"
                 width="450"
                 src="cell.png"
-                alt=""
+                alt="Cell Phone"
               />
             </div>
           </div>

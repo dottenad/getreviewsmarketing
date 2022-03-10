@@ -31,7 +31,7 @@ const SiteIndex = () => (
           <img
             className="w-full h-full object-cover"
             src="features.jpg"
-            alt=""
+            alt="Features Banner"
           />
           <div
             className="absolute inset-0 bg-sky-900 mix-blend-multiply"
@@ -159,7 +159,7 @@ const SiteIndex = () => (
                 className="relative mx-auto"
                 width="600"
                 src="platforms_and_marketplaces.svg"
-                alt=""
+                alt="Platforms and Marketplaces"
               />
             </div>
           </div>
@@ -275,7 +275,7 @@ const SiteIndex = () => (
                   className="relative mx-auto"
                   width="490"
                   src="features_order_number.svg"
-                  alt=""
+                  alt="Order Number Validation"
                 />
               </div>
             </div>
@@ -392,7 +392,7 @@ const SiteIndex = () => (
                 className="relative mx-auto"
                 width="490"
                 src="features_custom_domain.svg"
-                alt=""
+                alt="Custom Domain"
               />
             </div>
           </div>
@@ -508,7 +508,7 @@ const SiteIndex = () => (
                   className="relative mx-auto"
                   width="600"
                   src="Integration_Partners.svg"
-                  alt=""
+                  alt="Integration Partners"
                 />
               </div>
             </div>

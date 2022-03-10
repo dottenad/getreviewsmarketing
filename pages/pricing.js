@@ -31,7 +31,7 @@ const SiteIndex = () => (
           <img
             className="w-full h-full object-cover"
             src="pricing.jpg"
-            alt=""
+            alt="Pricing Banner"
           />
           <div
             className="absolute inset-0 bg-sky-900 mix-blend-multiply"
@@ -685,7 +685,7 @@ const SiteIndex = () => (
             <img
               className="w-full h-full object-cover"
               src="agency.jpg"
-              alt=""
+              alt="Agency Application"
             />
           </div>
           <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">

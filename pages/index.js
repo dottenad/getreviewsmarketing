@@ -672,7 +672,7 @@ const SiteIndex = () => (
                   <img
                     className="w-full"
                     src="features_marketplaces.svg"
-                    alt=""
+                    alt="Collect Reviews on Marketplaces"
                   />
                   <div className="px-6 pb-8">
                     <p className="mt-5 text-base text-gray-900">
@@ -1217,7 +1217,7 @@ const SiteIndex = () => (
                     className="relative mx-auto"
                     width="600"
                     src="cell.png"
-                    alt=""
+                    alt="Cell Phone"
                   />
                 </a>
               </Link>

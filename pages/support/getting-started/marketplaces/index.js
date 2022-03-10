@@ -194,7 +194,7 @@ const SupportIndex = () => (
                 <img
                   className="w-full my-8"
                   src="../../../platforms_and_marketplaces.svg"
-                  alt=""
+                  alt="Platforms &amp; Marketplaces"
                   width="1310"
                   height="873"
                 />
@@ -239,7 +239,7 @@ const SupportIndex = () => (
                   <img
                     className="w-full rounded-lg mt-4"
                     src="../../marketplace_enable.jpg"
-                    alt=""
+                    alt="Visit the Marketplace Library"
                     width="1310"
                     height="873"
                   />
@@ -250,7 +250,7 @@ const SupportIndex = () => (
                   <img
                     className="w-full rounded-lg mt-4"
                     src="../../marketplace_validation.jpg"
-                    alt=""
+                    alt="Select your validation method"
                     width="1310"
                     height="873"
                   />
@@ -297,7 +297,7 @@ const SupportIndex = () => (
                           <img
                             className="w-full rounded-lg border border-gray-200 mt-4"
                             src="../../../upload_schedule.jpg"
-                            alt=""
+                            alt="Upload Schedule"
                           />
                           Upload schedule is the number of days you plan to
                           lapse between order number uploads. For example, if a

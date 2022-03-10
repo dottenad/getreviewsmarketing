@@ -186,7 +186,7 @@ const SiteIndex = () => (
                   <img
                     className="w-full rounded-lg"
                     src="/_blog/3-strategies-to-get-more-etsy-reviews/main.jpg"
-                    alt=""
+                    alt="3 Strategies to Get More Etsy Reviews"
                   />{" "}
                 </figure>
                 <p className="mt-0">
@@ -257,7 +257,7 @@ const SiteIndex = () => (
                     <img
                       className="w-full rounded-lg shadow"
                       src="/_blog/3-strategies-to-get-more-etsy-reviews/insert.jpg"
-                      alt=""
+                      alt="Insert Card"
                     />{" "}
                   </figure>
                   When you customer opens their package, the first thing they

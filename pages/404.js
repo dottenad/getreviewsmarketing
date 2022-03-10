@@ -16,7 +16,11 @@ export default function Example() {
           <Link passHref href="/">
             <a className="inline-flex">
               <span className="sr-only">Workflow</span>
-              <img className="h-12 w-auto" src="/logomark.svg" alt="" />
+              <img
+                className="h-12 w-auto"
+                src="/logomark.svg"
+                alt="GetReviews Logo"
+              />
             </a>
           </Link>
         </div>

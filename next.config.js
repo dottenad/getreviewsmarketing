@@ -1,7 +1,7 @@
-const webpack = require('webpack');
+const webpack = require("webpack");
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   module: {
     rules: [
       //...
@@ -9,14 +9,20 @@ module.exports = {
         test: /\.(png|jp(e*)g|svg|gif)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             options: {
-              name: 'images/[hash]-[name].[ext]',
+              name: "images/[hash]-[name].[ext]",
             },
           },
         ],
       },
     ],
   },
-  reactStrictMode: true
-}
+  reactStrictMode: true,
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      require("./scripts/sitemap-generator");
+    }
+    return config;
+  },
+};

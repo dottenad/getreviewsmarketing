@@ -1109,12 +1109,14 @@ const SiteIndex = () => (
               </h3>
               <p className="mt-3 text-lg text-white text-center">
                 Interact with a GetReviews survey as if you just received an
-                offer for a free gift from a business you purchased from. Use
-                order number{" "}
-                <span className="font-bold text-black highlight">
+                offer for a free gift from a business you purchased from.
+</p>                <p className="mt-3 text-lg text-white text-center">
+Use
+                order number<br />
+                <span className="font-bold text-black highlight inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow-sm shadow-sm my-3" style={{backgroundColor: "#FFFF00"}}>
                   <mark>888-7567859-5242609</mark>
-                </span>{" "}
-                to access the survey flow
+                </span>
+                <br />to access the survey flow
               </p>
               <div className="flex justify-center">
                 <Link href="https://www.supernutritionco.com/" passHref>

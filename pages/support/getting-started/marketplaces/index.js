@@ -193,7 +193,7 @@ const SupportIndex = () => (
               <figure>
                 <img
                   className="w-full my-8"
-                  src="../../../platforms_and_marketplaces.svg"
+                  src="../../../mm.png"
                   alt="Platforms &amp; Marketplaces"
                   width="1310"
                   height="873"

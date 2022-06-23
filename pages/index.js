@@ -1110,10 +1110,10 @@ const SiteIndex = () => (
               <p className="mt-3 text-lg text-white text-center">
                 Interact with a GetReviews survey as if you just received an
                 offer for a free gift from a business you purchased from.
-</p>                <p className="mt-3 text-lg text-white text-center">
-Use
+              </p>                <p className="mt-3 text-lg text-white text-center">
+                Use
                 order number<br />
-                <span className="font-bold text-black highlight inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow-sm shadow-sm my-3" style={{backgroundColor: "#FFFF00"}}>
+                <span className="font-bold text-black highlight inline-flex items-center px-6 py-3 border border-transparent rounded-md shadow-sm shadow-sm my-3" style={{ backgroundColor: "#FFFF00" }}>
                   <mark>888-7567859-5242609</mark>
                 </span>
                 <br />to access the survey flow
@@ -1247,6 +1247,9 @@ Use
     </div>
     <>
       <Script src="/SignUp.js" />
+    </>
+    <>
+      <Script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21943818.js" />
     </>
   </div>
 );

@@ -82,7 +82,7 @@ function classNames(...classes) {
 }
 
 const SiteLayout = ({ children }) => (
-  <div className="relative pb-6">
+  <div className="relative">
     <Popover className="relative bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 lg:justify-start md:space-x-10">
@@ -348,7 +348,7 @@ const SiteLayout = ({ children }) => (
     </Popover>
     {children}
     <footer className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto pt-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex justify-center" aria-label="Footer">
           <div className="flex items-center">
             <div className="sr-only">GetReviews.ai</div>
@@ -501,8 +501,8 @@ const SiteLayout = ({ children }) => (
           &copy; 2022 GetReviews.ai. All rights reserved.
         </p>
       </div>
-      <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21943818.js" />
     </footer>
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21943818.js" />
   </div>
 );
 

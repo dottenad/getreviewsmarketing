@@ -1248,9 +1248,6 @@ const SiteIndex = () => (
     <>
       <Script src="/SignUp.js" />
     </>
-    <>
-      <Script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21943818.js" />
-    </>
   </div>
 );
 

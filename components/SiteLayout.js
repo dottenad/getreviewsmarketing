@@ -501,10 +501,7 @@ const SiteLayout = ({ children }) => (
           &copy; 2022 GetReviews.ai. All rights reserved.
         </p>
       </div>
-      <script
-        src="//code.tidio.co/kgupkmurrrqfhelxal0dbvvlk4gf5aup.js"
-        async
-      ></script>
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21943818.js" />
     </footer>
   </div>
 );

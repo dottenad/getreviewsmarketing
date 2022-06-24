@@ -9,6 +9,7 @@ const tagManagerArgs = {
 };
 
 class MyApp extends App {
+
   componentDidMount() {
     TagManager.initialize(tagManagerArgs);
   }
